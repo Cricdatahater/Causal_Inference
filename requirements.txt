@@ -6,3 +6,4 @@ seaborn>=0.13
 jupyterlab>=4.2
 ipykernel>=6.29
 jupytext>=1.16
+scikit-learn>=1.5
