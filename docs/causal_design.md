@@ -7,10 +7,11 @@ little value. The useful target is therefore not simply the customer with the
 highest predicted churn risk, but the customer whose probability of retention
 would increase because of the discount.
 
-This project will develop and evaluate a causal machine-learning policy that
-selects at most 20% of eligible customers for a retention offer. Because the
-data will be simulated, the true treatment effects will be available for model
-evaluation but will not be provided as model inputs.
+This project implements and evaluates causal machine-learning policies that
+select at most 20% of eligible customers for a retention offer. The data are
+simulated, so true treatment effects are available for evaluation and are
+excluded from model inputs. Stage 5 (S-learner and T-learner evaluation) is
+complete; current results and saved artifacts are recorded in Section 14.
 
 ## 1. Business decision
 
@@ -201,7 +202,7 @@ $$
 $$
 
 After conditioning on the measured pre-treatment covariates, treatment assignment
-is independent of the potential outcomes. The initial simulator will satisfy this
+is independent of the potential outcomes. The implemented simulator satisfies this
 assumption by construction. A later stress test may introduce an unobserved
 confounder to show how violations affect the estimates.
 
@@ -212,8 +213,8 @@ $$
 $$
 
 Every customer profile in the target population has a non-zero probability of
-receiving either treatment condition. The simulator will cap extreme treatment
-propensities, and overlap will be checked empirically.
+receiving either treatment condition. The simulator caps extreme treatment
+propensities, and the simulation audit checks overlap empirically.
 
 ### No interference
 
@@ -221,15 +222,76 @@ One customer's treatment does not affect another customer's retention outcome.
 The initial simulation excludes offer sharing, referrals, social influence, and
 competition for limited service resources.
 
-## 13. Open questions
+## 13. Current decisions and remaining questions
 
-- Should the $10 treatment cost represent a guaranteed campaign cost or a credit
-  incurred only when the customer renews?
-- Should customers be allowed to appear in multiple campaign cohorts in a future
-  longitudinal version of the project?
-- How strong should confounding, treatment-effect heterogeneity, and poor overlap
-  be in the baseline simulation?
-- Which policy metric should be primary: incremental profit, policy value, or
-  regret relative to the oracle policy?
-- Should the first version model a binary outcome only, or later add 90-day
-  revenue as a secondary continuous outcome?
+The baseline implementation uses a binary 90-day retention outcome, one record
+per customer, and a guaranteed $10 cost per treated customer. Expected
+incremental profit is the policy decision metric; regret and the fraction of
+oracle profit captured provide comparison with the simulation's upper bound.
+The implemented confounding and heterogeneity mechanisms are documented in
+[data_generating_process.md](data_generating_process.md).
+
+Remaining work includes:
+
+- sensitivity analysis for retention value, treatment cost, and campaign capacity;
+- repeated simulation seeds to quantify uncertainty in model and policy comparisons;
+- stress tests for weaker overlap and unobserved confounding;
+- deciding whether to add redemption-dependent costs, longitudinal cohorts, or
+  continuous revenue outcomes; and
+- evaluation methods for real observational data, where oracle effects are unavailable.
+
+## 14. Project status and Stage 5 results
+
+Updated: 2026-10-03. Work is complete through Stage 5 for the baseline simulated
+setting. No later-stage implementation is claimed here.
+
+| Component | Current status | Implementation or artifact |
+|---|---|---|
+| Causal design | Defined and updated with implemented assumptions | This document |
+| Customer simulation | Implemented, with observed and oracle columns | `src/simulation.py`, `scripts/generate_data.py` |
+| Simulation audit | Notebook and saved diagnostic figures available | `notebooks/01_simulation_audit.ipynb`, `reports/figures/` |
+| Stage 4 policy baselines | Implemented, including churn-based targeting and oracle comparisons | `src/policies.py`, `notebooks/02_policy_baseline.ipynb` |
+| Stage 5 causal meta-learners | Implemented and rerun successfully; all notebook checks pass | `src/causal_learners.py`, `notebooks/03_causal_meta_learners.ipynb` |
+| Stage 5 figure persistence | Fixed: all four PNGs saved within the repository for Git tracking | Figure links below |
+
+Stage 5 recreates the deterministic 70/30 split of 20,000 simulated customers
+(seed 42): 14,000 for training and 6,000 for evaluation. S-learner and T-learner
+random-forest outcome models use pre-treatment covariates, observed treatment,
+and observed retention. Oracle columns are used only for evaluation. Model
+policies select positive predicted incremental value subject to the 20% capacity.
+
+The rerun produced these treatment-effect metrics:
+
+| Model | True ATE | Predicted ATE | Absolute ATE error | PEHE (root mean squared CATE error) | CATE MAE | CATE correlation |
+|---|---:|---:|---:|---:|---:|---:|
+| S-learner | 0.1562 | 0.0918 | 0.0645 | 0.0922 | 0.0707 | 0.7820 |
+| T-learner | 0.1562 | 0.0935 | 0.0628 | 0.0979 | 0.0770 | 0.6864 |
+
+Policy results use the assumed $80 retention value and $10 treatment cost:
+
+| Policy | Customers treated | Expected incremental profit | Regret versus oracle | Oracle profit captured |
+|---|---:|---:|---:|---:|
+| Treat nobody | 0 | $0.00 | $17,556.23 | 0.0% |
+| Random 20% | 1,200 | $3,105.94 | $14,450.29 | 17.7% |
+| S-learner | 1,200 | $14,130.83 | $3,425.39 | 80.5% |
+| T-learner | 1,200 | $12,798.56 | $4,757.67 | 72.9% |
+| Oracle 20% | 1,200 | $17,556.23 | $0.00 | 100.0% |
+
+The S-learner has lower PEHE and higher policy profit in this run. Both learners
+underestimate the average effect. These are expected results evaluated against
+simulation truth, rather than realized campaign profit or evidence of superiority
+across populations or random seeds. The oracle is an evaluation upper bound.
+
+### Saved Stage 5 figures
+
+- [True and predicted CATE distributions](../reports/figures/meta_learner_cate_distributions.png)
+- [Predicted versus true CATE](../reports/figures/meta_learner_cate_scatter.png)
+- [CATE calibration by predicted-effect rank](../reports/figures/meta_learner_cate_calibration.png)
+- [Policy incremental-profit comparison](../reports/figures/meta_learner_policy_profit.png)
+
+To reproduce the figures, start Jupyter from the repository or its `notebooks/`
+directory and run `03_causal_meta_learners.ipynb` from top to bottom. If the kernel
+starts elsewhere, set `CAUSAL_INFERENCE_ROOT` to the repository path before
+running the setup cells. Setup validates the repository before creating
+`reports/figures/`, and fails explicitly if it cannot find it. This replaces the
+previous conflicting root assignments that saved images outside the repository.
