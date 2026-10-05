@@ -1,0 +1,4 @@
+model,incremental_value_threshold,calibration_treated,evaluation_qualified_before_cap,evaluation_treated,capacity_cap_active
+S-learner,1.1287871530284264,600,563,563,False
+T-learner,3.2910878787531637,600,568,568,False
+DR-learner,9.685156347351985,600,579,579,False

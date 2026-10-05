@@ -10,8 +10,10 @@ would increase because of the discount.
 This project implements and evaluates causal machine-learning policies that
 select at most 20% of eligible customers for a retention offer. The data are
 simulated, so true treatment effects are available for evaluation and are
-excluded from model inputs. Stage 5 (S-learner and T-learner evaluation) is
-complete; current results and saved artifacts are recorded in Section 14.
+excluded from model inputs. The project is complete through Stage 6: S/T
+meta-learners, cross-fitted doubly robust learning, and observational policy
+evaluation. Stage 5 results are in Section 14; current Stage 6 results and
+artifacts are in Section 15.
 
 ## 1. Business decision
 
@@ -238,12 +240,14 @@ Remaining work includes:
 - stress tests for weaker overlap and unobserved confounding;
 - deciding whether to add redemption-dependent costs, longitudinal cohorts, or
   continuous revenue outcomes; and
-- evaluation methods for real observational data, where oracle effects are unavailable.
+- application of the Stage 6 observational evaluator to real data, where oracle
+  effects are unavailable and identification assumptions need external justification.
 
 ## 14. Project status and Stage 5 results
 
-Updated: 2026-10-03. Work is complete through Stage 5 for the baseline simulated
-setting. No later-stage implementation is claimed here.
+Stage 5 baseline results (2026-10-03) are preserved below. Current project
+status was updated on 2026-10-05: work is complete through Stage 6, described
+in Section 15.
 
 | Component | Current status | Implementation or artifact |
 |---|---|---|
@@ -253,6 +257,7 @@ setting. No later-stage implementation is claimed here.
 | Stage 4 policy baselines | Implemented, including churn-based targeting and oracle comparisons | `src/policies.py`, `notebooks/02_policy_baseline.ipynb` |
 | Stage 5 causal meta-learners | Implemented and rerun successfully; all notebook checks pass | `src/causal_learners.py`, `notebooks/03_causal_meta_learners.ipynb` |
 | Stage 5 figure persistence | Fixed: all four PNGs saved within the repository for Git tracking | Figure links below |
+| Stage 6 doubly robust learning and evaluation | Complete; executed notebook, five figures, seven tables, and tests | `src/doubly_robust.py`, `notebooks/04_doubly_robust_policy_evaluation.ipynb`, Section 15 |
 
 Stage 5 recreates the deterministic 70/30 split of 20,000 simulated customers
 (seed 42): 14,000 for training and 6,000 for evaluation. S-learner and T-learner
@@ -295,3 +300,77 @@ starts elsewhere, set `CAUSAL_INFERENCE_ROOT` to the repository path before
 running the setup cells. Setup validates the repository before creating
 `reports/figures/`, and fails explicitly if it cannot find it. This replaces the
 previous conflicting root assignments that saved images outside the repository.
+
+
+## 15. Stage 6 completion and results
+
+Stage 6 is complete as of 2026-10-05: three-fold cross-fitted DR learning,
+observational AIPW policy evaluation, independently calibrated thresholds,
+evaluation-only clipping sensitivity, executed notebook outputs, saved figures,
+and saved result tables. The complete project test suite passes **42 tests**;
+all Stage 6 notebook completion checks pass.
+
+See [Stage 6 methodology and reproduction](stage_6_doubly_robust.md) and
+[`04_doubly_robust_policy_evaluation.ipynb`](../notebooks/04_doubly_robust_policy_evaluation.ipynb).
+Run `.venv\Scripts\python.exe scripts/run_stage6.py` from the repository to
+regenerate the executed notebook and all artifacts.
+
+Stage 6 uses 14,000 training, 3,000 calibration, and 3,000 final evaluation
+customers (seed 42). Final evaluation is half Stage 5's holdout size; compare
+models within the new common cohort, rather than comparing total campaign
+profits between stages.
+
+| Model | Absolute ATE error | PEHE | CATE MAE | CATE correlation |
+|---|---:|---:|---:|---:|
+| DR-learner | 0.0066 | 0.0810 | 0.0629 | 0.7160 |
+| S-learner | 0.0635 | 0.0912 | 0.0695 | 0.7851 |
+| T-learner | 0.0614 | 0.0973 | 0.0760 | 0.6837 |
+
+| Policy | Treated | Simulation-truth profit | Observational AIPW profit | Approximate pointwise 95% interval | Oracle profit captured |
+|---|---:|---:|---:|---|---:|
+| Treat nobody | 0 | $0.00 | $0.00 | [$0.00, $0.00] | 0.0% |
+| Random 20% | 600 | $1,446.32 | $-1,264.75 | [$-5,149.18, $2,619.67] | 16.6% |
+| S-learner | 563 | $6,646.58 | $4,552.40 | [$915.91, $8,188.89] | 76.3% |
+| T-learner | 568 | $5,987.93 | $4,414.14 | [$710.66, $8,117.62] | 68.7% |
+| DR-learner | 579 | $6,994.43 | $4,998.55 | [$1,265.19, $8,731.90] | 80.3% |
+| Oracle 20% (evaluation only) | 600 | $8,715.27 | Not deployable | Not reported | 100.0% |
+
+The DR-learner reduces average-effect bias and has the lowest PEHE in this run,
+but does not have the highest CATE correlation. Its policy captures about 80.3%
+of oracle profit. These single-seed results do not establish general superiority.
+S/T and DR nuisance-model configurations differ; see the method guide.
+
+All three calibrated learned policies treat fewer than 20%, and the additional
+cohort-level capacity cap is inactive in this run. Observational intervals are
+wide and overlapping; they do not establish a statistically supported ranking
+of the learned policies. The random policy's negative AIPW estimate despite
+positive simulation-truth profit illustrates observational sampling noise.
+
+The reported intervals are pointwise normal approximations, conditional on fitted
+models and calibrated thresholds. They omit fitting/model-selection uncertainty;
+a cohort-level capacity cap can create dependence and prevents a general
+coverage guarantee for that constrained allocation rule. Identification still
+requires exchangeability, positivity, consistency, and no interference.
+
+Evaluation clipping between 0.01 and 0.10 leaves learned-policy point estimates
+unchanged here: the treated policy subset has no affected propensity denominators.
+This is an evaluation-only diagnostic, not evidence that clipping never matters.
+
+### Saved Stage 6 artifacts
+
+- [Nuisance overlap and raw pseudo-outcomes](../reports/figures/stage6_nuisance_diagnostics.png)
+- [Held-out CATE predictions](../reports/figures/stage6_cate_comparison.png)
+- [CATE calibration](../reports/figures/stage6_cate_calibration.png)
+- [Observational and simulation-truth policy profit](../reports/figures/stage6_observational_policy_profit.png)
+- [Evaluation clipping sensitivity](../reports/figures/stage6_clipping_sensitivity.png)
+- [CATE metrics](../reports/tables/stage6_cate_metrics.csv)
+- [CATE calibration table](../reports/tables/stage6_cate_calibration.csv)
+- [Nuisance diagnostics](../reports/tables/stage6_nuisance_diagnostics.csv)
+- [Policy thresholds and capacity diagnostics](../reports/tables/stage6_policy_thresholds.csv)
+- [Observational policy results](../reports/tables/stage6_observational_policy_results.csv)
+- [Oracle policy results](../reports/tables/stage6_oracle_policy_results.csv)
+- [Clipping sensitivity table](../reports/tables/stage6_clipping_sensitivity.csv)
+
+Remaining work includes repeated-seed uncertainty, business-value/cost/capacity
+sensitivity, overlap and hidden-confounding stress tests, and evaluation on real
+observational or experimental data. No later stage is marked complete.
