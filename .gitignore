@@ -5,3 +5,6 @@ __pycache__/
 
 data/*.csv
 !data/.gitkeep
+
+# Reusable computation checkpoints; published Stage 7 tables are tracked.
+reports/stage7_cache/
