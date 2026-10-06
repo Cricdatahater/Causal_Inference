@@ -10,10 +10,10 @@ would increase because of the discount.
 This project implements and evaluates causal machine-learning policies that
 select at most 20% of eligible customers for a retention offer. The data are
 simulated, so true treatment effects are available for evaluation and are
-excluded from model inputs. The project is complete through Stage 6: S/T
-meta-learners, cross-fitted doubly robust learning, and observational policy
-evaluation. Stage 5 results are in Section 14; current Stage 6 results and
-artifacts are in Section 15.
+excluded from model inputs. The project is complete through Stage 7: S/T
+meta-learners, cross-fitted doubly robust learning, observational policy
+evaluation, and repeated-seed/business-assumption robustness. Stage 5 results
+are in Section 14, Stage 6 in Section 15, and current Stage 7 results in Section 16.
 
 ## 1. Business decision
 
@@ -235,8 +235,8 @@ The implemented confounding and heterogeneity mechanisms are documented in
 
 Remaining work includes:
 
-- sensitivity analysis for retention value, treatment cost, and campaign capacity;
-- repeated simulation seeds to quantify uncertainty in model and policy comparisons;
+- extending the completed Stage 7 seed/grid study to broader settings and
+  estimator-random-seed sensitivity;
 - stress tests for weaker overlap and unobserved confounding;
 - deciding whether to add redemption-dependent costs, longitudinal cohorts, or
   continuous revenue outcomes; and
@@ -246,8 +246,8 @@ Remaining work includes:
 ## 14. Project status and Stage 5 results
 
 Stage 5 baseline results (2026-10-03) are preserved below. Current project
-status was updated on 2026-10-05: work is complete through Stage 6, described
-in Section 15.
+status was updated on 2026-10-06: work is complete through Stage 7, described
+in Section 16.
 
 | Component | Current status | Implementation or artifact |
 |---|---|---|
@@ -258,6 +258,7 @@ in Section 15.
 | Stage 5 causal meta-learners | Implemented and rerun successfully; all notebook checks pass | `src/causal_learners.py`, `notebooks/03_causal_meta_learners.ipynb` |
 | Stage 5 figure persistence | Fixed: all four PNGs saved within the repository for Git tracking | Figure links below |
 | Stage 6 doubly robust learning and evaluation | Complete; executed notebook, five figures, seven tables, and tests | `src/doubly_robust.py`, `notebooks/04_doubly_robust_policy_evaluation.ipynb`, Section 15 |
+| Stage 7 robustness | Complete; ten seeds, 27 scenarios, six figures, eight CSVs, and provenance manifest | `src/robustness.py`, `notebooks/05_robustness_and_sensitivity.ipynb`, Section 16 |
 
 Stage 5 recreates the deterministic 70/30 split of 20,000 simulated customers
 (seed 42): 14,000 for training and 6,000 for evaluation. S-learner and T-learner
@@ -371,6 +372,86 @@ This is an evaluation-only diagnostic, not evidence that clipping never matters.
 - [Oracle policy results](../reports/tables/stage6_oracle_policy_results.csv)
 - [Clipping sensitivity table](../reports/tables/stage6_clipping_sensitivity.csv)
 
-Remaining work includes repeated-seed uncertainty, business-value/cost/capacity
-sensitivity, overlap and hidden-confounding stress tests, and evaluation on real
-observational or experimental data. No later stage is marked complete.
+Stage 7 now addresses repeated-seed variation and business-value/cost/capacity
+sensitivity (Section 16). Overlap and hidden-confounding stress tests, final
+synthesis, and real-data evaluation remain outstanding.
+
+
+## 16. Stage 7 robustness completion and results
+
+Stage 7 is complete as of 2026-10-06. The repeated-seed study covers **10 cohorts
+of 20,000 customers**, **27 prespecified business scenarios**, and **1,620
+policy/scenario/seed evaluations**. Every seed refits S/T/DR, uses a separate
+calibration cohort, and holds the final evaluation cohort out of fitting and
+threshold selection. Algorithm settings and algorithm seed 42 stay fixed.
+
+All **59 tests** pass. The executed notebook passes completion checks, and the
+repository includes six saved figures, eight CSV result tables, and a provenance
+manifest. See [Stage 7 methodology](stage_7_robustness.md) and
+[the robustness notebook](../notebooks/05_robustness_and_sensitivity.ipynb).
+
+At the baseline economics ($80 retention value, $10 cost, 20% capacity), results
+across the ten 3,000-customer evaluation cohorts are:
+
+| Learner | Mean PEHE | Mean absolute ATE error | Mean true incremental profit | Between-seed profit SD | Mean oracle profit captured |
+|---|---:|---:|---:|---:|---:|
+| S-learner | 0.0826 | 0.0553 | $7,087.76 | $395.95 | 81.3% |
+| T-learner | 0.0945 | 0.0619 | $6,630.85 | $329.99 | 76.0% |
+| DR-learner | 0.0842 | 0.0074 | $6,954.56 | $368.42 | 79.7% |
+
+Mean oracle profit is $8,720.05, random targeting averages $1,412.85, and
+treat-none is zero. S-learner has slightly better mean PEHE and baseline policy
+profit than DR across these seeds. DR has substantially lower ATE bias. The
+single-seed Stage 6 DR advantage is therefore not a stable general ranking.
+
+Seed-paired baseline profit comparisons are:
+
+| Comparison | Mean profit difference | Left policy wins | Ties |
+|---|---:|---:|---:|
+| DR-learner minus S-learner | $-133.20 | 3/10 | 0/10 |
+| DR-learner minus T-learner | $323.71 | 9/10 | 0/10 |
+| S-learner minus T-learner | $456.91 | 9/10 | 0/10 |
+
+The economic grid varies retention value ($40/$80/$120), cost ($5/$10/$20),
+and capacity (10%/20%/30%), recalibrating each policy without retraining CATE
+models. At value $40 and cost $20, the oracle never treats because true effects
+are below the profitability threshold. DR can still target false positives,
+with about -$24 mean true profit at 20% capacity; S/T abstain in these runs.
+This demonstrates why positive predicted value does not guarantee true profit.
+
+At baseline value/cost, more capacity raises mean profit over the tested range,
+but this need not hold under unfavorable economics or misestimated effects.
+Observational AIPW errors remain large across seeds. Repeated simulations do not
+remove confounding or make approximate observational intervals certified.
+
+Seed SD, MCSE, and empirical quantiles describe the simulated experiment; they
+are not real-world confidence intervals. Ten seeds are an initial robustness
+study and do not establish rare-tail behavior. Scenarios within a seed are paired
+and must not be counted as independent replicates. Model randomness is held
+fixed, so extra estimator-seed variability is not quantified here.
+
+### Saved Stage 7 artifacts
+
+- [Repeated-seed effect errors](../reports/figures/stage7_effect_robustness.png)
+- [Baseline profit distributions](../reports/figures/stage7_baseline_profit_robustness.png)
+- [Seed-paired policy differences](../reports/figures/stage7_paired_policy_differences.png)
+- [Value/cost sensitivity](../reports/figures/stage7_value_cost_sensitivity.png)
+- [Capacity sensitivity](../reports/figures/stage7_capacity_sensitivity.png)
+- [Observational estimation errors](../reports/figures/stage7_observational_error_robustness.png)
+- [Per-seed effect results](../reports/tables/stage7_cate_by_seed.csv)
+- [Per-seed policy results](../reports/tables/stage7_policy_by_seed.csv)
+- [Per-seed diagnostics](../reports/tables/stage7_diagnostics_by_seed.csv)
+- [Effect summaries](../reports/tables/stage7_cate_summary.csv)
+- [Policy summaries](../reports/tables/stage7_policy_summary.csv)
+- [Paired differences](../reports/tables/stage7_paired_by_seed.csv)
+- [Paired summaries](../reports/tables/stage7_paired_summary.csv)
+- [Scenario grid](../reports/tables/stage7_scenario_grid.csv)
+- [Configuration, versions, hashes, and row counts](../reports/tables/stage7_manifest.json)
+
+### Remaining roadmap
+
+- **Stage 8:** poor-overlap and unobserved-confounding stress tests.
+- **Stage 9:** consolidated findings, final report, README, and end-to-end delivery.
+
+Real-data evaluation remains a separate extension. Neither Stage 8 nor Stage 9
+is complete.

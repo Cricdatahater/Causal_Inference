@@ -1,0 +1,187 @@
+{
+  "stage": 7,
+  "experiment_fingerprint": "bd52a4a6cf35e7197ff1fc47fbec7ed0891ccaca667890fe5f7ad03a448d254d",
+  "config": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "population_size": 20000,
+    "split": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "model_seed": 42,
+    "scenario_grid": [
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 40.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 80.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 5.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 10.0,
+        "capacity": 0.3
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.1
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.2
+      },
+      {
+        "retention_value": 120.0,
+        "treatment_cost": 20.0,
+        "capacity": 0.3
+      }
+    ],
+    "versions": {
+      "python": "3.14.7",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "sklearn": "1.9.1"
+    },
+    "source_sha256": {
+      "robustness.py": "3ae01c2f38c097fd6d348b285dd3bc92bd9b2ede96837c22e687e13c7c383b5a",
+      "simulation.py": "eaeace230d46d068b7f4ef6f918bbd26aac5f52057161c11895814da3f5cedd2",
+      "causal_learners.py": "5a48172ab8b2a4e527dccab6cda042d480d52236b8e547b564824df5162e64ec",
+      "doubly_robust.py": "d78fb3445dfe01c2b6bc32fd53cb9627d817d28140529578f45f3325845f240f",
+      "policies.py": "4c1d91062b3d156bded4c1d1c3eb4b46a610d29b332c2faade3863b5e9fd4170"
+    }
+  },
+  "completed_utc": "2026-10-06T06:28:41.538027+00:00",
+  "rows": {
+    "stage7_cate_by_seed.csv": 30,
+    "stage7_policy_by_seed.csv": 1620,
+    "stage7_diagnostics_by_seed.csv": 10,
+    "stage7_cate_summary.csv": 12,
+    "stage7_policy_summary.csv": 1134,
+    "stage7_paired_by_seed.csv": 810,
+    "stage7_paired_summary.csv": 243,
+    "stage7_scenario_grid.csv": 27
+  },
+  "interpretation": "Seed SD/quantiles describe Monte Carlo variation; scenarios are paired, not independent. Observational intervals are approximate."
+}
