@@ -1,0 +1,86 @@
+{
+  "stage": 8,
+  "experiment_fingerprint": "946e1e4537cf3540a67a282c1a6717916fba628d10091f8dc41db1697dc0840c",
+  "config": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "population_size": 20000,
+    "split": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "model_seed": 42,
+    "stress_scenarios": [
+      [
+        "Baseline",
+        1.0,
+        0.0
+      ],
+      [
+        "Moderate overlap",
+        2.5,
+        0.0
+      ],
+      [
+        "Severe overlap",
+        5.0,
+        0.0
+      ],
+      [
+        "Moderate hidden",
+        1.0,
+        0.8
+      ],
+      [
+        "Severe hidden",
+        1.0,
+        1.6
+      ],
+      [
+        "Combined severe",
+        5.0,
+        1.6
+      ]
+    ],
+    "economics": [
+      80,
+      10,
+      0.2
+    ],
+    "versions": {
+      "python": "3.14.7",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "sklearn": "1.9.1"
+    },
+    "source_sha256": {
+      "robustness.py": "3ae01c2f38c097fd6d348b285dd3bc92bd9b2ede96837c22e687e13c7c383b5a",
+      "simulation.py": "eaeace230d46d068b7f4ef6f918bbd26aac5f52057161c11895814da3f5cedd2",
+      "causal_learners.py": "5a48172ab8b2a4e527dccab6cda042d480d52236b8e547b564824df5162e64ec",
+      "doubly_robust.py": "d78fb3445dfe01c2b6bc32fd53cb9627d817d28140529578f45f3325845f240f",
+      "policies.py": "4c1d91062b3d156bded4c1d1c3eb4b46a610d29b332c2faade3863b5e9fd4170",
+      "stress_simulation.py": "645c3c8de4002d1ef5c1bb93faf4a1611d150c72ce7cde8e93fe3ea65c7df123",
+      "causal_stress.py": "e76d3bf89a8cb785e6a217257692d7edf9b192b693b622a21ffa5fd96871a36a"
+    }
+  },
+  "completed_utc": "2026-10-09T03:02:07.964581+00:00",
+  "rows": {
+    "stage8_effects_by_seed.csv": 90,
+    "stage8_policies_by_seed.csv": 180,
+    "stage8_diagnostics_by_seed.csv": 30,
+    "stage8_clipping_by_seed.csv": 270,
+    "stage8_overlap_histograms.csv": 2400,
+    "stage8_effect_summary.csv": 72,
+    "stage8_policy_summary.csv": 180,
+    "stage8_diagnostic_summary.csv": 54,
+    "stage8_effect_deltas.csv": 90,
+    "stage8_policy_deltas.csv": 180
+  },
+  "interpretation": "Scenarios are seed-paired. Hidden U is marginalized in causal truth. Reference observational nuisances do not restore identification."
+}

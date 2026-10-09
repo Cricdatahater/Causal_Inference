@@ -10,10 +10,11 @@ would increase because of the discount.
 This project implements and evaluates causal machine-learning policies that
 select at most 20% of eligible customers for a retention offer. The data are
 simulated, so true treatment effects are available for evaluation and are
-excluded from model inputs. The project is complete through Stage 7: S/T
-meta-learners, cross-fitted doubly robust learning, observational policy
-evaluation, and repeated-seed/business-assumption robustness. Stage 5 results
-are in Section 14, Stage 6 in Section 15, and current Stage 7 results in Section 16.
+excluded from model inputs. The project is complete through Stage 8: S/T
+meta-learners, doubly robust learning, observational policy evaluation,
+repeated-seed/business-assumption robustness, and causal stress tests. Stage 5
+results are in Section 14, Stage 6 in Section 15, Stage 7 in Section 16, and
+current Stage 8 results in Section 17.
 
 ## 1. Business decision
 
@@ -237,7 +238,7 @@ Remaining work includes:
 
 - extending the completed Stage 7 seed/grid study to broader settings and
   estimator-random-seed sensitivity;
-- stress tests for weaker overlap and unobserved confounding;
+- broader overlap/confounding mechanisms beyond the completed Stage 8 study;
 - deciding whether to add redemption-dependent costs, longitudinal cohorts, or
   continuous revenue outcomes; and
 - application of the Stage 6 observational evaluator to real data, where oracle
@@ -246,8 +247,8 @@ Remaining work includes:
 ## 14. Project status and Stage 5 results
 
 Stage 5 baseline results (2026-10-03) are preserved below. Current project
-status was updated on 2026-10-06: work is complete through Stage 7, described
-in Section 16.
+status was updated on 2026-10-09: work is complete through Stage 8, described
+in Section 17.
 
 | Component | Current status | Implementation or artifact |
 |---|---|---|
@@ -259,6 +260,7 @@ in Section 16.
 | Stage 5 figure persistence | Fixed: all four PNGs saved within the repository for Git tracking | Figure links below |
 | Stage 6 doubly robust learning and evaluation | Complete; executed notebook, five figures, seven tables, and tests | `src/doubly_robust.py`, `notebooks/04_doubly_robust_policy_evaluation.ipynb`, Section 15 |
 | Stage 7 robustness | Complete; ten seeds, 27 scenarios, six figures, eight CSVs, and provenance manifest | `src/robustness.py`, `notebooks/05_robustness_and_sensitivity.ipynb`, Section 16 |
+| Stage 8 causal stress | Complete; five seeds, six interventions, six figures, ten CSVs, and manifest | `src/stress_simulation.py`, `src/causal_stress.py`, Section 17 |
 
 Stage 5 recreates the deterministic 70/30 split of 20,000 simulated customers
 (seed 42): 14,000 for training and 6,000 for evaluation. S-learner and T-learner
@@ -373,8 +375,8 @@ This is an evaluation-only diagnostic, not evidence that clipping never matters.
 - [Clipping sensitivity table](../reports/tables/stage6_clipping_sensitivity.csv)
 
 Stage 7 now addresses repeated-seed variation and business-value/cost/capacity
-sensitivity (Section 16). Overlap and hidden-confounding stress tests, final
-synthesis, and real-data evaluation remain outstanding.
+sensitivity (Section 16). Stage 8 now addresses overlap and hidden-confounding
+stress (Section 17). Final synthesis and real-data evaluation remain outstanding.
 
 
 ## 16. Stage 7 robustness completion and results
@@ -450,8 +452,114 @@ fixed, so extra estimator-seed variability is not quantified here.
 
 ### Remaining roadmap
 
-- **Stage 8:** poor-overlap and unobserved-confounding stress tests.
+- **Stage 8 (complete 2026-10-09):** poor-overlap and hidden-confounding stress
+  tests; see Section 17.
 - **Stage 9:** consolidated findings, final report, README, and end-to-end delivery.
 
-Real-data evaluation remains a separate extension. Neither Stage 8 nor Stage 9
-is complete.
+Real-data evaluation remains a separate extension. Stage 8 is now complete;
+Stage 9 remains outstanding.
+
+
+## 17. Stage 8 causal stress completion and results
+
+Stage 8 is complete as of 2026-10-09. Six prespecified causal scenarios are
+compared across **five paired seeds**, with **20,000 customers per scenario**,
+70/15/15 train/calibration/evaluation splits, and fixed $80/$10/20% economics.
+The study includes **30 scenario/seed experiments, 90 learner fits, and 180
+policy results**. It preserves the baseline and pairs covariates/noise across
+stress scenarios while refitting models independently.
+
+All **72 tests** pass, and the complete runner and executed notebook pass all
+checks. Six figures, ten CSV tables, and a provenance manifest are saved and
+tracked. See [Stage 8 methodology](stage_8_causal_stress.md) and
+[the causal stress notebook](../notebooks/06_causal_stress_tests.ipynb).
+
+### Identification and overlap diagnostics
+
+| Scenario | True weak-overlap fraction | Mean causal ATE | Analytic observational-minus-causal gap | Mean fitted AIPW ATE |
+|---|---:|---:|---:|---:|
+| Baseline | 0.0% | 0.1547 | 0.0000 | 0.1552 |
+| Moderate overlap | 14.8% | 0.1547 | -0.0000 | 0.1473 |
+| Severe overlap | 44.3% | 0.1547 | 0.0000 | 0.1103 |
+| Moderate hidden | 0.0% | 0.1436 | 0.0948 | 0.2357 |
+| Severe hidden | 0.0% | 0.1151 | 0.3105 | 0.4271 |
+| Combined severe | 30.5% | 0.1151 | 0.2614 | 0.3726 |
+
+Poor-overlap interventions hold causal response surfaces fixed but sharpen
+assignment. Severe overlap leaves 44.3% of final evaluation customers outside
+[0.05,0.95] true propensities. Strict positivity still holds because assignment
+is bounded to [0.001,0.999]; this is a finite-support/practical-overlap stress.
+
+Severe hidden confounding produces apparently adequate observed overlap but an
+analytic identification gap of about 0.3105. Mean causal ATE is 0.1151 while
+fitted AIPW reports 0.4271. Known observational nuisance functions also recover
+the confounded contrast rather than causal truth. Cross-fitting, propensity
+clipping, and double robustness cannot repair an omitted common cause.
+
+### Estimation and targeting under stress
+
+Causal truth integrates the latent factor out, matching the estimand conditional
+on observed X. The oracle is an upper bound among X-based policies, not a policy
+that can observe the hidden factor. The table reports mean PEHE and true oracle
+profit captured across five seeds:
+
+| Scenario | S PEHE | T PEHE | DR PEHE | S oracle profit captured | T oracle profit captured | DR oracle profit captured |
+|---|---:|---:|---:|---:|---:|---:|
+| Baseline | 0.0836 | 0.0944 | 0.0821 | 81.8% | 75.1% | 80.4% |
+| Moderate overlap | 0.1100 | 0.0784 | 0.0960 | 72.3% | 76.7% | 78.6% |
+| Severe overlap | 0.1287 | 0.0832 | 0.1184 | 46.7% | 75.3% | 74.1% |
+| Moderate hidden | 0.0794 | 0.0812 | 0.1181 | 78.1% | 70.3% | 76.7% |
+| Severe hidden | 0.2991 | 0.0742 | 0.3240 | 63.5% | 53.6% | 59.2% |
+| Combined severe | 0.1742 | 0.1433 | 0.2738 | 53.7% | 51.1% | 59.1% |
+
+With severe hidden confounding, DR policy true profit averages $2,150.32 while
+its observational estimate overstates profit by about $18,495.65. Its true
+oracle-profit fraction falls from 80.4% at baseline to 59.2%. Combined severe
+stress gives 59.1% for DR, 53.7% for S, and 51.1% for T.
+
+Some T-learner errors improve under individual stress scenarios. Such empirical
+error cancellation does not restore causal identification or establish a robust
+estimator. S/T use balanced outcome forests while DR uses unweighted nuisance
+probabilities; configurations differ. Model ranking is not monotonic or universal.
+
+The five Stage 8 baseline seeds reproduce their matching Stage 7 model metrics
+exactly. Their average need not equal Stage 7's ten-seed average. All rows are
+retained; no seed or scenario was selected for favorable performance.
+
+Evaluation-only clipping sensitivity does not remove the hidden-confounding
+identification gap. Trimming on estimated overlap changes the evaluated causal
+population: under severe overlap, the trimmed true ATE is approximately 0.178
+instead of the full-population 0.155. It must not be presented as recovery of the
+original population effect. Approximate AIPW intervals omit fitting uncertainty
+and do not certify cohort-allocation coverage.
+
+This is a controlled five-seed stress study, not a real-world or rare-tail
+robustness guarantee. Hidden U is a simple binary mechanism, finances are fixed,
+and structural interference/measurement error are not addressed here.
+
+### Saved Stage 8 artifacts
+
+- [Propensity overlap](../reports/figures/stage8_propensity_overlap.png)
+- [Effect errors](../reports/figures/stage8_effect_errors.png)
+- [Identification failure](../reports/figures/stage8_identification_failure.png)
+- [Policy stress results](../reports/figures/stage8_policy_stress.png)
+- [Clipping and trimming diagnostics](../reports/figures/stage8_clipping_and_trimming.png)
+- [Seed-paired effect changes](../reports/figures/stage8_paired_effect_changes.png)
+- [Per-seed effects](../reports/tables/stage8_effects_by_seed.csv)
+- [Per-seed policies](../reports/tables/stage8_policies_by_seed.csv)
+- [Per-seed diagnostics](../reports/tables/stage8_diagnostics_by_seed.csv)
+- [Clipping sensitivity](../reports/tables/stage8_clipping_by_seed.csv)
+- [Overlap histogram counts](../reports/tables/stage8_overlap_histograms.csv)
+- [Effect summary](../reports/tables/stage8_effect_summary.csv)
+- [Policy summary](../reports/tables/stage8_policy_summary.csv)
+- [Diagnostic summary](../reports/tables/stage8_diagnostic_summary.csv)
+- [Paired effect deltas](../reports/tables/stage8_effect_deltas.csv)
+- [Paired policy deltas](../reports/tables/stage8_policy_deltas.csv)
+- [Configuration, versions, hashes, and row counts](../reports/tables/stage8_manifest.json)
+
+Run `.venv\Scripts\python.exe scripts/run_stage8.py` from the repository to
+reproduce the complete study and report.
+
+**Only Stage 9 remains** for the simulation-based project: consolidated findings,
+final report, README, and end-to-end delivery. Real-data validation is a separate
+extension. Stage 9 is not complete.

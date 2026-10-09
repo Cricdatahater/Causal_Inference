@@ -1,0 +1,2401 @@
+seed,scenario,overlap_strength,hidden_strength,kind,treatment,bin_left,bin_right,count
+42,Baseline,1.0,0.0,True marginal,0,0.0,0.05,0
+42,Baseline,1.0,0.0,True marginal,0,0.05,0.1,69
+42,Baseline,1.0,0.0,True marginal,0,0.1,0.15000000000000002,287
+42,Baseline,1.0,0.0,True marginal,0,0.15000000000000002,0.2,382
+42,Baseline,1.0,0.0,True marginal,0,0.2,0.25,383
+42,Baseline,1.0,0.0,True marginal,0,0.25,0.30000000000000004,306
+42,Baseline,1.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,230
+42,Baseline,1.0,0.0,True marginal,0,0.35000000000000003,0.4,176
+42,Baseline,1.0,0.0,True marginal,0,0.4,0.45,127
+42,Baseline,1.0,0.0,True marginal,0,0.45,0.5,61
+42,Baseline,1.0,0.0,True marginal,0,0.5,0.55,46
+42,Baseline,1.0,0.0,True marginal,0,0.55,0.6000000000000001,23
+42,Baseline,1.0,0.0,True marginal,0,0.6000000000000001,0.65,16
+42,Baseline,1.0,0.0,True marginal,0,0.65,0.7000000000000001,7
+42,Baseline,1.0,0.0,True marginal,0,0.7000000000000001,0.75,1
+42,Baseline,1.0,0.0,True marginal,0,0.75,0.8,3
+42,Baseline,1.0,0.0,True marginal,0,0.8,0.8500000000000001,3
+42,Baseline,1.0,0.0,True marginal,0,0.8500000000000001,0.9,0
+42,Baseline,1.0,0.0,True marginal,0,0.9,0.9500000000000001,0
+42,Baseline,1.0,0.0,True marginal,0,0.9500000000000001,1.0,0
+42,Baseline,1.0,0.0,True marginal,1,0.0,0.05,0
+42,Baseline,1.0,0.0,True marginal,1,0.05,0.1,6
+42,Baseline,1.0,0.0,True marginal,1,0.1,0.15000000000000002,48
+42,Baseline,1.0,0.0,True marginal,1,0.15000000000000002,0.2,82
+42,Baseline,1.0,0.0,True marginal,1,0.2,0.25,118
+42,Baseline,1.0,0.0,True marginal,1,0.25,0.30000000000000004,110
+42,Baseline,1.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,117
+42,Baseline,1.0,0.0,True marginal,1,0.35000000000000003,0.4,92
+42,Baseline,1.0,0.0,True marginal,1,0.4,0.45,72
+42,Baseline,1.0,0.0,True marginal,1,0.45,0.5,77
+42,Baseline,1.0,0.0,True marginal,1,0.5,0.55,51
+42,Baseline,1.0,0.0,True marginal,1,0.55,0.6000000000000001,32
+42,Baseline,1.0,0.0,True marginal,1,0.6000000000000001,0.65,28
+42,Baseline,1.0,0.0,True marginal,1,0.65,0.7000000000000001,15
+42,Baseline,1.0,0.0,True marginal,1,0.7000000000000001,0.75,14
+42,Baseline,1.0,0.0,True marginal,1,0.75,0.8,11
+42,Baseline,1.0,0.0,True marginal,1,0.8,0.8500000000000001,7
+42,Baseline,1.0,0.0,True marginal,1,0.8500000000000001,0.9,0
+42,Baseline,1.0,0.0,True marginal,1,0.9,0.9500000000000001,0
+42,Baseline,1.0,0.0,True marginal,1,0.9500000000000001,1.0,0
+42,Baseline,1.0,0.0,Estimated,0,0.0,0.05,2
+42,Baseline,1.0,0.0,Estimated,0,0.05,0.1,80
+42,Baseline,1.0,0.0,Estimated,0,0.1,0.15000000000000002,238
+42,Baseline,1.0,0.0,Estimated,0,0.15000000000000002,0.2,317
+42,Baseline,1.0,0.0,Estimated,0,0.2,0.25,347
+42,Baseline,1.0,0.0,Estimated,0,0.25,0.30000000000000004,379
+42,Baseline,1.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,309
+42,Baseline,1.0,0.0,Estimated,0,0.35000000000000003,0.4,179
+42,Baseline,1.0,0.0,Estimated,0,0.4,0.45,101
+42,Baseline,1.0,0.0,Estimated,0,0.45,0.5,75
+42,Baseline,1.0,0.0,Estimated,0,0.5,0.55,53
+42,Baseline,1.0,0.0,Estimated,0,0.55,0.6000000000000001,22
+42,Baseline,1.0,0.0,Estimated,0,0.6000000000000001,0.65,9
+42,Baseline,1.0,0.0,Estimated,0,0.65,0.7000000000000001,3
+42,Baseline,1.0,0.0,Estimated,0,0.7000000000000001,0.75,2
+42,Baseline,1.0,0.0,Estimated,0,0.75,0.8,4
+42,Baseline,1.0,0.0,Estimated,0,0.8,0.8500000000000001,0
+42,Baseline,1.0,0.0,Estimated,0,0.8500000000000001,0.9,0
+42,Baseline,1.0,0.0,Estimated,0,0.9,0.9500000000000001,0
+42,Baseline,1.0,0.0,Estimated,0,0.9500000000000001,1.0,0
+42,Baseline,1.0,0.0,Estimated,1,0.0,0.05,0
+42,Baseline,1.0,0.0,Estimated,1,0.05,0.1,8
+42,Baseline,1.0,0.0,Estimated,1,0.1,0.15000000000000002,42
+42,Baseline,1.0,0.0,Estimated,1,0.15000000000000002,0.2,75
+42,Baseline,1.0,0.0,Estimated,1,0.2,0.25,101
+42,Baseline,1.0,0.0,Estimated,1,0.25,0.30000000000000004,131
+42,Baseline,1.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,122
+42,Baseline,1.0,0.0,Estimated,1,0.35000000000000003,0.4,113
+42,Baseline,1.0,0.0,Estimated,1,0.4,0.45,72
+42,Baseline,1.0,0.0,Estimated,1,0.45,0.5,73
+42,Baseline,1.0,0.0,Estimated,1,0.5,0.55,55
+42,Baseline,1.0,0.0,Estimated,1,0.55,0.6000000000000001,35
+42,Baseline,1.0,0.0,Estimated,1,0.6000000000000001,0.65,21
+42,Baseline,1.0,0.0,Estimated,1,0.65,0.7000000000000001,13
+42,Baseline,1.0,0.0,Estimated,1,0.7000000000000001,0.75,12
+42,Baseline,1.0,0.0,Estimated,1,0.75,0.8,5
+42,Baseline,1.0,0.0,Estimated,1,0.8,0.8500000000000001,2
+42,Baseline,1.0,0.0,Estimated,1,0.8500000000000001,0.9,0
+42,Baseline,1.0,0.0,Estimated,1,0.9,0.9500000000000001,0
+42,Baseline,1.0,0.0,Estimated,1,0.9500000000000001,1.0,0
+42,Moderate overlap,2.5,0.0,True marginal,0,0.0,0.05,386
+42,Moderate overlap,2.5,0.0,True marginal,0,0.05,0.1,358
+42,Moderate overlap,2.5,0.0,True marginal,0,0.1,0.15000000000000002,241
+42,Moderate overlap,2.5,0.0,True marginal,0,0.15000000000000002,0.2,211
+42,Moderate overlap,2.5,0.0,True marginal,0,0.2,0.25,159
+42,Moderate overlap,2.5,0.0,True marginal,0,0.25,0.30000000000000004,119
+42,Moderate overlap,2.5,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,94
+42,Moderate overlap,2.5,0.0,True marginal,0,0.35000000000000003,0.4,77
+42,Moderate overlap,2.5,0.0,True marginal,0,0.4,0.45,78
+42,Moderate overlap,2.5,0.0,True marginal,0,0.45,0.5,60
+42,Moderate overlap,2.5,0.0,True marginal,0,0.5,0.55,54
+42,Moderate overlap,2.5,0.0,True marginal,0,0.55,0.6000000000000001,43
+42,Moderate overlap,2.5,0.0,True marginal,0,0.6000000000000001,0.65,46
+42,Moderate overlap,2.5,0.0,True marginal,0,0.65,0.7000000000000001,24
+42,Moderate overlap,2.5,0.0,True marginal,0,0.7000000000000001,0.75,27
+42,Moderate overlap,2.5,0.0,True marginal,0,0.75,0.8,11
+42,Moderate overlap,2.5,0.0,True marginal,0,0.8,0.8500000000000001,8
+42,Moderate overlap,2.5,0.0,True marginal,0,0.8500000000000001,0.9,5
+42,Moderate overlap,2.5,0.0,True marginal,0,0.9,0.9500000000000001,3
+42,Moderate overlap,2.5,0.0,True marginal,0,0.9500000000000001,1.0,1
+42,Moderate overlap,2.5,0.0,True marginal,1,0.0,0.05,13
+42,Moderate overlap,2.5,0.0,True marginal,1,0.05,0.1,35
+42,Moderate overlap,2.5,0.0,True marginal,1,0.1,0.15000000000000002,37
+42,Moderate overlap,2.5,0.0,True marginal,1,0.15000000000000002,0.2,42
+42,Moderate overlap,2.5,0.0,True marginal,1,0.2,0.25,44
+42,Moderate overlap,2.5,0.0,True marginal,1,0.25,0.30000000000000004,50
+42,Moderate overlap,2.5,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,45
+42,Moderate overlap,2.5,0.0,True marginal,1,0.35000000000000003,0.4,51
+42,Moderate overlap,2.5,0.0,True marginal,1,0.4,0.45,59
+42,Moderate overlap,2.5,0.0,True marginal,1,0.45,0.5,49
+42,Moderate overlap,2.5,0.0,True marginal,1,0.5,0.55,56
+42,Moderate overlap,2.5,0.0,True marginal,1,0.55,0.6000000000000001,46
+42,Moderate overlap,2.5,0.0,True marginal,1,0.6000000000000001,0.65,49
+42,Moderate overlap,2.5,0.0,True marginal,1,0.65,0.7000000000000001,48
+42,Moderate overlap,2.5,0.0,True marginal,1,0.7000000000000001,0.75,57
+42,Moderate overlap,2.5,0.0,True marginal,1,0.75,0.8,69
+42,Moderate overlap,2.5,0.0,True marginal,1,0.8,0.8500000000000001,66
+42,Moderate overlap,2.5,0.0,True marginal,1,0.8500000000000001,0.9,51
+42,Moderate overlap,2.5,0.0,True marginal,1,0.9,0.9500000000000001,64
+42,Moderate overlap,2.5,0.0,True marginal,1,0.9500000000000001,1.0,64
+42,Moderate overlap,2.5,0.0,Estimated,0,0.0,0.05,379
+42,Moderate overlap,2.5,0.0,Estimated,0,0.05,0.1,299
+42,Moderate overlap,2.5,0.0,Estimated,0,0.1,0.15000000000000002,235
+42,Moderate overlap,2.5,0.0,Estimated,0,0.15000000000000002,0.2,163
+42,Moderate overlap,2.5,0.0,Estimated,0,0.2,0.25,168
+42,Moderate overlap,2.5,0.0,Estimated,0,0.25,0.30000000000000004,157
+42,Moderate overlap,2.5,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,131
+42,Moderate overlap,2.5,0.0,Estimated,0,0.35000000000000003,0.4,107
+42,Moderate overlap,2.5,0.0,Estimated,0,0.4,0.45,60
+42,Moderate overlap,2.5,0.0,Estimated,0,0.45,0.5,75
+42,Moderate overlap,2.5,0.0,Estimated,0,0.5,0.55,53
+42,Moderate overlap,2.5,0.0,Estimated,0,0.55,0.6000000000000001,55
+42,Moderate overlap,2.5,0.0,Estimated,0,0.6000000000000001,0.65,42
+42,Moderate overlap,2.5,0.0,Estimated,0,0.65,0.7000000000000001,33
+42,Moderate overlap,2.5,0.0,Estimated,0,0.7000000000000001,0.75,20
+42,Moderate overlap,2.5,0.0,Estimated,0,0.75,0.8,10
+42,Moderate overlap,2.5,0.0,Estimated,0,0.8,0.8500000000000001,6
+42,Moderate overlap,2.5,0.0,Estimated,0,0.8500000000000001,0.9,7
+42,Moderate overlap,2.5,0.0,Estimated,0,0.9,0.9500000000000001,5
+42,Moderate overlap,2.5,0.0,Estimated,0,0.9500000000000001,1.0,0
+42,Moderate overlap,2.5,0.0,Estimated,1,0.0,0.05,18
+42,Moderate overlap,2.5,0.0,Estimated,1,0.05,0.1,25
+42,Moderate overlap,2.5,0.0,Estimated,1,0.1,0.15000000000000002,31
+42,Moderate overlap,2.5,0.0,Estimated,1,0.15000000000000002,0.2,37
+42,Moderate overlap,2.5,0.0,Estimated,1,0.2,0.25,33
+42,Moderate overlap,2.5,0.0,Estimated,1,0.25,0.30000000000000004,54
+42,Moderate overlap,2.5,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,65
+42,Moderate overlap,2.5,0.0,Estimated,1,0.35000000000000003,0.4,61
+42,Moderate overlap,2.5,0.0,Estimated,1,0.4,0.45,56
+42,Moderate overlap,2.5,0.0,Estimated,1,0.45,0.5,50
+42,Moderate overlap,2.5,0.0,Estimated,1,0.5,0.55,56
+42,Moderate overlap,2.5,0.0,Estimated,1,0.55,0.6000000000000001,58
+42,Moderate overlap,2.5,0.0,Estimated,1,0.6000000000000001,0.65,74
+42,Moderate overlap,2.5,0.0,Estimated,1,0.65,0.7000000000000001,63
+42,Moderate overlap,2.5,0.0,Estimated,1,0.7000000000000001,0.75,50
+42,Moderate overlap,2.5,0.0,Estimated,1,0.75,0.8,71
+42,Moderate overlap,2.5,0.0,Estimated,1,0.8,0.8500000000000001,57
+42,Moderate overlap,2.5,0.0,Estimated,1,0.8500000000000001,0.9,53
+42,Moderate overlap,2.5,0.0,Estimated,1,0.9,0.9500000000000001,63
+42,Moderate overlap,2.5,0.0,Estimated,1,0.9500000000000001,1.0,20
+42,Severe overlap,5.0,0.0,True marginal,0,0.0,0.05,925
+42,Severe overlap,5.0,0.0,True marginal,0,0.05,0.1,231
+42,Severe overlap,5.0,0.0,True marginal,0,0.1,0.15000000000000002,151
+42,Severe overlap,5.0,0.0,True marginal,0,0.15000000000000002,0.2,101
+42,Severe overlap,5.0,0.0,True marginal,0,0.2,0.25,71
+42,Severe overlap,5.0,0.0,True marginal,0,0.25,0.30000000000000004,65
+42,Severe overlap,5.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,46
+42,Severe overlap,5.0,0.0,True marginal,0,0.35000000000000003,0.4,41
+42,Severe overlap,5.0,0.0,True marginal,0,0.4,0.45,38
+42,Severe overlap,5.0,0.0,True marginal,0,0.45,0.5,26
+42,Severe overlap,5.0,0.0,True marginal,0,0.5,0.55,25
+42,Severe overlap,5.0,0.0,True marginal,0,0.55,0.6000000000000001,36
+42,Severe overlap,5.0,0.0,True marginal,0,0.6000000000000001,0.65,23
+42,Severe overlap,5.0,0.0,True marginal,0,0.65,0.7000000000000001,21
+42,Severe overlap,5.0,0.0,True marginal,0,0.7000000000000001,0.75,24
+42,Severe overlap,5.0,0.0,True marginal,0,0.75,0.8,21
+42,Severe overlap,5.0,0.0,True marginal,0,0.8,0.8500000000000001,23
+42,Severe overlap,5.0,0.0,True marginal,0,0.8500000000000001,0.9,13
+42,Severe overlap,5.0,0.0,True marginal,0,0.9,0.9500000000000001,14
+42,Severe overlap,5.0,0.0,True marginal,0,0.9500000000000001,1.0,8
+42,Severe overlap,5.0,0.0,True marginal,1,0.0,0.05,13
+42,Severe overlap,5.0,0.0,True marginal,1,0.05,0.1,16
+42,Severe overlap,5.0,0.0,True marginal,1,0.1,0.15000000000000002,24
+42,Severe overlap,5.0,0.0,True marginal,1,0.15000000000000002,0.2,23
+42,Severe overlap,5.0,0.0,True marginal,1,0.2,0.25,23
+42,Severe overlap,5.0,0.0,True marginal,1,0.25,0.30000000000000004,23
+42,Severe overlap,5.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,25
+42,Severe overlap,5.0,0.0,True marginal,1,0.35000000000000003,0.4,22
+42,Severe overlap,5.0,0.0,True marginal,1,0.4,0.45,23
+42,Severe overlap,5.0,0.0,True marginal,1,0.45,0.5,32
+42,Severe overlap,5.0,0.0,True marginal,1,0.5,0.55,40
+42,Severe overlap,5.0,0.0,True marginal,1,0.55,0.6000000000000001,37
+42,Severe overlap,5.0,0.0,True marginal,1,0.6000000000000001,0.65,42
+42,Severe overlap,5.0,0.0,True marginal,1,0.65,0.7000000000000001,37
+42,Severe overlap,5.0,0.0,True marginal,1,0.7000000000000001,0.75,51
+42,Severe overlap,5.0,0.0,True marginal,1,0.75,0.8,52
+42,Severe overlap,5.0,0.0,True marginal,1,0.8,0.8500000000000001,51
+42,Severe overlap,5.0,0.0,True marginal,1,0.8500000000000001,0.9,89
+42,Severe overlap,5.0,0.0,True marginal,1,0.9,0.9500000000000001,110
+42,Severe overlap,5.0,0.0,True marginal,1,0.9500000000000001,1.0,364
+42,Severe overlap,5.0,0.0,Estimated,0,0.0,0.05,853
+42,Severe overlap,5.0,0.0,Estimated,0,0.05,0.1,207
+42,Severe overlap,5.0,0.0,Estimated,0,0.1,0.15000000000000002,110
+42,Severe overlap,5.0,0.0,Estimated,0,0.15000000000000002,0.2,103
+42,Severe overlap,5.0,0.0,Estimated,0,0.2,0.25,97
+42,Severe overlap,5.0,0.0,Estimated,0,0.25,0.30000000000000004,70
+42,Severe overlap,5.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,81
+42,Severe overlap,5.0,0.0,Estimated,0,0.35000000000000003,0.4,72
+42,Severe overlap,5.0,0.0,Estimated,0,0.4,0.45,49
+42,Severe overlap,5.0,0.0,Estimated,0,0.45,0.5,35
+42,Severe overlap,5.0,0.0,Estimated,0,0.5,0.55,38
+42,Severe overlap,5.0,0.0,Estimated,0,0.55,0.6000000000000001,31
+42,Severe overlap,5.0,0.0,Estimated,0,0.6000000000000001,0.65,26
+42,Severe overlap,5.0,0.0,Estimated,0,0.65,0.7000000000000001,29
+42,Severe overlap,5.0,0.0,Estimated,0,0.7000000000000001,0.75,32
+42,Severe overlap,5.0,0.0,Estimated,0,0.75,0.8,20
+42,Severe overlap,5.0,0.0,Estimated,0,0.8,0.8500000000000001,22
+42,Severe overlap,5.0,0.0,Estimated,0,0.8500000000000001,0.9,12
+42,Severe overlap,5.0,0.0,Estimated,0,0.9,0.9500000000000001,10
+42,Severe overlap,5.0,0.0,Estimated,0,0.9500000000000001,1.0,6
+42,Severe overlap,5.0,0.0,Estimated,1,0.0,0.05,14
+42,Severe overlap,5.0,0.0,Estimated,1,0.05,0.1,13
+42,Severe overlap,5.0,0.0,Estimated,1,0.1,0.15000000000000002,14
+42,Severe overlap,5.0,0.0,Estimated,1,0.15000000000000002,0.2,16
+42,Severe overlap,5.0,0.0,Estimated,1,0.2,0.25,14
+42,Severe overlap,5.0,0.0,Estimated,1,0.25,0.30000000000000004,25
+42,Severe overlap,5.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,35
+42,Severe overlap,5.0,0.0,Estimated,1,0.35000000000000003,0.4,40
+42,Severe overlap,5.0,0.0,Estimated,1,0.4,0.45,23
+42,Severe overlap,5.0,0.0,Estimated,1,0.45,0.5,37
+42,Severe overlap,5.0,0.0,Estimated,1,0.5,0.55,47
+42,Severe overlap,5.0,0.0,Estimated,1,0.55,0.6000000000000001,50
+42,Severe overlap,5.0,0.0,Estimated,1,0.6000000000000001,0.65,45
+42,Severe overlap,5.0,0.0,Estimated,1,0.65,0.7000000000000001,54
+42,Severe overlap,5.0,0.0,Estimated,1,0.7000000000000001,0.75,47
+42,Severe overlap,5.0,0.0,Estimated,1,0.75,0.8,83
+42,Severe overlap,5.0,0.0,Estimated,1,0.8,0.8500000000000001,87
+42,Severe overlap,5.0,0.0,Estimated,1,0.8500000000000001,0.9,101
+42,Severe overlap,5.0,0.0,Estimated,1,0.9,0.9500000000000001,108
+42,Severe overlap,5.0,0.0,Estimated,1,0.9500000000000001,1.0,244
+42,Moderate hidden,1.0,0.8,True marginal,0,0.0,0.05,0
+42,Moderate hidden,1.0,0.8,True marginal,0,0.05,0.1,19
+42,Moderate hidden,1.0,0.8,True marginal,0,0.1,0.15000000000000002,159
+42,Moderate hidden,1.0,0.8,True marginal,0,0.15000000000000002,0.2,327
+42,Moderate hidden,1.0,0.8,True marginal,0,0.2,0.25,364
+42,Moderate hidden,1.0,0.8,True marginal,0,0.25,0.30000000000000004,364
+42,Moderate hidden,1.0,0.8,True marginal,0,0.30000000000000004,0.35000000000000003,265
+42,Moderate hidden,1.0,0.8,True marginal,0,0.35000000000000003,0.4,226
+42,Moderate hidden,1.0,0.8,True marginal,0,0.4,0.45,145
+42,Moderate hidden,1.0,0.8,True marginal,0,0.45,0.5,83
+42,Moderate hidden,1.0,0.8,True marginal,0,0.5,0.55,46
+42,Moderate hidden,1.0,0.8,True marginal,0,0.55,0.6000000000000001,25
+42,Moderate hidden,1.0,0.8,True marginal,0,0.6000000000000001,0.65,21
+42,Moderate hidden,1.0,0.8,True marginal,0,0.65,0.7000000000000001,5
+42,Moderate hidden,1.0,0.8,True marginal,0,0.7000000000000001,0.75,4
+42,Moderate hidden,1.0,0.8,True marginal,0,0.75,0.8,4
+42,Moderate hidden,1.0,0.8,True marginal,0,0.8,0.8500000000000001,0
+42,Moderate hidden,1.0,0.8,True marginal,0,0.8500000000000001,0.9,0
+42,Moderate hidden,1.0,0.8,True marginal,0,0.9,0.9500000000000001,0
+42,Moderate hidden,1.0,0.8,True marginal,0,0.9500000000000001,1.0,0
+42,Moderate hidden,1.0,0.8,True marginal,1,0.0,0.05,0
+42,Moderate hidden,1.0,0.8,True marginal,1,0.05,0.1,1
+42,Moderate hidden,1.0,0.8,True marginal,1,0.1,0.15000000000000002,22
+42,Moderate hidden,1.0,0.8,True marginal,1,0.15000000000000002,0.2,75
+42,Moderate hidden,1.0,0.8,True marginal,1,0.2,0.25,106
+42,Moderate hidden,1.0,0.8,True marginal,1,0.25,0.30000000000000004,139
+42,Moderate hidden,1.0,0.8,True marginal,1,0.30000000000000004,0.35000000000000003,140
+42,Moderate hidden,1.0,0.8,True marginal,1,0.35000000000000003,0.4,128
+42,Moderate hidden,1.0,0.8,True marginal,1,0.4,0.45,90
+42,Moderate hidden,1.0,0.8,True marginal,1,0.45,0.5,90
+42,Moderate hidden,1.0,0.8,True marginal,1,0.5,0.55,58
+42,Moderate hidden,1.0,0.8,True marginal,1,0.55,0.6000000000000001,35
+42,Moderate hidden,1.0,0.8,True marginal,1,0.6000000000000001,0.65,25
+42,Moderate hidden,1.0,0.8,True marginal,1,0.65,0.7000000000000001,10
+42,Moderate hidden,1.0,0.8,True marginal,1,0.7000000000000001,0.75,16
+42,Moderate hidden,1.0,0.8,True marginal,1,0.75,0.8,8
+42,Moderate hidden,1.0,0.8,True marginal,1,0.8,0.8500000000000001,0
+42,Moderate hidden,1.0,0.8,True marginal,1,0.8500000000000001,0.9,0
+42,Moderate hidden,1.0,0.8,True marginal,1,0.9,0.9500000000000001,0
+42,Moderate hidden,1.0,0.8,True marginal,1,0.9500000000000001,1.0,0
+42,Moderate hidden,1.0,0.8,Estimated,0,0.0,0.05,2
+42,Moderate hidden,1.0,0.8,Estimated,0,0.05,0.1,37
+42,Moderate hidden,1.0,0.8,Estimated,0,0.1,0.15000000000000002,163
+42,Moderate hidden,1.0,0.8,Estimated,0,0.15000000000000002,0.2,306
+42,Moderate hidden,1.0,0.8,Estimated,0,0.2,0.25,322
+42,Moderate hidden,1.0,0.8,Estimated,0,0.25,0.30000000000000004,323
+42,Moderate hidden,1.0,0.8,Estimated,0,0.30000000000000004,0.35000000000000003,294
+42,Moderate hidden,1.0,0.8,Estimated,0,0.35000000000000003,0.4,250
+42,Moderate hidden,1.0,0.8,Estimated,0,0.4,0.45,137
+42,Moderate hidden,1.0,0.8,Estimated,0,0.45,0.5,108
+42,Moderate hidden,1.0,0.8,Estimated,0,0.5,0.55,56
+42,Moderate hidden,1.0,0.8,Estimated,0,0.55,0.6000000000000001,27
+42,Moderate hidden,1.0,0.8,Estimated,0,0.6000000000000001,0.65,16
+42,Moderate hidden,1.0,0.8,Estimated,0,0.65,0.7000000000000001,10
+42,Moderate hidden,1.0,0.8,Estimated,0,0.7000000000000001,0.75,5
+42,Moderate hidden,1.0,0.8,Estimated,0,0.75,0.8,1
+42,Moderate hidden,1.0,0.8,Estimated,0,0.8,0.8500000000000001,0
+42,Moderate hidden,1.0,0.8,Estimated,0,0.8500000000000001,0.9,0
+42,Moderate hidden,1.0,0.8,Estimated,0,0.9,0.9500000000000001,0
+42,Moderate hidden,1.0,0.8,Estimated,0,0.9500000000000001,1.0,0
+42,Moderate hidden,1.0,0.8,Estimated,1,0.0,0.05,0
+42,Moderate hidden,1.0,0.8,Estimated,1,0.05,0.1,4
+42,Moderate hidden,1.0,0.8,Estimated,1,0.1,0.15000000000000002,27
+42,Moderate hidden,1.0,0.8,Estimated,1,0.15000000000000002,0.2,66
+42,Moderate hidden,1.0,0.8,Estimated,1,0.2,0.25,110
+42,Moderate hidden,1.0,0.8,Estimated,1,0.25,0.30000000000000004,132
+42,Moderate hidden,1.0,0.8,Estimated,1,0.30000000000000004,0.35000000000000003,138
+42,Moderate hidden,1.0,0.8,Estimated,1,0.35000000000000003,0.4,122
+42,Moderate hidden,1.0,0.8,Estimated,1,0.4,0.45,105
+42,Moderate hidden,1.0,0.8,Estimated,1,0.45,0.5,72
+42,Moderate hidden,1.0,0.8,Estimated,1,0.5,0.55,70
+42,Moderate hidden,1.0,0.8,Estimated,1,0.55,0.6000000000000001,47
+42,Moderate hidden,1.0,0.8,Estimated,1,0.6000000000000001,0.65,27
+42,Moderate hidden,1.0,0.8,Estimated,1,0.65,0.7000000000000001,12
+42,Moderate hidden,1.0,0.8,Estimated,1,0.7000000000000001,0.75,9
+42,Moderate hidden,1.0,0.8,Estimated,1,0.75,0.8,2
+42,Moderate hidden,1.0,0.8,Estimated,1,0.8,0.8500000000000001,0
+42,Moderate hidden,1.0,0.8,Estimated,1,0.8500000000000001,0.9,0
+42,Moderate hidden,1.0,0.8,Estimated,1,0.9,0.9500000000000001,0
+42,Moderate hidden,1.0,0.8,Estimated,1,0.9500000000000001,1.0,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.0,0.05,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.05,0.1,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.1,0.15000000000000002,10
+42,Severe hidden,1.0,1.6,True marginal,0,0.15000000000000002,0.2,83
+42,Severe hidden,1.0,1.6,True marginal,0,0.2,0.25,224
+42,Severe hidden,1.0,1.6,True marginal,0,0.25,0.30000000000000004,338
+42,Severe hidden,1.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,397
+42,Severe hidden,1.0,1.6,True marginal,0,0.35000000000000003,0.4,333
+42,Severe hidden,1.0,1.6,True marginal,0,0.4,0.45,262
+42,Severe hidden,1.0,1.6,True marginal,0,0.45,0.5,151
+42,Severe hidden,1.0,1.6,True marginal,0,0.5,0.55,69
+42,Severe hidden,1.0,1.6,True marginal,0,0.55,0.6000000000000001,31
+42,Severe hidden,1.0,1.6,True marginal,0,0.6000000000000001,0.65,7
+42,Severe hidden,1.0,1.6,True marginal,0,0.65,0.7000000000000001,9
+42,Severe hidden,1.0,1.6,True marginal,0,0.7000000000000001,0.75,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.75,0.8,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.8,0.8500000000000001,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.8500000000000001,0.9,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.9,0.9500000000000001,0
+42,Severe hidden,1.0,1.6,True marginal,0,0.9500000000000001,1.0,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.0,0.05,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.05,0.1,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.1,0.15000000000000002,1
+42,Severe hidden,1.0,1.6,True marginal,1,0.15000000000000002,0.2,20
+42,Severe hidden,1.0,1.6,True marginal,1,0.2,0.25,70
+42,Severe hidden,1.0,1.6,True marginal,1,0.25,0.30000000000000004,123
+42,Severe hidden,1.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,183
+42,Severe hidden,1.0,1.6,True marginal,1,0.35000000000000003,0.4,220
+42,Severe hidden,1.0,1.6,True marginal,1,0.4,0.45,196
+42,Severe hidden,1.0,1.6,True marginal,1,0.45,0.5,132
+42,Severe hidden,1.0,1.6,True marginal,1,0.5,0.55,67
+42,Severe hidden,1.0,1.6,True marginal,1,0.55,0.6000000000000001,41
+42,Severe hidden,1.0,1.6,True marginal,1,0.6000000000000001,0.65,16
+42,Severe hidden,1.0,1.6,True marginal,1,0.65,0.7000000000000001,17
+42,Severe hidden,1.0,1.6,True marginal,1,0.7000000000000001,0.75,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.75,0.8,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.8,0.8500000000000001,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.8500000000000001,0.9,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.9,0.9500000000000001,0
+42,Severe hidden,1.0,1.6,True marginal,1,0.9500000000000001,1.0,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.0,0.05,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.05,0.1,3
+42,Severe hidden,1.0,1.6,Estimated,0,0.1,0.15000000000000002,32
+42,Severe hidden,1.0,1.6,Estimated,0,0.15000000000000002,0.2,69
+42,Severe hidden,1.0,1.6,Estimated,0,0.2,0.25,196
+42,Severe hidden,1.0,1.6,Estimated,0,0.25,0.30000000000000004,342
+42,Severe hidden,1.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,359
+42,Severe hidden,1.0,1.6,Estimated,0,0.35000000000000003,0.4,339
+42,Severe hidden,1.0,1.6,Estimated,0,0.4,0.45,254
+42,Severe hidden,1.0,1.6,Estimated,0,0.45,0.5,172
+42,Severe hidden,1.0,1.6,Estimated,0,0.5,0.55,83
+42,Severe hidden,1.0,1.6,Estimated,0,0.55,0.6000000000000001,51
+42,Severe hidden,1.0,1.6,Estimated,0,0.6000000000000001,0.65,6
+42,Severe hidden,1.0,1.6,Estimated,0,0.65,0.7000000000000001,8
+42,Severe hidden,1.0,1.6,Estimated,0,0.7000000000000001,0.75,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.75,0.8,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.8,0.8500000000000001,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.8500000000000001,0.9,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.9,0.9500000000000001,0
+42,Severe hidden,1.0,1.6,Estimated,0,0.9500000000000001,1.0,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.0,0.05,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.05,0.1,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.1,0.15000000000000002,9
+42,Severe hidden,1.0,1.6,Estimated,1,0.15000000000000002,0.2,19
+42,Severe hidden,1.0,1.6,Estimated,1,0.2,0.25,65
+42,Severe hidden,1.0,1.6,Estimated,1,0.25,0.30000000000000004,125
+42,Severe hidden,1.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,176
+42,Severe hidden,1.0,1.6,Estimated,1,0.35000000000000003,0.4,201
+42,Severe hidden,1.0,1.6,Estimated,1,0.4,0.45,190
+42,Severe hidden,1.0,1.6,Estimated,1,0.45,0.5,138
+42,Severe hidden,1.0,1.6,Estimated,1,0.5,0.55,98
+42,Severe hidden,1.0,1.6,Estimated,1,0.55,0.6000000000000001,35
+42,Severe hidden,1.0,1.6,Estimated,1,0.6000000000000001,0.65,22
+42,Severe hidden,1.0,1.6,Estimated,1,0.65,0.7000000000000001,8
+42,Severe hidden,1.0,1.6,Estimated,1,0.7000000000000001,0.75,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.75,0.8,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.8,0.8500000000000001,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.8500000000000001,0.9,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.9,0.9500000000000001,0
+42,Severe hidden,1.0,1.6,Estimated,1,0.9500000000000001,1.0,0
+42,Combined severe,5.0,1.6,True marginal,0,0.0,0.05,636
+42,Combined severe,5.0,1.6,True marginal,0,0.05,0.1,245
+42,Combined severe,5.0,1.6,True marginal,0,0.1,0.15000000000000002,138
+42,Combined severe,5.0,1.6,True marginal,0,0.15000000000000002,0.2,115
+42,Combined severe,5.0,1.6,True marginal,0,0.2,0.25,109
+42,Combined severe,5.0,1.6,True marginal,0,0.25,0.30000000000000004,94
+42,Combined severe,5.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,77
+42,Combined severe,5.0,1.6,True marginal,0,0.35000000000000003,0.4,70
+42,Combined severe,5.0,1.6,True marginal,0,0.4,0.45,56
+42,Combined severe,5.0,1.6,True marginal,0,0.45,0.5,57
+42,Combined severe,5.0,1.6,True marginal,0,0.5,0.55,50
+42,Combined severe,5.0,1.6,True marginal,0,0.55,0.6000000000000001,34
+42,Combined severe,5.0,1.6,True marginal,0,0.6000000000000001,0.65,33
+42,Combined severe,5.0,1.6,True marginal,0,0.65,0.7000000000000001,26
+42,Combined severe,5.0,1.6,True marginal,0,0.7000000000000001,0.75,23
+42,Combined severe,5.0,1.6,True marginal,0,0.75,0.8,15
+42,Combined severe,5.0,1.6,True marginal,0,0.8,0.8500000000000001,19
+42,Combined severe,5.0,1.6,True marginal,0,0.8500000000000001,0.9,13
+42,Combined severe,5.0,1.6,True marginal,0,0.9,0.9500000000000001,9
+42,Combined severe,5.0,1.6,True marginal,0,0.9500000000000001,1.0,4
+42,Combined severe,5.0,1.6,True marginal,1,0.0,0.05,17
+42,Combined severe,5.0,1.6,True marginal,1,0.05,0.1,13
+42,Combined severe,5.0,1.6,True marginal,1,0.1,0.15000000000000002,21
+42,Combined severe,5.0,1.6,True marginal,1,0.15000000000000002,0.2,30
+42,Combined severe,5.0,1.6,True marginal,1,0.2,0.25,36
+42,Combined severe,5.0,1.6,True marginal,1,0.25,0.30000000000000004,28
+42,Combined severe,5.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,36
+42,Combined severe,5.0,1.6,True marginal,1,0.35000000000000003,0.4,39
+42,Combined severe,5.0,1.6,True marginal,1,0.4,0.45,49
+42,Combined severe,5.0,1.6,True marginal,1,0.45,0.5,53
+42,Combined severe,5.0,1.6,True marginal,1,0.5,0.55,77
+42,Combined severe,5.0,1.6,True marginal,1,0.55,0.6000000000000001,61
+42,Combined severe,5.0,1.6,True marginal,1,0.6000000000000001,0.65,67
+42,Combined severe,5.0,1.6,True marginal,1,0.65,0.7000000000000001,62
+42,Combined severe,5.0,1.6,True marginal,1,0.7000000000000001,0.75,51
+42,Combined severe,5.0,1.6,True marginal,1,0.75,0.8,61
+42,Combined severe,5.0,1.6,True marginal,1,0.8,0.8500000000000001,58
+42,Combined severe,5.0,1.6,True marginal,1,0.8500000000000001,0.9,70
+42,Combined severe,5.0,1.6,True marginal,1,0.9,0.9500000000000001,101
+42,Combined severe,5.0,1.6,True marginal,1,0.9500000000000001,1.0,247
+42,Combined severe,5.0,1.6,Estimated,0,0.0,0.05,568
+42,Combined severe,5.0,1.6,Estimated,0,0.05,0.1,223
+42,Combined severe,5.0,1.6,Estimated,0,0.1,0.15000000000000002,168
+42,Combined severe,5.0,1.6,Estimated,0,0.15000000000000002,0.2,127
+42,Combined severe,5.0,1.6,Estimated,0,0.2,0.25,84
+42,Combined severe,5.0,1.6,Estimated,0,0.25,0.30000000000000004,93
+42,Combined severe,5.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,87
+42,Combined severe,5.0,1.6,Estimated,0,0.35000000000000003,0.4,101
+42,Combined severe,5.0,1.6,Estimated,0,0.4,0.45,60
+42,Combined severe,5.0,1.6,Estimated,0,0.45,0.5,58
+42,Combined severe,5.0,1.6,Estimated,0,0.5,0.55,58
+42,Combined severe,5.0,1.6,Estimated,0,0.55,0.6000000000000001,38
+42,Combined severe,5.0,1.6,Estimated,0,0.6000000000000001,0.65,39
+42,Combined severe,5.0,1.6,Estimated,0,0.65,0.7000000000000001,38
+42,Combined severe,5.0,1.6,Estimated,0,0.7000000000000001,0.75,23
+42,Combined severe,5.0,1.6,Estimated,0,0.75,0.8,19
+42,Combined severe,5.0,1.6,Estimated,0,0.8,0.8500000000000001,15
+42,Combined severe,5.0,1.6,Estimated,0,0.8500000000000001,0.9,10
+42,Combined severe,5.0,1.6,Estimated,0,0.9,0.9500000000000001,8
+42,Combined severe,5.0,1.6,Estimated,0,0.9500000000000001,1.0,6
+42,Combined severe,5.0,1.6,Estimated,1,0.0,0.05,12
+42,Combined severe,5.0,1.6,Estimated,1,0.05,0.1,14
+42,Combined severe,5.0,1.6,Estimated,1,0.1,0.15000000000000002,25
+42,Combined severe,5.0,1.6,Estimated,1,0.15000000000000002,0.2,19
+42,Combined severe,5.0,1.6,Estimated,1,0.2,0.25,29
+42,Combined severe,5.0,1.6,Estimated,1,0.25,0.30000000000000004,37
+42,Combined severe,5.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,31
+42,Combined severe,5.0,1.6,Estimated,1,0.35000000000000003,0.4,42
+42,Combined severe,5.0,1.6,Estimated,1,0.4,0.45,59
+42,Combined severe,5.0,1.6,Estimated,1,0.45,0.5,66
+42,Combined severe,5.0,1.6,Estimated,1,0.5,0.55,65
+42,Combined severe,5.0,1.6,Estimated,1,0.55,0.6000000000000001,77
+42,Combined severe,5.0,1.6,Estimated,1,0.6000000000000001,0.65,74
+42,Combined severe,5.0,1.6,Estimated,1,0.65,0.7000000000000001,74
+42,Combined severe,5.0,1.6,Estimated,1,0.7000000000000001,0.75,77
+42,Combined severe,5.0,1.6,Estimated,1,0.75,0.8,73
+42,Combined severe,5.0,1.6,Estimated,1,0.8,0.8500000000000001,73
+42,Combined severe,5.0,1.6,Estimated,1,0.8500000000000001,0.9,69
+42,Combined severe,5.0,1.6,Estimated,1,0.9,0.9500000000000001,83
+42,Combined severe,5.0,1.6,Estimated,1,0.9500000000000001,1.0,178
+43,Baseline,1.0,0.0,True marginal,0,0.0,0.05,0
+43,Baseline,1.0,0.0,True marginal,0,0.05,0.1,65
+43,Baseline,1.0,0.0,True marginal,0,0.1,0.15000000000000002,270
+43,Baseline,1.0,0.0,True marginal,0,0.15000000000000002,0.2,405
+43,Baseline,1.0,0.0,True marginal,0,0.2,0.25,362
+43,Baseline,1.0,0.0,True marginal,0,0.25,0.30000000000000004,298
+43,Baseline,1.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,234
+43,Baseline,1.0,0.0,True marginal,0,0.35000000000000003,0.4,175
+43,Baseline,1.0,0.0,True marginal,0,0.4,0.45,128
+43,Baseline,1.0,0.0,True marginal,0,0.45,0.5,76
+43,Baseline,1.0,0.0,True marginal,0,0.5,0.55,54
+43,Baseline,1.0,0.0,True marginal,0,0.55,0.6000000000000001,25
+43,Baseline,1.0,0.0,True marginal,0,0.6000000000000001,0.65,18
+43,Baseline,1.0,0.0,True marginal,0,0.65,0.7000000000000001,11
+43,Baseline,1.0,0.0,True marginal,0,0.7000000000000001,0.75,8
+43,Baseline,1.0,0.0,True marginal,0,0.75,0.8,1
+43,Baseline,1.0,0.0,True marginal,0,0.8,0.8500000000000001,1
+43,Baseline,1.0,0.0,True marginal,0,0.8500000000000001,0.9,0
+43,Baseline,1.0,0.0,True marginal,0,0.9,0.9500000000000001,0
+43,Baseline,1.0,0.0,True marginal,0,0.9500000000000001,1.0,0
+43,Baseline,1.0,0.0,True marginal,1,0.0,0.05,0
+43,Baseline,1.0,0.0,True marginal,1,0.05,0.1,8
+43,Baseline,1.0,0.0,True marginal,1,0.1,0.15000000000000002,36
+43,Baseline,1.0,0.0,True marginal,1,0.15000000000000002,0.2,73
+43,Baseline,1.0,0.0,True marginal,1,0.2,0.25,124
+43,Baseline,1.0,0.0,True marginal,1,0.25,0.30000000000000004,97
+43,Baseline,1.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,97
+43,Baseline,1.0,0.0,True marginal,1,0.35000000000000003,0.4,96
+43,Baseline,1.0,0.0,True marginal,1,0.4,0.45,89
+43,Baseline,1.0,0.0,True marginal,1,0.45,0.5,79
+43,Baseline,1.0,0.0,True marginal,1,0.5,0.55,62
+43,Baseline,1.0,0.0,True marginal,1,0.55,0.6000000000000001,32
+43,Baseline,1.0,0.0,True marginal,1,0.6000000000000001,0.65,26
+43,Baseline,1.0,0.0,True marginal,1,0.65,0.7000000000000001,15
+43,Baseline,1.0,0.0,True marginal,1,0.7000000000000001,0.75,18
+43,Baseline,1.0,0.0,True marginal,1,0.75,0.8,7
+43,Baseline,1.0,0.0,True marginal,1,0.8,0.8500000000000001,10
+43,Baseline,1.0,0.0,True marginal,1,0.8500000000000001,0.9,0
+43,Baseline,1.0,0.0,True marginal,1,0.9,0.9500000000000001,0
+43,Baseline,1.0,0.0,True marginal,1,0.9500000000000001,1.0,0
+43,Baseline,1.0,0.0,Estimated,0,0.0,0.05,0
+43,Baseline,1.0,0.0,Estimated,0,0.05,0.1,86
+43,Baseline,1.0,0.0,Estimated,0,0.1,0.15000000000000002,227
+43,Baseline,1.0,0.0,Estimated,0,0.15000000000000002,0.2,330
+43,Baseline,1.0,0.0,Estimated,0,0.2,0.25,423
+43,Baseline,1.0,0.0,Estimated,0,0.25,0.30000000000000004,293
+43,Baseline,1.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,251
+43,Baseline,1.0,0.0,Estimated,0,0.35000000000000003,0.4,164
+43,Baseline,1.0,0.0,Estimated,0,0.4,0.45,135
+43,Baseline,1.0,0.0,Estimated,0,0.45,0.5,70
+43,Baseline,1.0,0.0,Estimated,0,0.5,0.55,60
+43,Baseline,1.0,0.0,Estimated,0,0.55,0.6000000000000001,57
+43,Baseline,1.0,0.0,Estimated,0,0.6000000000000001,0.65,21
+43,Baseline,1.0,0.0,Estimated,0,0.65,0.7000000000000001,9
+43,Baseline,1.0,0.0,Estimated,0,0.7000000000000001,0.75,3
+43,Baseline,1.0,0.0,Estimated,0,0.75,0.8,2
+43,Baseline,1.0,0.0,Estimated,0,0.8,0.8500000000000001,0
+43,Baseline,1.0,0.0,Estimated,0,0.8500000000000001,0.9,0
+43,Baseline,1.0,0.0,Estimated,0,0.9,0.9500000000000001,0
+43,Baseline,1.0,0.0,Estimated,0,0.9500000000000001,1.0,0
+43,Baseline,1.0,0.0,Estimated,1,0.0,0.05,0
+43,Baseline,1.0,0.0,Estimated,1,0.05,0.1,10
+43,Baseline,1.0,0.0,Estimated,1,0.1,0.15000000000000002,27
+43,Baseline,1.0,0.0,Estimated,1,0.15000000000000002,0.2,76
+43,Baseline,1.0,0.0,Estimated,1,0.2,0.25,109
+43,Baseline,1.0,0.0,Estimated,1,0.25,0.30000000000000004,101
+43,Baseline,1.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,111
+43,Baseline,1.0,0.0,Estimated,1,0.35000000000000003,0.4,90
+43,Baseline,1.0,0.0,Estimated,1,0.4,0.45,96
+43,Baseline,1.0,0.0,Estimated,1,0.45,0.5,63
+43,Baseline,1.0,0.0,Estimated,1,0.5,0.55,58
+43,Baseline,1.0,0.0,Estimated,1,0.55,0.6000000000000001,45
+43,Baseline,1.0,0.0,Estimated,1,0.6000000000000001,0.65,46
+43,Baseline,1.0,0.0,Estimated,1,0.65,0.7000000000000001,15
+43,Baseline,1.0,0.0,Estimated,1,0.7000000000000001,0.75,16
+43,Baseline,1.0,0.0,Estimated,1,0.75,0.8,6
+43,Baseline,1.0,0.0,Estimated,1,0.8,0.8500000000000001,0
+43,Baseline,1.0,0.0,Estimated,1,0.8500000000000001,0.9,0
+43,Baseline,1.0,0.0,Estimated,1,0.9,0.9500000000000001,0
+43,Baseline,1.0,0.0,Estimated,1,0.9500000000000001,1.0,0
+43,Moderate overlap,2.5,0.0,True marginal,0,0.0,0.05,355
+43,Moderate overlap,2.5,0.0,True marginal,0,0.05,0.1,359
+43,Moderate overlap,2.5,0.0,True marginal,0,0.1,0.15000000000000002,248
+43,Moderate overlap,2.5,0.0,True marginal,0,0.15000000000000002,0.2,200
+43,Moderate overlap,2.5,0.0,True marginal,0,0.2,0.25,152
+43,Moderate overlap,2.5,0.0,True marginal,0,0.25,0.30000000000000004,129
+43,Moderate overlap,2.5,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,91
+43,Moderate overlap,2.5,0.0,True marginal,0,0.35000000000000003,0.4,101
+43,Moderate overlap,2.5,0.0,True marginal,0,0.4,0.45,59
+43,Moderate overlap,2.5,0.0,True marginal,0,0.45,0.5,65
+43,Moderate overlap,2.5,0.0,True marginal,0,0.5,0.55,45
+43,Moderate overlap,2.5,0.0,True marginal,0,0.55,0.6000000000000001,41
+43,Moderate overlap,2.5,0.0,True marginal,0,0.6000000000000001,0.65,26
+43,Moderate overlap,2.5,0.0,True marginal,0,0.65,0.7000000000000001,28
+43,Moderate overlap,2.5,0.0,True marginal,0,0.7000000000000001,0.75,28
+43,Moderate overlap,2.5,0.0,True marginal,0,0.75,0.8,13
+43,Moderate overlap,2.5,0.0,True marginal,0,0.8,0.8500000000000001,10
+43,Moderate overlap,2.5,0.0,True marginal,0,0.8500000000000001,0.9,10
+43,Moderate overlap,2.5,0.0,True marginal,0,0.9,0.9500000000000001,2
+43,Moderate overlap,2.5,0.0,True marginal,0,0.9500000000000001,1.0,0
+43,Moderate overlap,2.5,0.0,True marginal,1,0.0,0.05,15
+43,Moderate overlap,2.5,0.0,True marginal,1,0.05,0.1,23
+43,Moderate overlap,2.5,0.0,True marginal,1,0.1,0.15000000000000002,45
+43,Moderate overlap,2.5,0.0,True marginal,1,0.15000000000000002,0.2,51
+43,Moderate overlap,2.5,0.0,True marginal,1,0.2,0.25,42
+43,Moderate overlap,2.5,0.0,True marginal,1,0.25,0.30000000000000004,38
+43,Moderate overlap,2.5,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,39
+43,Moderate overlap,2.5,0.0,True marginal,1,0.35000000000000003,0.4,35
+43,Moderate overlap,2.5,0.0,True marginal,1,0.4,0.45,48
+43,Moderate overlap,2.5,0.0,True marginal,1,0.45,0.5,51
+43,Moderate overlap,2.5,0.0,True marginal,1,0.5,0.55,65
+43,Moderate overlap,2.5,0.0,True marginal,1,0.55,0.6000000000000001,43
+43,Moderate overlap,2.5,0.0,True marginal,1,0.6000000000000001,0.65,71
+43,Moderate overlap,2.5,0.0,True marginal,1,0.65,0.7000000000000001,61
+43,Moderate overlap,2.5,0.0,True marginal,1,0.7000000000000001,0.75,66
+43,Moderate overlap,2.5,0.0,True marginal,1,0.75,0.8,71
+43,Moderate overlap,2.5,0.0,True marginal,1,0.8,0.8500000000000001,71
+43,Moderate overlap,2.5,0.0,True marginal,1,0.8500000000000001,0.9,72
+43,Moderate overlap,2.5,0.0,True marginal,1,0.9,0.9500000000000001,60
+43,Moderate overlap,2.5,0.0,True marginal,1,0.9500000000000001,1.0,71
+43,Moderate overlap,2.5,0.0,Estimated,0,0.0,0.05,307
+43,Moderate overlap,2.5,0.0,Estimated,0,0.05,0.1,307
+43,Moderate overlap,2.5,0.0,Estimated,0,0.1,0.15000000000000002,277
+43,Moderate overlap,2.5,0.0,Estimated,0,0.15000000000000002,0.2,243
+43,Moderate overlap,2.5,0.0,Estimated,0,0.2,0.25,150
+43,Moderate overlap,2.5,0.0,Estimated,0,0.25,0.30000000000000004,125
+43,Moderate overlap,2.5,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,106
+43,Moderate overlap,2.5,0.0,Estimated,0,0.35000000000000003,0.4,85
+43,Moderate overlap,2.5,0.0,Estimated,0,0.4,0.45,75
+43,Moderate overlap,2.5,0.0,Estimated,0,0.45,0.5,67
+43,Moderate overlap,2.5,0.0,Estimated,0,0.5,0.55,46
+43,Moderate overlap,2.5,0.0,Estimated,0,0.55,0.6000000000000001,52
+43,Moderate overlap,2.5,0.0,Estimated,0,0.6000000000000001,0.65,27
+43,Moderate overlap,2.5,0.0,Estimated,0,0.65,0.7000000000000001,34
+43,Moderate overlap,2.5,0.0,Estimated,0,0.7000000000000001,0.75,16
+43,Moderate overlap,2.5,0.0,Estimated,0,0.75,0.8,28
+43,Moderate overlap,2.5,0.0,Estimated,0,0.8,0.8500000000000001,7
+43,Moderate overlap,2.5,0.0,Estimated,0,0.8500000000000001,0.9,6
+43,Moderate overlap,2.5,0.0,Estimated,0,0.9,0.9500000000000001,3
+43,Moderate overlap,2.5,0.0,Estimated,0,0.9500000000000001,1.0,1
+43,Moderate overlap,2.5,0.0,Estimated,1,0.0,0.05,13
+43,Moderate overlap,2.5,0.0,Estimated,1,0.05,0.1,17
+43,Moderate overlap,2.5,0.0,Estimated,1,0.1,0.15000000000000002,48
+43,Moderate overlap,2.5,0.0,Estimated,1,0.15000000000000002,0.2,48
+43,Moderate overlap,2.5,0.0,Estimated,1,0.2,0.25,31
+43,Moderate overlap,2.5,0.0,Estimated,1,0.25,0.30000000000000004,45
+43,Moderate overlap,2.5,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,46
+43,Moderate overlap,2.5,0.0,Estimated,1,0.35000000000000003,0.4,53
+43,Moderate overlap,2.5,0.0,Estimated,1,0.4,0.45,53
+43,Moderate overlap,2.5,0.0,Estimated,1,0.45,0.5,51
+43,Moderate overlap,2.5,0.0,Estimated,1,0.5,0.55,63
+43,Moderate overlap,2.5,0.0,Estimated,1,0.55,0.6000000000000001,57
+43,Moderate overlap,2.5,0.0,Estimated,1,0.6000000000000001,0.65,69
+43,Moderate overlap,2.5,0.0,Estimated,1,0.65,0.7000000000000001,74
+43,Moderate overlap,2.5,0.0,Estimated,1,0.7000000000000001,0.75,77
+43,Moderate overlap,2.5,0.0,Estimated,1,0.75,0.8,91
+43,Moderate overlap,2.5,0.0,Estimated,1,0.8,0.8500000000000001,63
+43,Moderate overlap,2.5,0.0,Estimated,1,0.8500000000000001,0.9,65
+43,Moderate overlap,2.5,0.0,Estimated,1,0.9,0.9500000000000001,38
+43,Moderate overlap,2.5,0.0,Estimated,1,0.9500000000000001,1.0,36
+43,Severe overlap,5.0,0.0,True marginal,0,0.0,0.05,911
+43,Severe overlap,5.0,0.0,True marginal,0,0.05,0.1,210
+43,Severe overlap,5.0,0.0,True marginal,0,0.1,0.15000000000000002,157
+43,Severe overlap,5.0,0.0,True marginal,0,0.15000000000000002,0.2,91
+43,Severe overlap,5.0,0.0,True marginal,0,0.2,0.25,80
+43,Severe overlap,5.0,0.0,True marginal,0,0.25,0.30000000000000004,66
+43,Severe overlap,5.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,44
+43,Severe overlap,5.0,0.0,True marginal,0,0.35000000000000003,0.4,42
+43,Severe overlap,5.0,0.0,True marginal,0,0.4,0.45,35
+43,Severe overlap,5.0,0.0,True marginal,0,0.45,0.5,46
+43,Severe overlap,5.0,0.0,True marginal,0,0.5,0.55,27
+43,Severe overlap,5.0,0.0,True marginal,0,0.55,0.6000000000000001,25
+43,Severe overlap,5.0,0.0,True marginal,0,0.6000000000000001,0.65,15
+43,Severe overlap,5.0,0.0,True marginal,0,0.65,0.7000000000000001,23
+43,Severe overlap,5.0,0.0,True marginal,0,0.7000000000000001,0.75,25
+43,Severe overlap,5.0,0.0,True marginal,0,0.75,0.8,17
+43,Severe overlap,5.0,0.0,True marginal,0,0.8,0.8500000000000001,10
+43,Severe overlap,5.0,0.0,True marginal,0,0.8500000000000001,0.9,9
+43,Severe overlap,5.0,0.0,True marginal,0,0.9,0.9500000000000001,14
+43,Severe overlap,5.0,0.0,True marginal,0,0.9500000000000001,1.0,8
+43,Severe overlap,5.0,0.0,True marginal,1,0.0,0.05,9
+43,Severe overlap,5.0,0.0,True marginal,1,0.05,0.1,28
+43,Severe overlap,5.0,0.0,True marginal,1,0.1,0.15000000000000002,21
+43,Severe overlap,5.0,0.0,True marginal,1,0.15000000000000002,0.2,18
+43,Severe overlap,5.0,0.0,True marginal,1,0.2,0.25,15
+43,Severe overlap,5.0,0.0,True marginal,1,0.25,0.30000000000000004,19
+43,Severe overlap,5.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,28
+43,Severe overlap,5.0,0.0,True marginal,1,0.35000000000000003,0.4,15
+43,Severe overlap,5.0,0.0,True marginal,1,0.4,0.45,29
+43,Severe overlap,5.0,0.0,True marginal,1,0.45,0.5,25
+43,Severe overlap,5.0,0.0,True marginal,1,0.5,0.55,30
+43,Severe overlap,5.0,0.0,True marginal,1,0.55,0.6000000000000001,31
+43,Severe overlap,5.0,0.0,True marginal,1,0.6000000000000001,0.65,32
+43,Severe overlap,5.0,0.0,True marginal,1,0.65,0.7000000000000001,43
+43,Severe overlap,5.0,0.0,True marginal,1,0.7000000000000001,0.75,46
+43,Severe overlap,5.0,0.0,True marginal,1,0.75,0.8,64
+43,Severe overlap,5.0,0.0,True marginal,1,0.8,0.8500000000000001,61
+43,Severe overlap,5.0,0.0,True marginal,1,0.8500000000000001,0.9,92
+43,Severe overlap,5.0,0.0,True marginal,1,0.9,0.9500000000000001,130
+43,Severe overlap,5.0,0.0,True marginal,1,0.9500000000000001,1.0,409
+43,Severe overlap,5.0,0.0,Estimated,0,0.0,0.05,768
+43,Severe overlap,5.0,0.0,Estimated,0,0.05,0.1,238
+43,Severe overlap,5.0,0.0,Estimated,0,0.1,0.15000000000000002,160
+43,Severe overlap,5.0,0.0,Estimated,0,0.15000000000000002,0.2,136
+43,Severe overlap,5.0,0.0,Estimated,0,0.2,0.25,101
+43,Severe overlap,5.0,0.0,Estimated,0,0.25,0.30000000000000004,75
+43,Severe overlap,5.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,54
+43,Severe overlap,5.0,0.0,Estimated,0,0.35000000000000003,0.4,39
+43,Severe overlap,5.0,0.0,Estimated,0,0.4,0.45,41
+43,Severe overlap,5.0,0.0,Estimated,0,0.45,0.5,49
+43,Severe overlap,5.0,0.0,Estimated,0,0.5,0.55,22
+43,Severe overlap,5.0,0.0,Estimated,0,0.55,0.6000000000000001,31
+43,Severe overlap,5.0,0.0,Estimated,0,0.6000000000000001,0.65,25
+43,Severe overlap,5.0,0.0,Estimated,0,0.65,0.7000000000000001,33
+43,Severe overlap,5.0,0.0,Estimated,0,0.7000000000000001,0.75,23
+43,Severe overlap,5.0,0.0,Estimated,0,0.75,0.8,18
+43,Severe overlap,5.0,0.0,Estimated,0,0.8,0.8500000000000001,11
+43,Severe overlap,5.0,0.0,Estimated,0,0.8500000000000001,0.9,13
+43,Severe overlap,5.0,0.0,Estimated,0,0.9,0.9500000000000001,15
+43,Severe overlap,5.0,0.0,Estimated,0,0.9500000000000001,1.0,3
+43,Severe overlap,5.0,0.0,Estimated,1,0.0,0.05,10
+43,Severe overlap,5.0,0.0,Estimated,1,0.05,0.1,19
+43,Severe overlap,5.0,0.0,Estimated,1,0.1,0.15000000000000002,23
+43,Severe overlap,5.0,0.0,Estimated,1,0.15000000000000002,0.2,16
+43,Severe overlap,5.0,0.0,Estimated,1,0.2,0.25,16
+43,Severe overlap,5.0,0.0,Estimated,1,0.25,0.30000000000000004,18
+43,Severe overlap,5.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,35
+43,Severe overlap,5.0,0.0,Estimated,1,0.35000000000000003,0.4,33
+43,Severe overlap,5.0,0.0,Estimated,1,0.4,0.45,29
+43,Severe overlap,5.0,0.0,Estimated,1,0.45,0.5,40
+43,Severe overlap,5.0,0.0,Estimated,1,0.5,0.55,36
+43,Severe overlap,5.0,0.0,Estimated,1,0.55,0.6000000000000001,36
+43,Severe overlap,5.0,0.0,Estimated,1,0.6000000000000001,0.65,40
+43,Severe overlap,5.0,0.0,Estimated,1,0.65,0.7000000000000001,60
+43,Severe overlap,5.0,0.0,Estimated,1,0.7000000000000001,0.75,69
+43,Severe overlap,5.0,0.0,Estimated,1,0.75,0.8,71
+43,Severe overlap,5.0,0.0,Estimated,1,0.8,0.8500000000000001,70
+43,Severe overlap,5.0,0.0,Estimated,1,0.8500000000000001,0.9,85
+43,Severe overlap,5.0,0.0,Estimated,1,0.9,0.9500000000000001,147
+43,Severe overlap,5.0,0.0,Estimated,1,0.9500000000000001,1.0,292
+43,Moderate hidden,1.0,0.8,True marginal,0,0.0,0.05,0
+43,Moderate hidden,1.0,0.8,True marginal,0,0.05,0.1,15
+43,Moderate hidden,1.0,0.8,True marginal,0,0.1,0.15000000000000002,167
+43,Moderate hidden,1.0,0.8,True marginal,0,0.15000000000000002,0.2,292
+43,Moderate hidden,1.0,0.8,True marginal,0,0.2,0.25,368
+43,Moderate hidden,1.0,0.8,True marginal,0,0.25,0.30000000000000004,340
+43,Moderate hidden,1.0,0.8,True marginal,0,0.30000000000000004,0.35000000000000003,287
+43,Moderate hidden,1.0,0.8,True marginal,0,0.35000000000000003,0.4,213
+43,Moderate hidden,1.0,0.8,True marginal,0,0.4,0.45,143
+43,Moderate hidden,1.0,0.8,True marginal,0,0.45,0.5,102
+43,Moderate hidden,1.0,0.8,True marginal,0,0.5,0.55,56
+43,Moderate hidden,1.0,0.8,True marginal,0,0.55,0.6000000000000001,27
+43,Moderate hidden,1.0,0.8,True marginal,0,0.6000000000000001,0.65,17
+43,Moderate hidden,1.0,0.8,True marginal,0,0.65,0.7000000000000001,7
+43,Moderate hidden,1.0,0.8,True marginal,0,0.7000000000000001,0.75,11
+43,Moderate hidden,1.0,0.8,True marginal,0,0.75,0.8,2
+43,Moderate hidden,1.0,0.8,True marginal,0,0.8,0.8500000000000001,0
+43,Moderate hidden,1.0,0.8,True marginal,0,0.8500000000000001,0.9,0
+43,Moderate hidden,1.0,0.8,True marginal,0,0.9,0.9500000000000001,0
+43,Moderate hidden,1.0,0.8,True marginal,0,0.9500000000000001,1.0,0
+43,Moderate hidden,1.0,0.8,True marginal,1,0.0,0.05,0
+43,Moderate hidden,1.0,0.8,True marginal,1,0.05,0.1,3
+43,Moderate hidden,1.0,0.8,True marginal,1,0.1,0.15000000000000002,17
+43,Moderate hidden,1.0,0.8,True marginal,1,0.15000000000000002,0.2,64
+43,Moderate hidden,1.0,0.8,True marginal,1,0.2,0.25,122
+43,Moderate hidden,1.0,0.8,True marginal,1,0.25,0.30000000000000004,144
+43,Moderate hidden,1.0,0.8,True marginal,1,0.30000000000000004,0.35000000000000003,121
+43,Moderate hidden,1.0,0.8,True marginal,1,0.35000000000000003,0.4,122
+43,Moderate hidden,1.0,0.8,True marginal,1,0.4,0.45,104
+43,Moderate hidden,1.0,0.8,True marginal,1,0.45,0.5,88
+43,Moderate hidden,1.0,0.8,True marginal,1,0.5,0.55,73
+43,Moderate hidden,1.0,0.8,True marginal,1,0.55,0.6000000000000001,34
+43,Moderate hidden,1.0,0.8,True marginal,1,0.6000000000000001,0.65,27
+43,Moderate hidden,1.0,0.8,True marginal,1,0.65,0.7000000000000001,13
+43,Moderate hidden,1.0,0.8,True marginal,1,0.7000000000000001,0.75,10
+43,Moderate hidden,1.0,0.8,True marginal,1,0.75,0.8,11
+43,Moderate hidden,1.0,0.8,True marginal,1,0.8,0.8500000000000001,0
+43,Moderate hidden,1.0,0.8,True marginal,1,0.8500000000000001,0.9,0
+43,Moderate hidden,1.0,0.8,True marginal,1,0.9,0.9500000000000001,0
+43,Moderate hidden,1.0,0.8,True marginal,1,0.9500000000000001,1.0,0
+43,Moderate hidden,1.0,0.8,Estimated,0,0.0,0.05,0
+43,Moderate hidden,1.0,0.8,Estimated,0,0.05,0.1,23
+43,Moderate hidden,1.0,0.8,Estimated,0,0.1,0.15000000000000002,137
+43,Moderate hidden,1.0,0.8,Estimated,0,0.15000000000000002,0.2,289
+43,Moderate hidden,1.0,0.8,Estimated,0,0.2,0.25,326
+43,Moderate hidden,1.0,0.8,Estimated,0,0.25,0.30000000000000004,342
+43,Moderate hidden,1.0,0.8,Estimated,0,0.30000000000000004,0.35000000000000003,303
+43,Moderate hidden,1.0,0.8,Estimated,0,0.35000000000000003,0.4,225
+43,Moderate hidden,1.0,0.8,Estimated,0,0.4,0.45,170
+43,Moderate hidden,1.0,0.8,Estimated,0,0.45,0.5,110
+43,Moderate hidden,1.0,0.8,Estimated,0,0.5,0.55,51
+43,Moderate hidden,1.0,0.8,Estimated,0,0.55,0.6000000000000001,31
+43,Moderate hidden,1.0,0.8,Estimated,0,0.6000000000000001,0.65,23
+43,Moderate hidden,1.0,0.8,Estimated,0,0.65,0.7000000000000001,13
+43,Moderate hidden,1.0,0.8,Estimated,0,0.7000000000000001,0.75,3
+43,Moderate hidden,1.0,0.8,Estimated,0,0.75,0.8,1
+43,Moderate hidden,1.0,0.8,Estimated,0,0.8,0.8500000000000001,0
+43,Moderate hidden,1.0,0.8,Estimated,0,0.8500000000000001,0.9,0
+43,Moderate hidden,1.0,0.8,Estimated,0,0.9,0.9500000000000001,0
+43,Moderate hidden,1.0,0.8,Estimated,0,0.9500000000000001,1.0,0
+43,Moderate hidden,1.0,0.8,Estimated,1,0.0,0.05,0
+43,Moderate hidden,1.0,0.8,Estimated,1,0.05,0.1,1
+43,Moderate hidden,1.0,0.8,Estimated,1,0.1,0.15000000000000002,21
+43,Moderate hidden,1.0,0.8,Estimated,1,0.15000000000000002,0.2,68
+43,Moderate hidden,1.0,0.8,Estimated,1,0.2,0.25,102
+43,Moderate hidden,1.0,0.8,Estimated,1,0.25,0.30000000000000004,136
+43,Moderate hidden,1.0,0.8,Estimated,1,0.30000000000000004,0.35000000000000003,131
+43,Moderate hidden,1.0,0.8,Estimated,1,0.35000000000000003,0.4,134
+43,Moderate hidden,1.0,0.8,Estimated,1,0.4,0.45,100
+43,Moderate hidden,1.0,0.8,Estimated,1,0.45,0.5,90
+43,Moderate hidden,1.0,0.8,Estimated,1,0.5,0.55,69
+43,Moderate hidden,1.0,0.8,Estimated,1,0.55,0.6000000000000001,35
+43,Moderate hidden,1.0,0.8,Estimated,1,0.6000000000000001,0.65,34
+43,Moderate hidden,1.0,0.8,Estimated,1,0.65,0.7000000000000001,20
+43,Moderate hidden,1.0,0.8,Estimated,1,0.7000000000000001,0.75,9
+43,Moderate hidden,1.0,0.8,Estimated,1,0.75,0.8,3
+43,Moderate hidden,1.0,0.8,Estimated,1,0.8,0.8500000000000001,0
+43,Moderate hidden,1.0,0.8,Estimated,1,0.8500000000000001,0.9,0
+43,Moderate hidden,1.0,0.8,Estimated,1,0.9,0.9500000000000001,0
+43,Moderate hidden,1.0,0.8,Estimated,1,0.9500000000000001,1.0,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.0,0.05,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.05,0.1,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.1,0.15000000000000002,8
+43,Severe hidden,1.0,1.6,True marginal,0,0.15000000000000002,0.2,85
+43,Severe hidden,1.0,1.6,True marginal,0,0.2,0.25,205
+43,Severe hidden,1.0,1.6,True marginal,0,0.25,0.30000000000000004,326
+43,Severe hidden,1.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,376
+43,Severe hidden,1.0,1.6,True marginal,0,0.35000000000000003,0.4,350
+43,Severe hidden,1.0,1.6,True marginal,0,0.4,0.45,259
+43,Severe hidden,1.0,1.6,True marginal,0,0.45,0.5,162
+43,Severe hidden,1.0,1.6,True marginal,0,0.5,0.55,75
+43,Severe hidden,1.0,1.6,True marginal,0,0.55,0.6000000000000001,27
+43,Severe hidden,1.0,1.6,True marginal,0,0.6000000000000001,0.65,14
+43,Severe hidden,1.0,1.6,True marginal,0,0.65,0.7000000000000001,7
+43,Severe hidden,1.0,1.6,True marginal,0,0.7000000000000001,0.75,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.75,0.8,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.8,0.8500000000000001,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.8500000000000001,0.9,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.9,0.9500000000000001,0
+43,Severe hidden,1.0,1.6,True marginal,0,0.9500000000000001,1.0,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.0,0.05,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.05,0.1,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.1,0.15000000000000002,4
+43,Severe hidden,1.0,1.6,True marginal,1,0.15000000000000002,0.2,13
+43,Severe hidden,1.0,1.6,True marginal,1,0.2,0.25,61
+43,Severe hidden,1.0,1.6,True marginal,1,0.25,0.30000000000000004,145
+43,Severe hidden,1.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,199
+43,Severe hidden,1.0,1.6,True marginal,1,0.35000000000000003,0.4,184
+43,Severe hidden,1.0,1.6,True marginal,1,0.4,0.45,183
+43,Severe hidden,1.0,1.6,True marginal,1,0.45,0.5,152
+43,Severe hidden,1.0,1.6,True marginal,1,0.5,0.55,86
+43,Severe hidden,1.0,1.6,True marginal,1,0.55,0.6000000000000001,43
+43,Severe hidden,1.0,1.6,True marginal,1,0.6000000000000001,0.65,21
+43,Severe hidden,1.0,1.6,True marginal,1,0.65,0.7000000000000001,15
+43,Severe hidden,1.0,1.6,True marginal,1,0.7000000000000001,0.75,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.75,0.8,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.8,0.8500000000000001,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.8500000000000001,0.9,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.9,0.9500000000000001,0
+43,Severe hidden,1.0,1.6,True marginal,1,0.9500000000000001,1.0,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.0,0.05,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.05,0.1,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.1,0.15000000000000002,12
+43,Severe hidden,1.0,1.6,Estimated,0,0.15000000000000002,0.2,92
+43,Severe hidden,1.0,1.6,Estimated,0,0.2,0.25,203
+43,Severe hidden,1.0,1.6,Estimated,0,0.25,0.30000000000000004,273
+43,Severe hidden,1.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,374
+43,Severe hidden,1.0,1.6,Estimated,0,0.35000000000000003,0.4,344
+43,Severe hidden,1.0,1.6,Estimated,0,0.4,0.45,261
+43,Severe hidden,1.0,1.6,Estimated,0,0.45,0.5,175
+43,Severe hidden,1.0,1.6,Estimated,0,0.5,0.55,97
+43,Severe hidden,1.0,1.6,Estimated,0,0.55,0.6000000000000001,34
+43,Severe hidden,1.0,1.6,Estimated,0,0.6000000000000001,0.65,23
+43,Severe hidden,1.0,1.6,Estimated,0,0.65,0.7000000000000001,5
+43,Severe hidden,1.0,1.6,Estimated,0,0.7000000000000001,0.75,1
+43,Severe hidden,1.0,1.6,Estimated,0,0.75,0.8,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.8,0.8500000000000001,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.8500000000000001,0.9,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.9,0.9500000000000001,0
+43,Severe hidden,1.0,1.6,Estimated,0,0.9500000000000001,1.0,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.0,0.05,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.05,0.1,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.1,0.15000000000000002,3
+43,Severe hidden,1.0,1.6,Estimated,1,0.15000000000000002,0.2,21
+43,Severe hidden,1.0,1.6,Estimated,1,0.2,0.25,65
+43,Severe hidden,1.0,1.6,Estimated,1,0.25,0.30000000000000004,130
+43,Severe hidden,1.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,188
+43,Severe hidden,1.0,1.6,Estimated,1,0.35000000000000003,0.4,205
+43,Severe hidden,1.0,1.6,Estimated,1,0.4,0.45,194
+43,Severe hidden,1.0,1.6,Estimated,1,0.45,0.5,113
+43,Severe hidden,1.0,1.6,Estimated,1,0.5,0.55,85
+43,Severe hidden,1.0,1.6,Estimated,1,0.55,0.6000000000000001,58
+43,Severe hidden,1.0,1.6,Estimated,1,0.6000000000000001,0.65,32
+43,Severe hidden,1.0,1.6,Estimated,1,0.65,0.7000000000000001,12
+43,Severe hidden,1.0,1.6,Estimated,1,0.7000000000000001,0.75,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.75,0.8,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.8,0.8500000000000001,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.8500000000000001,0.9,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.9,0.9500000000000001,0
+43,Severe hidden,1.0,1.6,Estimated,1,0.9500000000000001,1.0,0
+43,Combined severe,5.0,1.6,True marginal,0,0.0,0.05,631
+43,Combined severe,5.0,1.6,True marginal,0,0.05,0.1,229
+43,Combined severe,5.0,1.6,True marginal,0,0.1,0.15000000000000002,134
+43,Combined severe,5.0,1.6,True marginal,0,0.15000000000000002,0.2,118
+43,Combined severe,5.0,1.6,True marginal,0,0.2,0.25,103
+43,Combined severe,5.0,1.6,True marginal,0,0.25,0.30000000000000004,80
+43,Combined severe,5.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,79
+43,Combined severe,5.0,1.6,True marginal,0,0.35000000000000003,0.4,81
+43,Combined severe,5.0,1.6,True marginal,0,0.4,0.45,56
+43,Combined severe,5.0,1.6,True marginal,0,0.45,0.5,68
+43,Combined severe,5.0,1.6,True marginal,0,0.5,0.55,54
+43,Combined severe,5.0,1.6,True marginal,0,0.55,0.6000000000000001,37
+43,Combined severe,5.0,1.6,True marginal,0,0.6000000000000001,0.65,38
+43,Combined severe,5.0,1.6,True marginal,0,0.65,0.7000000000000001,32
+43,Combined severe,5.0,1.6,True marginal,0,0.7000000000000001,0.75,22
+43,Combined severe,5.0,1.6,True marginal,0,0.75,0.8,15
+43,Combined severe,5.0,1.6,True marginal,0,0.8,0.8500000000000001,11
+43,Combined severe,5.0,1.6,True marginal,0,0.8500000000000001,0.9,16
+43,Combined severe,5.0,1.6,True marginal,0,0.9,0.9500000000000001,7
+43,Combined severe,5.0,1.6,True marginal,0,0.9500000000000001,1.0,2
+43,Combined severe,5.0,1.6,True marginal,1,0.0,0.05,6
+43,Combined severe,5.0,1.6,True marginal,1,0.05,0.1,18
+43,Combined severe,5.0,1.6,True marginal,1,0.1,0.15000000000000002,27
+43,Combined severe,5.0,1.6,True marginal,1,0.15000000000000002,0.2,28
+43,Combined severe,5.0,1.6,True marginal,1,0.2,0.25,41
+43,Combined severe,5.0,1.6,True marginal,1,0.25,0.30000000000000004,28
+43,Combined severe,5.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,35
+43,Combined severe,5.0,1.6,True marginal,1,0.35000000000000003,0.4,36
+43,Combined severe,5.0,1.6,True marginal,1,0.4,0.45,39
+43,Combined severe,5.0,1.6,True marginal,1,0.45,0.5,52
+43,Combined severe,5.0,1.6,True marginal,1,0.5,0.55,46
+43,Combined severe,5.0,1.6,True marginal,1,0.55,0.6000000000000001,51
+43,Combined severe,5.0,1.6,True marginal,1,0.6000000000000001,0.65,56
+43,Combined severe,5.0,1.6,True marginal,1,0.65,0.7000000000000001,65
+43,Combined severe,5.0,1.6,True marginal,1,0.7000000000000001,0.75,48
+43,Combined severe,5.0,1.6,True marginal,1,0.75,0.8,64
+43,Combined severe,5.0,1.6,True marginal,1,0.8,0.8500000000000001,79
+43,Combined severe,5.0,1.6,True marginal,1,0.8500000000000001,0.9,85
+43,Combined severe,5.0,1.6,True marginal,1,0.9,0.9500000000000001,107
+43,Combined severe,5.0,1.6,True marginal,1,0.9500000000000001,1.0,276
+43,Combined severe,5.0,1.6,Estimated,0,0.0,0.05,530
+43,Combined severe,5.0,1.6,Estimated,0,0.05,0.1,223
+43,Combined severe,5.0,1.6,Estimated,0,0.1,0.15000000000000002,152
+43,Combined severe,5.0,1.6,Estimated,0,0.15000000000000002,0.2,117
+43,Combined severe,5.0,1.6,Estimated,0,0.2,0.25,131
+43,Combined severe,5.0,1.6,Estimated,0,0.25,0.30000000000000004,112
+43,Combined severe,5.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,90
+43,Combined severe,5.0,1.6,Estimated,0,0.35000000000000003,0.4,80
+43,Combined severe,5.0,1.6,Estimated,0,0.4,0.45,47
+43,Combined severe,5.0,1.6,Estimated,0,0.45,0.5,53
+43,Combined severe,5.0,1.6,Estimated,0,0.5,0.55,64
+43,Combined severe,5.0,1.6,Estimated,0,0.55,0.6000000000000001,52
+43,Combined severe,5.0,1.6,Estimated,0,0.6000000000000001,0.65,39
+43,Combined severe,5.0,1.6,Estimated,0,0.65,0.7000000000000001,33
+43,Combined severe,5.0,1.6,Estimated,0,0.7000000000000001,0.75,32
+43,Combined severe,5.0,1.6,Estimated,0,0.75,0.8,20
+43,Combined severe,5.0,1.6,Estimated,0,0.8,0.8500000000000001,18
+43,Combined severe,5.0,1.6,Estimated,0,0.8500000000000001,0.9,13
+43,Combined severe,5.0,1.6,Estimated,0,0.9,0.9500000000000001,7
+43,Combined severe,5.0,1.6,Estimated,0,0.9500000000000001,1.0,0
+43,Combined severe,5.0,1.6,Estimated,1,0.0,0.05,8
+43,Combined severe,5.0,1.6,Estimated,1,0.05,0.1,14
+43,Combined severe,5.0,1.6,Estimated,1,0.1,0.15000000000000002,22
+43,Combined severe,5.0,1.6,Estimated,1,0.15000000000000002,0.2,22
+43,Combined severe,5.0,1.6,Estimated,1,0.2,0.25,34
+43,Combined severe,5.0,1.6,Estimated,1,0.25,0.30000000000000004,37
+43,Combined severe,5.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,46
+43,Combined severe,5.0,1.6,Estimated,1,0.35000000000000003,0.4,43
+43,Combined severe,5.0,1.6,Estimated,1,0.4,0.45,43
+43,Combined severe,5.0,1.6,Estimated,1,0.45,0.5,51
+43,Combined severe,5.0,1.6,Estimated,1,0.5,0.55,55
+43,Combined severe,5.0,1.6,Estimated,1,0.55,0.6000000000000001,53
+43,Combined severe,5.0,1.6,Estimated,1,0.6000000000000001,0.65,49
+43,Combined severe,5.0,1.6,Estimated,1,0.65,0.7000000000000001,78
+43,Combined severe,5.0,1.6,Estimated,1,0.7000000000000001,0.75,55
+43,Combined severe,5.0,1.6,Estimated,1,0.75,0.8,73
+43,Combined severe,5.0,1.6,Estimated,1,0.8,0.8500000000000001,82
+43,Combined severe,5.0,1.6,Estimated,1,0.8500000000000001,0.9,121
+43,Combined severe,5.0,1.6,Estimated,1,0.9,0.9500000000000001,144
+43,Combined severe,5.0,1.6,Estimated,1,0.9500000000000001,1.0,157
+44,Baseline,1.0,0.0,True marginal,0,0.0,0.05,0
+44,Baseline,1.0,0.0,True marginal,0,0.05,0.1,75
+44,Baseline,1.0,0.0,True marginal,0,0.1,0.15000000000000002,242
+44,Baseline,1.0,0.0,True marginal,0,0.15000000000000002,0.2,408
+44,Baseline,1.0,0.0,True marginal,0,0.2,0.25,356
+44,Baseline,1.0,0.0,True marginal,0,0.25,0.30000000000000004,309
+44,Baseline,1.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,214
+44,Baseline,1.0,0.0,True marginal,0,0.35000000000000003,0.4,154
+44,Baseline,1.0,0.0,True marginal,0,0.4,0.45,128
+44,Baseline,1.0,0.0,True marginal,0,0.45,0.5,80
+44,Baseline,1.0,0.0,True marginal,0,0.5,0.55,45
+44,Baseline,1.0,0.0,True marginal,0,0.55,0.6000000000000001,29
+44,Baseline,1.0,0.0,True marginal,0,0.6000000000000001,0.65,21
+44,Baseline,1.0,0.0,True marginal,0,0.65,0.7000000000000001,9
+44,Baseline,1.0,0.0,True marginal,0,0.7000000000000001,0.75,6
+44,Baseline,1.0,0.0,True marginal,0,0.75,0.8,1
+44,Baseline,1.0,0.0,True marginal,0,0.8,0.8500000000000001,3
+44,Baseline,1.0,0.0,True marginal,0,0.8500000000000001,0.9,0
+44,Baseline,1.0,0.0,True marginal,0,0.9,0.9500000000000001,0
+44,Baseline,1.0,0.0,True marginal,0,0.9500000000000001,1.0,0
+44,Baseline,1.0,0.0,True marginal,1,0.0,0.05,0
+44,Baseline,1.0,0.0,True marginal,1,0.05,0.1,9
+44,Baseline,1.0,0.0,True marginal,1,0.1,0.15000000000000002,29
+44,Baseline,1.0,0.0,True marginal,1,0.15000000000000002,0.2,83
+44,Baseline,1.0,0.0,True marginal,1,0.2,0.25,112
+44,Baseline,1.0,0.0,True marginal,1,0.25,0.30000000000000004,115
+44,Baseline,1.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,122
+44,Baseline,1.0,0.0,True marginal,1,0.35000000000000003,0.4,97
+44,Baseline,1.0,0.0,True marginal,1,0.4,0.45,94
+44,Baseline,1.0,0.0,True marginal,1,0.45,0.5,83
+44,Baseline,1.0,0.0,True marginal,1,0.5,0.55,50
+44,Baseline,1.0,0.0,True marginal,1,0.55,0.6000000000000001,43
+44,Baseline,1.0,0.0,True marginal,1,0.6000000000000001,0.65,29
+44,Baseline,1.0,0.0,True marginal,1,0.65,0.7000000000000001,19
+44,Baseline,1.0,0.0,True marginal,1,0.7000000000000001,0.75,11
+44,Baseline,1.0,0.0,True marginal,1,0.75,0.8,12
+44,Baseline,1.0,0.0,True marginal,1,0.8,0.8500000000000001,12
+44,Baseline,1.0,0.0,True marginal,1,0.8500000000000001,0.9,0
+44,Baseline,1.0,0.0,True marginal,1,0.9,0.9500000000000001,0
+44,Baseline,1.0,0.0,True marginal,1,0.9500000000000001,1.0,0
+44,Baseline,1.0,0.0,Estimated,0,0.0,0.05,1
+44,Baseline,1.0,0.0,Estimated,0,0.05,0.1,60
+44,Baseline,1.0,0.0,Estimated,0,0.1,0.15000000000000002,233
+44,Baseline,1.0,0.0,Estimated,0,0.15000000000000002,0.2,367
+44,Baseline,1.0,0.0,Estimated,0,0.2,0.25,433
+44,Baseline,1.0,0.0,Estimated,0,0.25,0.30000000000000004,304
+44,Baseline,1.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,225
+44,Baseline,1.0,0.0,Estimated,0,0.35000000000000003,0.4,177
+44,Baseline,1.0,0.0,Estimated,0,0.4,0.45,113
+44,Baseline,1.0,0.0,Estimated,0,0.45,0.5,76
+44,Baseline,1.0,0.0,Estimated,0,0.5,0.55,43
+44,Baseline,1.0,0.0,Estimated,0,0.55,0.6000000000000001,26
+44,Baseline,1.0,0.0,Estimated,0,0.6000000000000001,0.65,11
+44,Baseline,1.0,0.0,Estimated,0,0.65,0.7000000000000001,6
+44,Baseline,1.0,0.0,Estimated,0,0.7000000000000001,0.75,5
+44,Baseline,1.0,0.0,Estimated,0,0.75,0.8,0
+44,Baseline,1.0,0.0,Estimated,0,0.8,0.8500000000000001,0
+44,Baseline,1.0,0.0,Estimated,0,0.8500000000000001,0.9,0
+44,Baseline,1.0,0.0,Estimated,0,0.9,0.9500000000000001,0
+44,Baseline,1.0,0.0,Estimated,0,0.9500000000000001,1.0,0
+44,Baseline,1.0,0.0,Estimated,1,0.0,0.05,0
+44,Baseline,1.0,0.0,Estimated,1,0.05,0.1,6
+44,Baseline,1.0,0.0,Estimated,1,0.1,0.15000000000000002,41
+44,Baseline,1.0,0.0,Estimated,1,0.15000000000000002,0.2,79
+44,Baseline,1.0,0.0,Estimated,1,0.2,0.25,137
+44,Baseline,1.0,0.0,Estimated,1,0.25,0.30000000000000004,118
+44,Baseline,1.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,116
+44,Baseline,1.0,0.0,Estimated,1,0.35000000000000003,0.4,104
+44,Baseline,1.0,0.0,Estimated,1,0.4,0.45,109
+44,Baseline,1.0,0.0,Estimated,1,0.45,0.5,70
+44,Baseline,1.0,0.0,Estimated,1,0.5,0.55,45
+44,Baseline,1.0,0.0,Estimated,1,0.55,0.6000000000000001,45
+44,Baseline,1.0,0.0,Estimated,1,0.6000000000000001,0.65,21
+44,Baseline,1.0,0.0,Estimated,1,0.65,0.7000000000000001,13
+44,Baseline,1.0,0.0,Estimated,1,0.7000000000000001,0.75,10
+44,Baseline,1.0,0.0,Estimated,1,0.75,0.8,4
+44,Baseline,1.0,0.0,Estimated,1,0.8,0.8500000000000001,2
+44,Baseline,1.0,0.0,Estimated,1,0.8500000000000001,0.9,0
+44,Baseline,1.0,0.0,Estimated,1,0.9,0.9500000000000001,0
+44,Baseline,1.0,0.0,Estimated,1,0.9500000000000001,1.0,0
+44,Moderate overlap,2.5,0.0,True marginal,0,0.0,0.05,335
+44,Moderate overlap,2.5,0.0,True marginal,0,0.05,0.1,381
+44,Moderate overlap,2.5,0.0,True marginal,0,0.1,0.15000000000000002,249
+44,Moderate overlap,2.5,0.0,True marginal,0,0.15000000000000002,0.2,195
+44,Moderate overlap,2.5,0.0,True marginal,0,0.2,0.25,146
+44,Moderate overlap,2.5,0.0,True marginal,0,0.25,0.30000000000000004,125
+44,Moderate overlap,2.5,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,94
+44,Moderate overlap,2.5,0.0,True marginal,0,0.35000000000000003,0.4,82
+44,Moderate overlap,2.5,0.0,True marginal,0,0.4,0.45,56
+44,Moderate overlap,2.5,0.0,True marginal,0,0.45,0.5,56
+44,Moderate overlap,2.5,0.0,True marginal,0,0.5,0.55,50
+44,Moderate overlap,2.5,0.0,True marginal,0,0.55,0.6000000000000001,32
+44,Moderate overlap,2.5,0.0,True marginal,0,0.6000000000000001,0.65,37
+44,Moderate overlap,2.5,0.0,True marginal,0,0.65,0.7000000000000001,31
+44,Moderate overlap,2.5,0.0,True marginal,0,0.7000000000000001,0.75,21
+44,Moderate overlap,2.5,0.0,True marginal,0,0.75,0.8,20
+44,Moderate overlap,2.5,0.0,True marginal,0,0.8,0.8500000000000001,11
+44,Moderate overlap,2.5,0.0,True marginal,0,0.8500000000000001,0.9,10
+44,Moderate overlap,2.5,0.0,True marginal,0,0.9,0.9500000000000001,9
+44,Moderate overlap,2.5,0.0,True marginal,0,0.9500000000000001,1.0,2
+44,Moderate overlap,2.5,0.0,True marginal,1,0.0,0.05,13
+44,Moderate overlap,2.5,0.0,True marginal,1,0.05,0.1,33
+44,Moderate overlap,2.5,0.0,True marginal,1,0.1,0.15000000000000002,28
+44,Moderate overlap,2.5,0.0,True marginal,1,0.15000000000000002,0.2,49
+44,Moderate overlap,2.5,0.0,True marginal,1,0.2,0.25,43
+44,Moderate overlap,2.5,0.0,True marginal,1,0.25,0.30000000000000004,44
+44,Moderate overlap,2.5,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,50
+44,Moderate overlap,2.5,0.0,True marginal,1,0.35000000000000003,0.4,53
+44,Moderate overlap,2.5,0.0,True marginal,1,0.4,0.45,53
+44,Moderate overlap,2.5,0.0,True marginal,1,0.45,0.5,67
+44,Moderate overlap,2.5,0.0,True marginal,1,0.5,0.55,41
+44,Moderate overlap,2.5,0.0,True marginal,1,0.55,0.6000000000000001,51
+44,Moderate overlap,2.5,0.0,True marginal,1,0.6000000000000001,0.65,72
+44,Moderate overlap,2.5,0.0,True marginal,1,0.65,0.7000000000000001,49
+44,Moderate overlap,2.5,0.0,True marginal,1,0.7000000000000001,0.75,75
+44,Moderate overlap,2.5,0.0,True marginal,1,0.75,0.8,73
+44,Moderate overlap,2.5,0.0,True marginal,1,0.8,0.8500000000000001,53
+44,Moderate overlap,2.5,0.0,True marginal,1,0.8500000000000001,0.9,70
+44,Moderate overlap,2.5,0.0,True marginal,1,0.9,0.9500000000000001,69
+44,Moderate overlap,2.5,0.0,True marginal,1,0.9500000000000001,1.0,72
+44,Moderate overlap,2.5,0.0,Estimated,0,0.0,0.05,337
+44,Moderate overlap,2.5,0.0,Estimated,0,0.05,0.1,354
+44,Moderate overlap,2.5,0.0,Estimated,0,0.1,0.15000000000000002,238
+44,Moderate overlap,2.5,0.0,Estimated,0,0.15000000000000002,0.2,195
+44,Moderate overlap,2.5,0.0,Estimated,0,0.2,0.25,148
+44,Moderate overlap,2.5,0.0,Estimated,0,0.25,0.30000000000000004,120
+44,Moderate overlap,2.5,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,104
+44,Moderate overlap,2.5,0.0,Estimated,0,0.35000000000000003,0.4,86
+44,Moderate overlap,2.5,0.0,Estimated,0,0.4,0.45,65
+44,Moderate overlap,2.5,0.0,Estimated,0,0.45,0.5,60
+44,Moderate overlap,2.5,0.0,Estimated,0,0.5,0.55,46
+44,Moderate overlap,2.5,0.0,Estimated,0,0.55,0.6000000000000001,39
+44,Moderate overlap,2.5,0.0,Estimated,0,0.6000000000000001,0.65,41
+44,Moderate overlap,2.5,0.0,Estimated,0,0.65,0.7000000000000001,42
+44,Moderate overlap,2.5,0.0,Estimated,0,0.7000000000000001,0.75,26
+44,Moderate overlap,2.5,0.0,Estimated,0,0.75,0.8,18
+44,Moderate overlap,2.5,0.0,Estimated,0,0.8,0.8500000000000001,13
+44,Moderate overlap,2.5,0.0,Estimated,0,0.8500000000000001,0.9,5
+44,Moderate overlap,2.5,0.0,Estimated,0,0.9,0.9500000000000001,5
+44,Moderate overlap,2.5,0.0,Estimated,0,0.9500000000000001,1.0,0
+44,Moderate overlap,2.5,0.0,Estimated,1,0.0,0.05,18
+44,Moderate overlap,2.5,0.0,Estimated,1,0.05,0.1,28
+44,Moderate overlap,2.5,0.0,Estimated,1,0.1,0.15000000000000002,43
+44,Moderate overlap,2.5,0.0,Estimated,1,0.15000000000000002,0.2,34
+44,Moderate overlap,2.5,0.0,Estimated,1,0.2,0.25,46
+44,Moderate overlap,2.5,0.0,Estimated,1,0.25,0.30000000000000004,40
+44,Moderate overlap,2.5,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,64
+44,Moderate overlap,2.5,0.0,Estimated,1,0.35000000000000003,0.4,51
+44,Moderate overlap,2.5,0.0,Estimated,1,0.4,0.45,61
+44,Moderate overlap,2.5,0.0,Estimated,1,0.45,0.5,60
+44,Moderate overlap,2.5,0.0,Estimated,1,0.5,0.55,50
+44,Moderate overlap,2.5,0.0,Estimated,1,0.55,0.6000000000000001,67
+44,Moderate overlap,2.5,0.0,Estimated,1,0.6000000000000001,0.65,63
+44,Moderate overlap,2.5,0.0,Estimated,1,0.65,0.7000000000000001,81
+44,Moderate overlap,2.5,0.0,Estimated,1,0.7000000000000001,0.75,80
+44,Moderate overlap,2.5,0.0,Estimated,1,0.75,0.8,74
+44,Moderate overlap,2.5,0.0,Estimated,1,0.8,0.8500000000000001,64
+44,Moderate overlap,2.5,0.0,Estimated,1,0.8500000000000001,0.9,43
+44,Moderate overlap,2.5,0.0,Estimated,1,0.9,0.9500000000000001,65
+44,Moderate overlap,2.5,0.0,Estimated,1,0.9500000000000001,1.0,26
+44,Severe overlap,5.0,0.0,True marginal,0,0.0,0.05,910
+44,Severe overlap,5.0,0.0,True marginal,0,0.05,0.1,210
+44,Severe overlap,5.0,0.0,True marginal,0,0.1,0.15000000000000002,141
+44,Severe overlap,5.0,0.0,True marginal,0,0.15000000000000002,0.2,95
+44,Severe overlap,5.0,0.0,True marginal,0,0.2,0.25,94
+44,Severe overlap,5.0,0.0,True marginal,0,0.25,0.30000000000000004,53
+44,Severe overlap,5.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,41
+44,Severe overlap,5.0,0.0,True marginal,0,0.35000000000000003,0.4,52
+44,Severe overlap,5.0,0.0,True marginal,0,0.4,0.45,30
+44,Severe overlap,5.0,0.0,True marginal,0,0.45,0.5,30
+44,Severe overlap,5.0,0.0,True marginal,0,0.5,0.55,37
+44,Severe overlap,5.0,0.0,True marginal,0,0.55,0.6000000000000001,19
+44,Severe overlap,5.0,0.0,True marginal,0,0.6000000000000001,0.65,14
+44,Severe overlap,5.0,0.0,True marginal,0,0.65,0.7000000000000001,24
+44,Severe overlap,5.0,0.0,True marginal,0,0.7000000000000001,0.75,15
+44,Severe overlap,5.0,0.0,True marginal,0,0.75,0.8,19
+44,Severe overlap,5.0,0.0,True marginal,0,0.8,0.8500000000000001,12
+44,Severe overlap,5.0,0.0,True marginal,0,0.8500000000000001,0.9,14
+44,Severe overlap,5.0,0.0,True marginal,0,0.9,0.9500000000000001,10
+44,Severe overlap,5.0,0.0,True marginal,0,0.9500000000000001,1.0,10
+44,Severe overlap,5.0,0.0,True marginal,1,0.0,0.05,10
+44,Severe overlap,5.0,0.0,True marginal,1,0.05,0.1,14
+44,Severe overlap,5.0,0.0,True marginal,1,0.1,0.15000000000000002,24
+44,Severe overlap,5.0,0.0,True marginal,1,0.15000000000000002,0.2,24
+44,Severe overlap,5.0,0.0,True marginal,1,0.2,0.25,16
+44,Severe overlap,5.0,0.0,True marginal,1,0.25,0.30000000000000004,19
+44,Severe overlap,5.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,22
+44,Severe overlap,5.0,0.0,True marginal,1,0.35000000000000003,0.4,28
+44,Severe overlap,5.0,0.0,True marginal,1,0.4,0.45,31
+44,Severe overlap,5.0,0.0,True marginal,1,0.45,0.5,34
+44,Severe overlap,5.0,0.0,True marginal,1,0.5,0.55,29
+44,Severe overlap,5.0,0.0,True marginal,1,0.55,0.6000000000000001,31
+44,Severe overlap,5.0,0.0,True marginal,1,0.6000000000000001,0.65,42
+44,Severe overlap,5.0,0.0,True marginal,1,0.65,0.7000000000000001,48
+44,Severe overlap,5.0,0.0,True marginal,1,0.7000000000000001,0.75,51
+44,Severe overlap,5.0,0.0,True marginal,1,0.75,0.8,46
+44,Severe overlap,5.0,0.0,True marginal,1,0.8,0.8500000000000001,55
+44,Severe overlap,5.0,0.0,True marginal,1,0.8500000000000001,0.9,105
+44,Severe overlap,5.0,0.0,True marginal,1,0.9,0.9500000000000001,127
+44,Severe overlap,5.0,0.0,True marginal,1,0.9500000000000001,1.0,414
+44,Severe overlap,5.0,0.0,Estimated,0,0.0,0.05,794
+44,Severe overlap,5.0,0.0,Estimated,0,0.05,0.1,238
+44,Severe overlap,5.0,0.0,Estimated,0,0.1,0.15000000000000002,139
+44,Severe overlap,5.0,0.0,Estimated,0,0.15000000000000002,0.2,115
+44,Severe overlap,5.0,0.0,Estimated,0,0.2,0.25,82
+44,Severe overlap,5.0,0.0,Estimated,0,0.25,0.30000000000000004,73
+44,Severe overlap,5.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,63
+44,Severe overlap,5.0,0.0,Estimated,0,0.35000000000000003,0.4,44
+44,Severe overlap,5.0,0.0,Estimated,0,0.4,0.45,44
+44,Severe overlap,5.0,0.0,Estimated,0,0.45,0.5,51
+44,Severe overlap,5.0,0.0,Estimated,0,0.5,0.55,31
+44,Severe overlap,5.0,0.0,Estimated,0,0.55,0.6000000000000001,29
+44,Severe overlap,5.0,0.0,Estimated,0,0.6000000000000001,0.65,25
+44,Severe overlap,5.0,0.0,Estimated,0,0.65,0.7000000000000001,23
+44,Severe overlap,5.0,0.0,Estimated,0,0.7000000000000001,0.75,19
+44,Severe overlap,5.0,0.0,Estimated,0,0.75,0.8,14
+44,Severe overlap,5.0,0.0,Estimated,0,0.8,0.8500000000000001,9
+44,Severe overlap,5.0,0.0,Estimated,0,0.8500000000000001,0.9,22
+44,Severe overlap,5.0,0.0,Estimated,0,0.9,0.9500000000000001,12
+44,Severe overlap,5.0,0.0,Estimated,0,0.9500000000000001,1.0,3
+44,Severe overlap,5.0,0.0,Estimated,1,0.0,0.05,9
+44,Severe overlap,5.0,0.0,Estimated,1,0.05,0.1,14
+44,Severe overlap,5.0,0.0,Estimated,1,0.1,0.15000000000000002,18
+44,Severe overlap,5.0,0.0,Estimated,1,0.15000000000000002,0.2,15
+44,Severe overlap,5.0,0.0,Estimated,1,0.2,0.25,11
+44,Severe overlap,5.0,0.0,Estimated,1,0.25,0.30000000000000004,30
+44,Severe overlap,5.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,39
+44,Severe overlap,5.0,0.0,Estimated,1,0.35000000000000003,0.4,30
+44,Severe overlap,5.0,0.0,Estimated,1,0.4,0.45,37
+44,Severe overlap,5.0,0.0,Estimated,1,0.45,0.5,43
+44,Severe overlap,5.0,0.0,Estimated,1,0.5,0.55,35
+44,Severe overlap,5.0,0.0,Estimated,1,0.55,0.6000000000000001,63
+44,Severe overlap,5.0,0.0,Estimated,1,0.6000000000000001,0.65,50
+44,Severe overlap,5.0,0.0,Estimated,1,0.65,0.7000000000000001,63
+44,Severe overlap,5.0,0.0,Estimated,1,0.7000000000000001,0.75,71
+44,Severe overlap,5.0,0.0,Estimated,1,0.75,0.8,55
+44,Severe overlap,5.0,0.0,Estimated,1,0.8,0.8500000000000001,91
+44,Severe overlap,5.0,0.0,Estimated,1,0.8500000000000001,0.9,136
+44,Severe overlap,5.0,0.0,Estimated,1,0.9,0.9500000000000001,153
+44,Severe overlap,5.0,0.0,Estimated,1,0.9500000000000001,1.0,207
+44,Moderate hidden,1.0,0.8,True marginal,0,0.0,0.05,0
+44,Moderate hidden,1.0,0.8,True marginal,0,0.05,0.1,21
+44,Moderate hidden,1.0,0.8,True marginal,0,0.1,0.15000000000000002,145
+44,Moderate hidden,1.0,0.8,True marginal,0,0.15000000000000002,0.2,305
+44,Moderate hidden,1.0,0.8,True marginal,0,0.2,0.25,378
+44,Moderate hidden,1.0,0.8,True marginal,0,0.25,0.30000000000000004,371
+44,Moderate hidden,1.0,0.8,True marginal,0,0.30000000000000004,0.35000000000000003,271
+44,Moderate hidden,1.0,0.8,True marginal,0,0.35000000000000003,0.4,197
+44,Moderate hidden,1.0,0.8,True marginal,0,0.4,0.45,140
+44,Moderate hidden,1.0,0.8,True marginal,0,0.45,0.5,106
+44,Moderate hidden,1.0,0.8,True marginal,0,0.5,0.55,56
+44,Moderate hidden,1.0,0.8,True marginal,0,0.55,0.6000000000000001,27
+44,Moderate hidden,1.0,0.8,True marginal,0,0.6000000000000001,0.65,18
+44,Moderate hidden,1.0,0.8,True marginal,0,0.65,0.7000000000000001,10
+44,Moderate hidden,1.0,0.8,True marginal,0,0.7000000000000001,0.75,4
+44,Moderate hidden,1.0,0.8,True marginal,0,0.75,0.8,4
+44,Moderate hidden,1.0,0.8,True marginal,0,0.8,0.8500000000000001,0
+44,Moderate hidden,1.0,0.8,True marginal,0,0.8500000000000001,0.9,0
+44,Moderate hidden,1.0,0.8,True marginal,0,0.9,0.9500000000000001,0
+44,Moderate hidden,1.0,0.8,True marginal,0,0.9500000000000001,1.0,0
+44,Moderate hidden,1.0,0.8,True marginal,1,0.0,0.05,0
+44,Moderate hidden,1.0,0.8,True marginal,1,0.05,0.1,6
+44,Moderate hidden,1.0,0.8,True marginal,1,0.1,0.15000000000000002,19
+44,Moderate hidden,1.0,0.8,True marginal,1,0.15000000000000002,0.2,63
+44,Moderate hidden,1.0,0.8,True marginal,1,0.2,0.25,104
+44,Moderate hidden,1.0,0.8,True marginal,1,0.25,0.30000000000000004,123
+44,Moderate hidden,1.0,0.8,True marginal,1,0.30000000000000004,0.35000000000000003,134
+44,Moderate hidden,1.0,0.8,True marginal,1,0.35000000000000003,0.4,126
+44,Moderate hidden,1.0,0.8,True marginal,1,0.4,0.45,110
+44,Moderate hidden,1.0,0.8,True marginal,1,0.45,0.5,91
+44,Moderate hidden,1.0,0.8,True marginal,1,0.5,0.55,55
+44,Moderate hidden,1.0,0.8,True marginal,1,0.55,0.6000000000000001,43
+44,Moderate hidden,1.0,0.8,True marginal,1,0.6000000000000001,0.65,32
+44,Moderate hidden,1.0,0.8,True marginal,1,0.65,0.7000000000000001,15
+44,Moderate hidden,1.0,0.8,True marginal,1,0.7000000000000001,0.75,11
+44,Moderate hidden,1.0,0.8,True marginal,1,0.75,0.8,15
+44,Moderate hidden,1.0,0.8,True marginal,1,0.8,0.8500000000000001,0
+44,Moderate hidden,1.0,0.8,True marginal,1,0.8500000000000001,0.9,0
+44,Moderate hidden,1.0,0.8,True marginal,1,0.9,0.9500000000000001,0
+44,Moderate hidden,1.0,0.8,True marginal,1,0.9500000000000001,1.0,0
+44,Moderate hidden,1.0,0.8,Estimated,0,0.0,0.05,0
+44,Moderate hidden,1.0,0.8,Estimated,0,0.05,0.1,29
+44,Moderate hidden,1.0,0.8,Estimated,0,0.1,0.15000000000000002,147
+44,Moderate hidden,1.0,0.8,Estimated,0,0.15000000000000002,0.2,327
+44,Moderate hidden,1.0,0.8,Estimated,0,0.2,0.25,347
+44,Moderate hidden,1.0,0.8,Estimated,0,0.25,0.30000000000000004,358
+44,Moderate hidden,1.0,0.8,Estimated,0,0.30000000000000004,0.35000000000000003,283
+44,Moderate hidden,1.0,0.8,Estimated,0,0.35000000000000003,0.4,201
+44,Moderate hidden,1.0,0.8,Estimated,0,0.4,0.45,154
+44,Moderate hidden,1.0,0.8,Estimated,0,0.45,0.5,93
+44,Moderate hidden,1.0,0.8,Estimated,0,0.5,0.55,62
+44,Moderate hidden,1.0,0.8,Estimated,0,0.55,0.6000000000000001,28
+44,Moderate hidden,1.0,0.8,Estimated,0,0.6000000000000001,0.65,17
+44,Moderate hidden,1.0,0.8,Estimated,0,0.65,0.7000000000000001,5
+44,Moderate hidden,1.0,0.8,Estimated,0,0.7000000000000001,0.75,2
+44,Moderate hidden,1.0,0.8,Estimated,0,0.75,0.8,0
+44,Moderate hidden,1.0,0.8,Estimated,0,0.8,0.8500000000000001,0
+44,Moderate hidden,1.0,0.8,Estimated,0,0.8500000000000001,0.9,0
+44,Moderate hidden,1.0,0.8,Estimated,0,0.9,0.9500000000000001,0
+44,Moderate hidden,1.0,0.8,Estimated,0,0.9500000000000001,1.0,0
+44,Moderate hidden,1.0,0.8,Estimated,1,0.0,0.05,0
+44,Moderate hidden,1.0,0.8,Estimated,1,0.05,0.1,5
+44,Moderate hidden,1.0,0.8,Estimated,1,0.1,0.15000000000000002,21
+44,Moderate hidden,1.0,0.8,Estimated,1,0.15000000000000002,0.2,87
+44,Moderate hidden,1.0,0.8,Estimated,1,0.2,0.25,96
+44,Moderate hidden,1.0,0.8,Estimated,1,0.25,0.30000000000000004,145
+44,Moderate hidden,1.0,0.8,Estimated,1,0.30000000000000004,0.35000000000000003,132
+44,Moderate hidden,1.0,0.8,Estimated,1,0.35000000000000003,0.4,125
+44,Moderate hidden,1.0,0.8,Estimated,1,0.4,0.45,107
+44,Moderate hidden,1.0,0.8,Estimated,1,0.45,0.5,85
+44,Moderate hidden,1.0,0.8,Estimated,1,0.5,0.55,60
+44,Moderate hidden,1.0,0.8,Estimated,1,0.55,0.6000000000000001,38
+44,Moderate hidden,1.0,0.8,Estimated,1,0.6000000000000001,0.65,21
+44,Moderate hidden,1.0,0.8,Estimated,1,0.65,0.7000000000000001,19
+44,Moderate hidden,1.0,0.8,Estimated,1,0.7000000000000001,0.75,6
+44,Moderate hidden,1.0,0.8,Estimated,1,0.75,0.8,0
+44,Moderate hidden,1.0,0.8,Estimated,1,0.8,0.8500000000000001,0
+44,Moderate hidden,1.0,0.8,Estimated,1,0.8500000000000001,0.9,0
+44,Moderate hidden,1.0,0.8,Estimated,1,0.9,0.9500000000000001,0
+44,Moderate hidden,1.0,0.8,Estimated,1,0.9500000000000001,1.0,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.0,0.05,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.05,0.1,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.1,0.15000000000000002,10
+44,Severe hidden,1.0,1.6,True marginal,0,0.15000000000000002,0.2,84
+44,Severe hidden,1.0,1.6,True marginal,0,0.2,0.25,185
+44,Severe hidden,1.0,1.6,True marginal,0,0.25,0.30000000000000004,365
+44,Severe hidden,1.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,385
+44,Severe hidden,1.0,1.6,True marginal,0,0.35000000000000003,0.4,349
+44,Severe hidden,1.0,1.6,True marginal,0,0.4,0.45,238
+44,Severe hidden,1.0,1.6,True marginal,0,0.45,0.5,185
+44,Severe hidden,1.0,1.6,True marginal,0,0.5,0.55,73
+44,Severe hidden,1.0,1.6,True marginal,0,0.55,0.6000000000000001,31
+44,Severe hidden,1.0,1.6,True marginal,0,0.6000000000000001,0.65,10
+44,Severe hidden,1.0,1.6,True marginal,0,0.65,0.7000000000000001,9
+44,Severe hidden,1.0,1.6,True marginal,0,0.7000000000000001,0.75,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.75,0.8,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.8,0.8500000000000001,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.8500000000000001,0.9,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.9,0.9500000000000001,0
+44,Severe hidden,1.0,1.6,True marginal,0,0.9500000000000001,1.0,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.0,0.05,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.05,0.1,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.1,0.15000000000000002,2
+44,Severe hidden,1.0,1.6,True marginal,1,0.15000000000000002,0.2,19
+44,Severe hidden,1.0,1.6,True marginal,1,0.2,0.25,53
+44,Severe hidden,1.0,1.6,True marginal,1,0.25,0.30000000000000004,120
+44,Severe hidden,1.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,177
+44,Severe hidden,1.0,1.6,True marginal,1,0.35000000000000003,0.4,209
+44,Severe hidden,1.0,1.6,True marginal,1,0.4,0.45,189
+44,Severe hidden,1.0,1.6,True marginal,1,0.45,0.5,140
+44,Severe hidden,1.0,1.6,True marginal,1,0.5,0.55,83
+44,Severe hidden,1.0,1.6,True marginal,1,0.55,0.6000000000000001,43
+44,Severe hidden,1.0,1.6,True marginal,1,0.6000000000000001,0.65,17
+44,Severe hidden,1.0,1.6,True marginal,1,0.65,0.7000000000000001,24
+44,Severe hidden,1.0,1.6,True marginal,1,0.7000000000000001,0.75,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.75,0.8,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.8,0.8500000000000001,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.8500000000000001,0.9,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.9,0.9500000000000001,0
+44,Severe hidden,1.0,1.6,True marginal,1,0.9500000000000001,1.0,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.0,0.05,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.05,0.1,1
+44,Severe hidden,1.0,1.6,Estimated,0,0.1,0.15000000000000002,11
+44,Severe hidden,1.0,1.6,Estimated,0,0.15000000000000002,0.2,69
+44,Severe hidden,1.0,1.6,Estimated,0,0.2,0.25,227
+44,Severe hidden,1.0,1.6,Estimated,0,0.25,0.30000000000000004,371
+44,Severe hidden,1.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,377
+44,Severe hidden,1.0,1.6,Estimated,0,0.35000000000000003,0.4,353
+44,Severe hidden,1.0,1.6,Estimated,0,0.4,0.45,203
+44,Severe hidden,1.0,1.6,Estimated,0,0.45,0.5,162
+44,Severe hidden,1.0,1.6,Estimated,0,0.5,0.55,98
+44,Severe hidden,1.0,1.6,Estimated,0,0.55,0.6000000000000001,37
+44,Severe hidden,1.0,1.6,Estimated,0,0.6000000000000001,0.65,12
+44,Severe hidden,1.0,1.6,Estimated,0,0.65,0.7000000000000001,3
+44,Severe hidden,1.0,1.6,Estimated,0,0.7000000000000001,0.75,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.75,0.8,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.8,0.8500000000000001,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.8500000000000001,0.9,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.9,0.9500000000000001,0
+44,Severe hidden,1.0,1.6,Estimated,0,0.9500000000000001,1.0,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.0,0.05,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.05,0.1,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.1,0.15000000000000002,3
+44,Severe hidden,1.0,1.6,Estimated,1,0.15000000000000002,0.2,21
+44,Severe hidden,1.0,1.6,Estimated,1,0.2,0.25,76
+44,Severe hidden,1.0,1.6,Estimated,1,0.25,0.30000000000000004,138
+44,Severe hidden,1.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,194
+44,Severe hidden,1.0,1.6,Estimated,1,0.35000000000000003,0.4,208
+44,Severe hidden,1.0,1.6,Estimated,1,0.4,0.45,139
+44,Severe hidden,1.0,1.6,Estimated,1,0.45,0.5,145
+44,Severe hidden,1.0,1.6,Estimated,1,0.5,0.55,82
+44,Severe hidden,1.0,1.6,Estimated,1,0.55,0.6000000000000001,43
+44,Severe hidden,1.0,1.6,Estimated,1,0.6000000000000001,0.65,22
+44,Severe hidden,1.0,1.6,Estimated,1,0.65,0.7000000000000001,4
+44,Severe hidden,1.0,1.6,Estimated,1,0.7000000000000001,0.75,1
+44,Severe hidden,1.0,1.6,Estimated,1,0.75,0.8,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.8,0.8500000000000001,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.8500000000000001,0.9,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.9,0.9500000000000001,0
+44,Severe hidden,1.0,1.6,Estimated,1,0.9500000000000001,1.0,0
+44,Combined severe,5.0,1.6,True marginal,0,0.0,0.05,634
+44,Combined severe,5.0,1.6,True marginal,0,0.05,0.1,224
+44,Combined severe,5.0,1.6,True marginal,0,0.1,0.15000000000000002,135
+44,Combined severe,5.0,1.6,True marginal,0,0.15000000000000002,0.2,117
+44,Combined severe,5.0,1.6,True marginal,0,0.2,0.25,105
+44,Combined severe,5.0,1.6,True marginal,0,0.25,0.30000000000000004,87
+44,Combined severe,5.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,80
+44,Combined severe,5.0,1.6,True marginal,0,0.35000000000000003,0.4,73
+44,Combined severe,5.0,1.6,True marginal,0,0.4,0.45,61
+44,Combined severe,5.0,1.6,True marginal,0,0.45,0.5,46
+44,Combined severe,5.0,1.6,True marginal,0,0.5,0.55,48
+44,Combined severe,5.0,1.6,True marginal,0,0.55,0.6000000000000001,45
+44,Combined severe,5.0,1.6,True marginal,0,0.6000000000000001,0.65,37
+44,Combined severe,5.0,1.6,True marginal,0,0.65,0.7000000000000001,22
+44,Combined severe,5.0,1.6,True marginal,0,0.7000000000000001,0.75,12
+44,Combined severe,5.0,1.6,True marginal,0,0.75,0.8,19
+44,Combined severe,5.0,1.6,True marginal,0,0.8,0.8500000000000001,15
+44,Combined severe,5.0,1.6,True marginal,0,0.8500000000000001,0.9,14
+44,Combined severe,5.0,1.6,True marginal,0,0.9,0.9500000000000001,12
+44,Combined severe,5.0,1.6,True marginal,0,0.9500000000000001,1.0,3
+44,Combined severe,5.0,1.6,True marginal,1,0.0,0.05,13
+44,Combined severe,5.0,1.6,True marginal,1,0.05,0.1,13
+44,Combined severe,5.0,1.6,True marginal,1,0.1,0.15000000000000002,20
+44,Combined severe,5.0,1.6,True marginal,1,0.15000000000000002,0.2,24
+44,Combined severe,5.0,1.6,True marginal,1,0.2,0.25,22
+44,Combined severe,5.0,1.6,True marginal,1,0.25,0.30000000000000004,32
+44,Combined severe,5.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,39
+44,Combined severe,5.0,1.6,True marginal,1,0.35000000000000003,0.4,33
+44,Combined severe,5.0,1.6,True marginal,1,0.4,0.45,50
+44,Combined severe,5.0,1.6,True marginal,1,0.45,0.5,70
+44,Combined severe,5.0,1.6,True marginal,1,0.5,0.55,52
+44,Combined severe,5.0,1.6,True marginal,1,0.55,0.6000000000000001,59
+44,Combined severe,5.0,1.6,True marginal,1,0.6000000000000001,0.65,56
+44,Combined severe,5.0,1.6,True marginal,1,0.65,0.7000000000000001,57
+44,Combined severe,5.0,1.6,True marginal,1,0.7000000000000001,0.75,55
+44,Combined severe,5.0,1.6,True marginal,1,0.75,0.8,74
+44,Combined severe,5.0,1.6,True marginal,1,0.8,0.8500000000000001,67
+44,Combined severe,5.0,1.6,True marginal,1,0.8500000000000001,0.9,86
+44,Combined severe,5.0,1.6,True marginal,1,0.9,0.9500000000000001,113
+44,Combined severe,5.0,1.6,True marginal,1,0.9500000000000001,1.0,276
+44,Combined severe,5.0,1.6,Estimated,0,0.0,0.05,572
+44,Combined severe,5.0,1.6,Estimated,0,0.05,0.1,211
+44,Combined severe,5.0,1.6,Estimated,0,0.1,0.15000000000000002,158
+44,Combined severe,5.0,1.6,Estimated,0,0.15000000000000002,0.2,111
+44,Combined severe,5.0,1.6,Estimated,0,0.2,0.25,114
+44,Combined severe,5.0,1.6,Estimated,0,0.25,0.30000000000000004,114
+44,Combined severe,5.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,97
+44,Combined severe,5.0,1.6,Estimated,0,0.35000000000000003,0.4,99
+44,Combined severe,5.0,1.6,Estimated,0,0.4,0.45,57
+44,Combined severe,5.0,1.6,Estimated,0,0.45,0.5,53
+44,Combined severe,5.0,1.6,Estimated,0,0.5,0.55,40
+44,Combined severe,5.0,1.6,Estimated,0,0.55,0.6000000000000001,30
+44,Combined severe,5.0,1.6,Estimated,0,0.6000000000000001,0.65,29
+44,Combined severe,5.0,1.6,Estimated,0,0.65,0.7000000000000001,29
+44,Combined severe,5.0,1.6,Estimated,0,0.7000000000000001,0.75,21
+44,Combined severe,5.0,1.6,Estimated,0,0.75,0.8,14
+44,Combined severe,5.0,1.6,Estimated,0,0.8,0.8500000000000001,16
+44,Combined severe,5.0,1.6,Estimated,0,0.8500000000000001,0.9,10
+44,Combined severe,5.0,1.6,Estimated,0,0.9,0.9500000000000001,11
+44,Combined severe,5.0,1.6,Estimated,0,0.9500000000000001,1.0,3
+44,Combined severe,5.0,1.6,Estimated,1,0.0,0.05,11
+44,Combined severe,5.0,1.6,Estimated,1,0.05,0.1,18
+44,Combined severe,5.0,1.6,Estimated,1,0.1,0.15000000000000002,16
+44,Combined severe,5.0,1.6,Estimated,1,0.15000000000000002,0.2,25
+44,Combined severe,5.0,1.6,Estimated,1,0.2,0.25,30
+44,Combined severe,5.0,1.6,Estimated,1,0.25,0.30000000000000004,30
+44,Combined severe,5.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,48
+44,Combined severe,5.0,1.6,Estimated,1,0.35000000000000003,0.4,53
+44,Combined severe,5.0,1.6,Estimated,1,0.4,0.45,47
+44,Combined severe,5.0,1.6,Estimated,1,0.45,0.5,49
+44,Combined severe,5.0,1.6,Estimated,1,0.5,0.55,56
+44,Combined severe,5.0,1.6,Estimated,1,0.55,0.6000000000000001,70
+44,Combined severe,5.0,1.6,Estimated,1,0.6000000000000001,0.65,57
+44,Combined severe,5.0,1.6,Estimated,1,0.65,0.7000000000000001,70
+44,Combined severe,5.0,1.6,Estimated,1,0.7000000000000001,0.75,77
+44,Combined severe,5.0,1.6,Estimated,1,0.75,0.8,83
+44,Combined severe,5.0,1.6,Estimated,1,0.8,0.8500000000000001,74
+44,Combined severe,5.0,1.6,Estimated,1,0.8500000000000001,0.9,81
+44,Combined severe,5.0,1.6,Estimated,1,0.9,0.9500000000000001,124
+44,Combined severe,5.0,1.6,Estimated,1,0.9500000000000001,1.0,192
+45,Baseline,1.0,0.0,True marginal,0,0.0,0.05,0
+45,Baseline,1.0,0.0,True marginal,0,0.05,0.1,64
+45,Baseline,1.0,0.0,True marginal,0,0.1,0.15000000000000002,279
+45,Baseline,1.0,0.0,True marginal,0,0.15000000000000002,0.2,385
+45,Baseline,1.0,0.0,True marginal,0,0.2,0.25,391
+45,Baseline,1.0,0.0,True marginal,0,0.25,0.30000000000000004,306
+45,Baseline,1.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,223
+45,Baseline,1.0,0.0,True marginal,0,0.35000000000000003,0.4,169
+45,Baseline,1.0,0.0,True marginal,0,0.4,0.45,113
+45,Baseline,1.0,0.0,True marginal,0,0.45,0.5,81
+45,Baseline,1.0,0.0,True marginal,0,0.5,0.55,57
+45,Baseline,1.0,0.0,True marginal,0,0.55,0.6000000000000001,37
+45,Baseline,1.0,0.0,True marginal,0,0.6000000000000001,0.65,10
+45,Baseline,1.0,0.0,True marginal,0,0.65,0.7000000000000001,12
+45,Baseline,1.0,0.0,True marginal,0,0.7000000000000001,0.75,5
+45,Baseline,1.0,0.0,True marginal,0,0.75,0.8,3
+45,Baseline,1.0,0.0,True marginal,0,0.8,0.8500000000000001,0
+45,Baseline,1.0,0.0,True marginal,0,0.8500000000000001,0.9,0
+45,Baseline,1.0,0.0,True marginal,0,0.9,0.9500000000000001,0
+45,Baseline,1.0,0.0,True marginal,0,0.9500000000000001,1.0,0
+45,Baseline,1.0,0.0,True marginal,1,0.0,0.05,0
+45,Baseline,1.0,0.0,True marginal,1,0.05,0.1,9
+45,Baseline,1.0,0.0,True marginal,1,0.1,0.15000000000000002,21
+45,Baseline,1.0,0.0,True marginal,1,0.15000000000000002,0.2,77
+45,Baseline,1.0,0.0,True marginal,1,0.2,0.25,103
+45,Baseline,1.0,0.0,True marginal,1,0.25,0.30000000000000004,119
+45,Baseline,1.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,117
+45,Baseline,1.0,0.0,True marginal,1,0.35000000000000003,0.4,99
+45,Baseline,1.0,0.0,True marginal,1,0.4,0.45,82
+45,Baseline,1.0,0.0,True marginal,1,0.45,0.5,72
+45,Baseline,1.0,0.0,True marginal,1,0.5,0.55,50
+45,Baseline,1.0,0.0,True marginal,1,0.55,0.6000000000000001,34
+45,Baseline,1.0,0.0,True marginal,1,0.6000000000000001,0.65,27
+45,Baseline,1.0,0.0,True marginal,1,0.65,0.7000000000000001,24
+45,Baseline,1.0,0.0,True marginal,1,0.7000000000000001,0.75,14
+45,Baseline,1.0,0.0,True marginal,1,0.75,0.8,13
+45,Baseline,1.0,0.0,True marginal,1,0.8,0.8500000000000001,4
+45,Baseline,1.0,0.0,True marginal,1,0.8500000000000001,0.9,0
+45,Baseline,1.0,0.0,True marginal,1,0.9,0.9500000000000001,0
+45,Baseline,1.0,0.0,True marginal,1,0.9500000000000001,1.0,0
+45,Baseline,1.0,0.0,Estimated,0,0.0,0.05,0
+45,Baseline,1.0,0.0,Estimated,0,0.05,0.1,61
+45,Baseline,1.0,0.0,Estimated,0,0.1,0.15000000000000002,258
+45,Baseline,1.0,0.0,Estimated,0,0.15000000000000002,0.2,347
+45,Baseline,1.0,0.0,Estimated,0,0.2,0.25,347
+45,Baseline,1.0,0.0,Estimated,0,0.25,0.30000000000000004,332
+45,Baseline,1.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,230
+45,Baseline,1.0,0.0,Estimated,0,0.35000000000000003,0.4,161
+45,Baseline,1.0,0.0,Estimated,0,0.4,0.45,127
+45,Baseline,1.0,0.0,Estimated,0,0.45,0.5,117
+45,Baseline,1.0,0.0,Estimated,0,0.5,0.55,76
+45,Baseline,1.0,0.0,Estimated,0,0.55,0.6000000000000001,50
+45,Baseline,1.0,0.0,Estimated,0,0.6000000000000001,0.65,15
+45,Baseline,1.0,0.0,Estimated,0,0.65,0.7000000000000001,12
+45,Baseline,1.0,0.0,Estimated,0,0.7000000000000001,0.75,2
+45,Baseline,1.0,0.0,Estimated,0,0.75,0.8,0
+45,Baseline,1.0,0.0,Estimated,0,0.8,0.8500000000000001,0
+45,Baseline,1.0,0.0,Estimated,0,0.8500000000000001,0.9,0
+45,Baseline,1.0,0.0,Estimated,0,0.9,0.9500000000000001,0
+45,Baseline,1.0,0.0,Estimated,0,0.9500000000000001,1.0,0
+45,Baseline,1.0,0.0,Estimated,1,0.0,0.05,0
+45,Baseline,1.0,0.0,Estimated,1,0.05,0.1,6
+45,Baseline,1.0,0.0,Estimated,1,0.1,0.15000000000000002,30
+45,Baseline,1.0,0.0,Estimated,1,0.15000000000000002,0.2,60
+45,Baseline,1.0,0.0,Estimated,1,0.2,0.25,108
+45,Baseline,1.0,0.0,Estimated,1,0.25,0.30000000000000004,96
+45,Baseline,1.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,107
+45,Baseline,1.0,0.0,Estimated,1,0.35000000000000003,0.4,100
+45,Baseline,1.0,0.0,Estimated,1,0.4,0.45,82
+45,Baseline,1.0,0.0,Estimated,1,0.45,0.5,75
+45,Baseline,1.0,0.0,Estimated,1,0.5,0.55,74
+45,Baseline,1.0,0.0,Estimated,1,0.55,0.6000000000000001,54
+45,Baseline,1.0,0.0,Estimated,1,0.6000000000000001,0.65,42
+45,Baseline,1.0,0.0,Estimated,1,0.65,0.7000000000000001,22
+45,Baseline,1.0,0.0,Estimated,1,0.7000000000000001,0.75,7
+45,Baseline,1.0,0.0,Estimated,1,0.75,0.8,2
+45,Baseline,1.0,0.0,Estimated,1,0.8,0.8500000000000001,0
+45,Baseline,1.0,0.0,Estimated,1,0.8500000000000001,0.9,0
+45,Baseline,1.0,0.0,Estimated,1,0.9,0.9500000000000001,0
+45,Baseline,1.0,0.0,Estimated,1,0.9500000000000001,1.0,0
+45,Moderate overlap,2.5,0.0,True marginal,0,0.0,0.05,358
+45,Moderate overlap,2.5,0.0,True marginal,0,0.05,0.1,354
+45,Moderate overlap,2.5,0.0,True marginal,0,0.1,0.15000000000000002,253
+45,Moderate overlap,2.5,0.0,True marginal,0,0.15000000000000002,0.2,199
+45,Moderate overlap,2.5,0.0,True marginal,0,0.2,0.25,168
+45,Moderate overlap,2.5,0.0,True marginal,0,0.25,0.30000000000000004,131
+45,Moderate overlap,2.5,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,96
+45,Moderate overlap,2.5,0.0,True marginal,0,0.35000000000000003,0.4,77
+45,Moderate overlap,2.5,0.0,True marginal,0,0.4,0.45,66
+45,Moderate overlap,2.5,0.0,True marginal,0,0.45,0.5,46
+45,Moderate overlap,2.5,0.0,True marginal,0,0.5,0.55,50
+45,Moderate overlap,2.5,0.0,True marginal,0,0.55,0.6000000000000001,44
+45,Moderate overlap,2.5,0.0,True marginal,0,0.6000000000000001,0.65,35
+45,Moderate overlap,2.5,0.0,True marginal,0,0.65,0.7000000000000001,29
+45,Moderate overlap,2.5,0.0,True marginal,0,0.7000000000000001,0.75,20
+45,Moderate overlap,2.5,0.0,True marginal,0,0.75,0.8,21
+45,Moderate overlap,2.5,0.0,True marginal,0,0.8,0.8500000000000001,18
+45,Moderate overlap,2.5,0.0,True marginal,0,0.8500000000000001,0.9,13
+45,Moderate overlap,2.5,0.0,True marginal,0,0.9,0.9500000000000001,2
+45,Moderate overlap,2.5,0.0,True marginal,0,0.9500000000000001,1.0,4
+45,Moderate overlap,2.5,0.0,True marginal,1,0.0,0.05,7
+45,Moderate overlap,2.5,0.0,True marginal,1,0.05,0.1,22
+45,Moderate overlap,2.5,0.0,True marginal,1,0.1,0.15000000000000002,44
+45,Moderate overlap,2.5,0.0,True marginal,1,0.15000000000000002,0.2,35
+45,Moderate overlap,2.5,0.0,True marginal,1,0.2,0.25,50
+45,Moderate overlap,2.5,0.0,True marginal,1,0.25,0.30000000000000004,47
+45,Moderate overlap,2.5,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,42
+45,Moderate overlap,2.5,0.0,True marginal,1,0.35000000000000003,0.4,66
+45,Moderate overlap,2.5,0.0,True marginal,1,0.4,0.45,47
+45,Moderate overlap,2.5,0.0,True marginal,1,0.45,0.5,47
+45,Moderate overlap,2.5,0.0,True marginal,1,0.5,0.55,64
+45,Moderate overlap,2.5,0.0,True marginal,1,0.55,0.6000000000000001,49
+45,Moderate overlap,2.5,0.0,True marginal,1,0.6000000000000001,0.65,54
+45,Moderate overlap,2.5,0.0,True marginal,1,0.65,0.7000000000000001,55
+45,Moderate overlap,2.5,0.0,True marginal,1,0.7000000000000001,0.75,71
+45,Moderate overlap,2.5,0.0,True marginal,1,0.75,0.8,56
+45,Moderate overlap,2.5,0.0,True marginal,1,0.8,0.8500000000000001,68
+45,Moderate overlap,2.5,0.0,True marginal,1,0.8500000000000001,0.9,57
+45,Moderate overlap,2.5,0.0,True marginal,1,0.9,0.9500000000000001,63
+45,Moderate overlap,2.5,0.0,True marginal,1,0.9500000000000001,1.0,72
+45,Moderate overlap,2.5,0.0,Estimated,0,0.0,0.05,353
+45,Moderate overlap,2.5,0.0,Estimated,0,0.05,0.1,300
+45,Moderate overlap,2.5,0.0,Estimated,0,0.1,0.15000000000000002,216
+45,Moderate overlap,2.5,0.0,Estimated,0,0.15000000000000002,0.2,208
+45,Moderate overlap,2.5,0.0,Estimated,0,0.2,0.25,139
+45,Moderate overlap,2.5,0.0,Estimated,0,0.25,0.30000000000000004,174
+45,Moderate overlap,2.5,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,124
+45,Moderate overlap,2.5,0.0,Estimated,0,0.35000000000000003,0.4,91
+45,Moderate overlap,2.5,0.0,Estimated,0,0.4,0.45,76
+45,Moderate overlap,2.5,0.0,Estimated,0,0.45,0.5,53
+45,Moderate overlap,2.5,0.0,Estimated,0,0.5,0.55,51
+45,Moderate overlap,2.5,0.0,Estimated,0,0.55,0.6000000000000001,42
+45,Moderate overlap,2.5,0.0,Estimated,0,0.6000000000000001,0.65,37
+45,Moderate overlap,2.5,0.0,Estimated,0,0.65,0.7000000000000001,30
+45,Moderate overlap,2.5,0.0,Estimated,0,0.7000000000000001,0.75,24
+45,Moderate overlap,2.5,0.0,Estimated,0,0.75,0.8,27
+45,Moderate overlap,2.5,0.0,Estimated,0,0.8,0.8500000000000001,20
+45,Moderate overlap,2.5,0.0,Estimated,0,0.8500000000000001,0.9,11
+45,Moderate overlap,2.5,0.0,Estimated,0,0.9,0.9500000000000001,8
+45,Moderate overlap,2.5,0.0,Estimated,0,0.9500000000000001,1.0,0
+45,Moderate overlap,2.5,0.0,Estimated,1,0.0,0.05,10
+45,Moderate overlap,2.5,0.0,Estimated,1,0.05,0.1,17
+45,Moderate overlap,2.5,0.0,Estimated,1,0.1,0.15000000000000002,36
+45,Moderate overlap,2.5,0.0,Estimated,1,0.15000000000000002,0.2,50
+45,Moderate overlap,2.5,0.0,Estimated,1,0.2,0.25,34
+45,Moderate overlap,2.5,0.0,Estimated,1,0.25,0.30000000000000004,41
+45,Moderate overlap,2.5,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,49
+45,Moderate overlap,2.5,0.0,Estimated,1,0.35000000000000003,0.4,73
+45,Moderate overlap,2.5,0.0,Estimated,1,0.4,0.45,47
+45,Moderate overlap,2.5,0.0,Estimated,1,0.45,0.5,55
+45,Moderate overlap,2.5,0.0,Estimated,1,0.5,0.55,57
+45,Moderate overlap,2.5,0.0,Estimated,1,0.55,0.6000000000000001,53
+45,Moderate overlap,2.5,0.0,Estimated,1,0.6000000000000001,0.65,57
+45,Moderate overlap,2.5,0.0,Estimated,1,0.65,0.7000000000000001,75
+45,Moderate overlap,2.5,0.0,Estimated,1,0.7000000000000001,0.75,66
+45,Moderate overlap,2.5,0.0,Estimated,1,0.75,0.8,50
+45,Moderate overlap,2.5,0.0,Estimated,1,0.8,0.8500000000000001,67
+45,Moderate overlap,2.5,0.0,Estimated,1,0.8500000000000001,0.9,62
+45,Moderate overlap,2.5,0.0,Estimated,1,0.9,0.9500000000000001,95
+45,Moderate overlap,2.5,0.0,Estimated,1,0.9500000000000001,1.0,22
+45,Severe overlap,5.0,0.0,True marginal,0,0.0,0.05,886
+45,Severe overlap,5.0,0.0,True marginal,0,0.05,0.1,251
+45,Severe overlap,5.0,0.0,True marginal,0,0.1,0.15000000000000002,133
+45,Severe overlap,5.0,0.0,True marginal,0,0.15000000000000002,0.2,102
+45,Severe overlap,5.0,0.0,True marginal,0,0.2,0.25,87
+45,Severe overlap,5.0,0.0,True marginal,0,0.25,0.30000000000000004,66
+45,Severe overlap,5.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,51
+45,Severe overlap,5.0,0.0,True marginal,0,0.35000000000000003,0.4,33
+45,Severe overlap,5.0,0.0,True marginal,0,0.4,0.45,37
+45,Severe overlap,5.0,0.0,True marginal,0,0.45,0.5,36
+45,Severe overlap,5.0,0.0,True marginal,0,0.5,0.55,20
+45,Severe overlap,5.0,0.0,True marginal,0,0.55,0.6000000000000001,26
+45,Severe overlap,5.0,0.0,True marginal,0,0.6000000000000001,0.65,27
+45,Severe overlap,5.0,0.0,True marginal,0,0.65,0.7000000000000001,19
+45,Severe overlap,5.0,0.0,True marginal,0,0.7000000000000001,0.75,22
+45,Severe overlap,5.0,0.0,True marginal,0,0.75,0.8,19
+45,Severe overlap,5.0,0.0,True marginal,0,0.8,0.8500000000000001,15
+45,Severe overlap,5.0,0.0,True marginal,0,0.8500000000000001,0.9,9
+45,Severe overlap,5.0,0.0,True marginal,0,0.9,0.9500000000000001,11
+45,Severe overlap,5.0,0.0,True marginal,0,0.9500000000000001,1.0,4
+45,Severe overlap,5.0,0.0,True marginal,1,0.0,0.05,17
+45,Severe overlap,5.0,0.0,True marginal,1,0.05,0.1,16
+45,Severe overlap,5.0,0.0,True marginal,1,0.1,0.15000000000000002,15
+45,Severe overlap,5.0,0.0,True marginal,1,0.15000000000000002,0.2,20
+45,Severe overlap,5.0,0.0,True marginal,1,0.2,0.25,19
+45,Severe overlap,5.0,0.0,True marginal,1,0.25,0.30000000000000004,27
+45,Severe overlap,5.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,21
+45,Severe overlap,5.0,0.0,True marginal,1,0.35000000000000003,0.4,25
+45,Severe overlap,5.0,0.0,True marginal,1,0.4,0.45,21
+45,Severe overlap,5.0,0.0,True marginal,1,0.45,0.5,49
+45,Severe overlap,5.0,0.0,True marginal,1,0.5,0.55,27
+45,Severe overlap,5.0,0.0,True marginal,1,0.55,0.6000000000000001,33
+45,Severe overlap,5.0,0.0,True marginal,1,0.6000000000000001,0.65,34
+45,Severe overlap,5.0,0.0,True marginal,1,0.65,0.7000000000000001,34
+45,Severe overlap,5.0,0.0,True marginal,1,0.7000000000000001,0.75,45
+45,Severe overlap,5.0,0.0,True marginal,1,0.75,0.8,60
+45,Severe overlap,5.0,0.0,True marginal,1,0.8,0.8500000000000001,67
+45,Severe overlap,5.0,0.0,True marginal,1,0.8500000000000001,0.9,85
+45,Severe overlap,5.0,0.0,True marginal,1,0.9,0.9500000000000001,121
+45,Severe overlap,5.0,0.0,True marginal,1,0.9500000000000001,1.0,410
+45,Severe overlap,5.0,0.0,Estimated,0,0.0,0.05,741
+45,Severe overlap,5.0,0.0,Estimated,0,0.05,0.1,265
+45,Severe overlap,5.0,0.0,Estimated,0,0.1,0.15000000000000002,145
+45,Severe overlap,5.0,0.0,Estimated,0,0.15000000000000002,0.2,102
+45,Severe overlap,5.0,0.0,Estimated,0,0.2,0.25,114
+45,Severe overlap,5.0,0.0,Estimated,0,0.25,0.30000000000000004,79
+45,Severe overlap,5.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,80
+45,Severe overlap,5.0,0.0,Estimated,0,0.35000000000000003,0.4,45
+45,Severe overlap,5.0,0.0,Estimated,0,0.4,0.45,43
+45,Severe overlap,5.0,0.0,Estimated,0,0.45,0.5,52
+45,Severe overlap,5.0,0.0,Estimated,0,0.5,0.55,36
+45,Severe overlap,5.0,0.0,Estimated,0,0.55,0.6000000000000001,33
+45,Severe overlap,5.0,0.0,Estimated,0,0.6000000000000001,0.65,21
+45,Severe overlap,5.0,0.0,Estimated,0,0.65,0.7000000000000001,19
+45,Severe overlap,5.0,0.0,Estimated,0,0.7000000000000001,0.75,22
+45,Severe overlap,5.0,0.0,Estimated,0,0.75,0.8,19
+45,Severe overlap,5.0,0.0,Estimated,0,0.8,0.8500000000000001,15
+45,Severe overlap,5.0,0.0,Estimated,0,0.8500000000000001,0.9,13
+45,Severe overlap,5.0,0.0,Estimated,0,0.9,0.9500000000000001,7
+45,Severe overlap,5.0,0.0,Estimated,0,0.9500000000000001,1.0,3
+45,Severe overlap,5.0,0.0,Estimated,1,0.0,0.05,9
+45,Severe overlap,5.0,0.0,Estimated,1,0.05,0.1,11
+45,Severe overlap,5.0,0.0,Estimated,1,0.1,0.15000000000000002,22
+45,Severe overlap,5.0,0.0,Estimated,1,0.15000000000000002,0.2,19
+45,Severe overlap,5.0,0.0,Estimated,1,0.2,0.25,20
+45,Severe overlap,5.0,0.0,Estimated,1,0.25,0.30000000000000004,22
+45,Severe overlap,5.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,23
+45,Severe overlap,5.0,0.0,Estimated,1,0.35000000000000003,0.4,34
+45,Severe overlap,5.0,0.0,Estimated,1,0.4,0.45,34
+45,Severe overlap,5.0,0.0,Estimated,1,0.45,0.5,35
+45,Severe overlap,5.0,0.0,Estimated,1,0.5,0.55,38
+45,Severe overlap,5.0,0.0,Estimated,1,0.55,0.6000000000000001,46
+45,Severe overlap,5.0,0.0,Estimated,1,0.6000000000000001,0.65,46
+45,Severe overlap,5.0,0.0,Estimated,1,0.65,0.7000000000000001,56
+45,Severe overlap,5.0,0.0,Estimated,1,0.7000000000000001,0.75,60
+45,Severe overlap,5.0,0.0,Estimated,1,0.75,0.8,67
+45,Severe overlap,5.0,0.0,Estimated,1,0.8,0.8500000000000001,81
+45,Severe overlap,5.0,0.0,Estimated,1,0.8500000000000001,0.9,120
+45,Severe overlap,5.0,0.0,Estimated,1,0.9,0.9500000000000001,142
+45,Severe overlap,5.0,0.0,Estimated,1,0.9500000000000001,1.0,261
+45,Moderate hidden,1.0,0.8,True marginal,0,0.0,0.05,0
+45,Moderate hidden,1.0,0.8,True marginal,0,0.05,0.1,21
+45,Moderate hidden,1.0,0.8,True marginal,0,0.1,0.15000000000000002,153
+45,Moderate hidden,1.0,0.8,True marginal,0,0.15000000000000002,0.2,298
+45,Moderate hidden,1.0,0.8,True marginal,0,0.2,0.25,381
+45,Moderate hidden,1.0,0.8,True marginal,0,0.25,0.30000000000000004,370
+45,Moderate hidden,1.0,0.8,True marginal,0,0.30000000000000004,0.35000000000000003,266
+45,Moderate hidden,1.0,0.8,True marginal,0,0.35000000000000003,0.4,210
+45,Moderate hidden,1.0,0.8,True marginal,0,0.4,0.45,137
+45,Moderate hidden,1.0,0.8,True marginal,0,0.45,0.5,97
+45,Moderate hidden,1.0,0.8,True marginal,0,0.5,0.55,59
+45,Moderate hidden,1.0,0.8,True marginal,0,0.55,0.6000000000000001,37
+45,Moderate hidden,1.0,0.8,True marginal,0,0.6000000000000001,0.65,14
+45,Moderate hidden,1.0,0.8,True marginal,0,0.65,0.7000000000000001,8
+45,Moderate hidden,1.0,0.8,True marginal,0,0.7000000000000001,0.75,6
+45,Moderate hidden,1.0,0.8,True marginal,0,0.75,0.8,2
+45,Moderate hidden,1.0,0.8,True marginal,0,0.8,0.8500000000000001,0
+45,Moderate hidden,1.0,0.8,True marginal,0,0.8500000000000001,0.9,0
+45,Moderate hidden,1.0,0.8,True marginal,0,0.9,0.9500000000000001,0
+45,Moderate hidden,1.0,0.8,True marginal,0,0.9500000000000001,1.0,0
+45,Moderate hidden,1.0,0.8,True marginal,1,0.0,0.05,0
+45,Moderate hidden,1.0,0.8,True marginal,1,0.05,0.1,6
+45,Moderate hidden,1.0,0.8,True marginal,1,0.1,0.15000000000000002,24
+45,Moderate hidden,1.0,0.8,True marginal,1,0.15000000000000002,0.2,49
+45,Moderate hidden,1.0,0.8,True marginal,1,0.2,0.25,107
+45,Moderate hidden,1.0,0.8,True marginal,1,0.25,0.30000000000000004,135
+45,Moderate hidden,1.0,0.8,True marginal,1,0.30000000000000004,0.35000000000000003,149
+45,Moderate hidden,1.0,0.8,True marginal,1,0.35000000000000003,0.4,119
+45,Moderate hidden,1.0,0.8,True marginal,1,0.4,0.45,108
+45,Moderate hidden,1.0,0.8,True marginal,1,0.45,0.5,80
+45,Moderate hidden,1.0,0.8,True marginal,1,0.5,0.55,61
+45,Moderate hidden,1.0,0.8,True marginal,1,0.55,0.6000000000000001,34
+45,Moderate hidden,1.0,0.8,True marginal,1,0.6000000000000001,0.65,26
+45,Moderate hidden,1.0,0.8,True marginal,1,0.65,0.7000000000000001,20
+45,Moderate hidden,1.0,0.8,True marginal,1,0.7000000000000001,0.75,13
+45,Moderate hidden,1.0,0.8,True marginal,1,0.75,0.8,10
+45,Moderate hidden,1.0,0.8,True marginal,1,0.8,0.8500000000000001,0
+45,Moderate hidden,1.0,0.8,True marginal,1,0.8500000000000001,0.9,0
+45,Moderate hidden,1.0,0.8,True marginal,1,0.9,0.9500000000000001,0
+45,Moderate hidden,1.0,0.8,True marginal,1,0.9500000000000001,1.0,0
+45,Moderate hidden,1.0,0.8,Estimated,0,0.0,0.05,0
+45,Moderate hidden,1.0,0.8,Estimated,0,0.05,0.1,20
+45,Moderate hidden,1.0,0.8,Estimated,0,0.1,0.15000000000000002,143
+45,Moderate hidden,1.0,0.8,Estimated,0,0.15000000000000002,0.2,301
+45,Moderate hidden,1.0,0.8,Estimated,0,0.2,0.25,333
+45,Moderate hidden,1.0,0.8,Estimated,0,0.25,0.30000000000000004,345
+45,Moderate hidden,1.0,0.8,Estimated,0,0.30000000000000004,0.35000000000000003,299
+45,Moderate hidden,1.0,0.8,Estimated,0,0.35000000000000003,0.4,211
+45,Moderate hidden,1.0,0.8,Estimated,0,0.4,0.45,128
+45,Moderate hidden,1.0,0.8,Estimated,0,0.45,0.5,107
+45,Moderate hidden,1.0,0.8,Estimated,0,0.5,0.55,78
+45,Moderate hidden,1.0,0.8,Estimated,0,0.55,0.6000000000000001,55
+45,Moderate hidden,1.0,0.8,Estimated,0,0.6000000000000001,0.65,29
+45,Moderate hidden,1.0,0.8,Estimated,0,0.65,0.7000000000000001,8
+45,Moderate hidden,1.0,0.8,Estimated,0,0.7000000000000001,0.75,2
+45,Moderate hidden,1.0,0.8,Estimated,0,0.75,0.8,0
+45,Moderate hidden,1.0,0.8,Estimated,0,0.8,0.8500000000000001,0
+45,Moderate hidden,1.0,0.8,Estimated,0,0.8500000000000001,0.9,0
+45,Moderate hidden,1.0,0.8,Estimated,0,0.9,0.9500000000000001,0
+45,Moderate hidden,1.0,0.8,Estimated,0,0.9500000000000001,1.0,0
+45,Moderate hidden,1.0,0.8,Estimated,1,0.0,0.05,0
+45,Moderate hidden,1.0,0.8,Estimated,1,0.05,0.1,5
+45,Moderate hidden,1.0,0.8,Estimated,1,0.1,0.15000000000000002,28
+45,Moderate hidden,1.0,0.8,Estimated,1,0.15000000000000002,0.2,55
+45,Moderate hidden,1.0,0.8,Estimated,1,0.2,0.25,89
+45,Moderate hidden,1.0,0.8,Estimated,1,0.25,0.30000000000000004,128
+45,Moderate hidden,1.0,0.8,Estimated,1,0.30000000000000004,0.35000000000000003,136
+45,Moderate hidden,1.0,0.8,Estimated,1,0.35000000000000003,0.4,114
+45,Moderate hidden,1.0,0.8,Estimated,1,0.4,0.45,112
+45,Moderate hidden,1.0,0.8,Estimated,1,0.45,0.5,90
+45,Moderate hidden,1.0,0.8,Estimated,1,0.5,0.55,76
+45,Moderate hidden,1.0,0.8,Estimated,1,0.55,0.6000000000000001,52
+45,Moderate hidden,1.0,0.8,Estimated,1,0.6000000000000001,0.65,29
+45,Moderate hidden,1.0,0.8,Estimated,1,0.65,0.7000000000000001,23
+45,Moderate hidden,1.0,0.8,Estimated,1,0.7000000000000001,0.75,4
+45,Moderate hidden,1.0,0.8,Estimated,1,0.75,0.8,0
+45,Moderate hidden,1.0,0.8,Estimated,1,0.8,0.8500000000000001,0
+45,Moderate hidden,1.0,0.8,Estimated,1,0.8500000000000001,0.9,0
+45,Moderate hidden,1.0,0.8,Estimated,1,0.9,0.9500000000000001,0
+45,Moderate hidden,1.0,0.8,Estimated,1,0.9500000000000001,1.0,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.0,0.05,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.05,0.1,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.1,0.15000000000000002,11
+45,Severe hidden,1.0,1.6,True marginal,0,0.15000000000000002,0.2,70
+45,Severe hidden,1.0,1.6,True marginal,0,0.2,0.25,212
+45,Severe hidden,1.0,1.6,True marginal,0,0.25,0.30000000000000004,327
+45,Severe hidden,1.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,400
+45,Severe hidden,1.0,1.6,True marginal,0,0.35000000000000003,0.4,332
+45,Severe hidden,1.0,1.6,True marginal,0,0.4,0.45,254
+45,Severe hidden,1.0,1.6,True marginal,0,0.45,0.5,159
+45,Severe hidden,1.0,1.6,True marginal,0,0.5,0.55,81
+45,Severe hidden,1.0,1.6,True marginal,0,0.55,0.6000000000000001,30
+45,Severe hidden,1.0,1.6,True marginal,0,0.6000000000000001,0.65,14
+45,Severe hidden,1.0,1.6,True marginal,0,0.65,0.7000000000000001,4
+45,Severe hidden,1.0,1.6,True marginal,0,0.7000000000000001,0.75,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.75,0.8,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.8,0.8500000000000001,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.8500000000000001,0.9,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.9,0.9500000000000001,0
+45,Severe hidden,1.0,1.6,True marginal,0,0.9500000000000001,1.0,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.0,0.05,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.05,0.1,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.1,0.15000000000000002,4
+45,Severe hidden,1.0,1.6,True marginal,1,0.15000000000000002,0.2,20
+45,Severe hidden,1.0,1.6,True marginal,1,0.2,0.25,55
+45,Severe hidden,1.0,1.6,True marginal,1,0.25,0.30000000000000004,128
+45,Severe hidden,1.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,186
+45,Severe hidden,1.0,1.6,True marginal,1,0.35000000000000003,0.4,229
+45,Severe hidden,1.0,1.6,True marginal,1,0.4,0.45,185
+45,Severe hidden,1.0,1.6,True marginal,1,0.45,0.5,138
+45,Severe hidden,1.0,1.6,True marginal,1,0.5,0.55,82
+45,Severe hidden,1.0,1.6,True marginal,1,0.55,0.6000000000000001,36
+45,Severe hidden,1.0,1.6,True marginal,1,0.6000000000000001,0.65,25
+45,Severe hidden,1.0,1.6,True marginal,1,0.65,0.7000000000000001,18
+45,Severe hidden,1.0,1.6,True marginal,1,0.7000000000000001,0.75,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.75,0.8,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.8,0.8500000000000001,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.8500000000000001,0.9,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.9,0.9500000000000001,0
+45,Severe hidden,1.0,1.6,True marginal,1,0.9500000000000001,1.0,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.0,0.05,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.05,0.1,1
+45,Severe hidden,1.0,1.6,Estimated,0,0.1,0.15000000000000002,39
+45,Severe hidden,1.0,1.6,Estimated,0,0.15000000000000002,0.2,120
+45,Severe hidden,1.0,1.6,Estimated,0,0.2,0.25,187
+45,Severe hidden,1.0,1.6,Estimated,0,0.25,0.30000000000000004,286
+45,Severe hidden,1.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,348
+45,Severe hidden,1.0,1.6,Estimated,0,0.35000000000000003,0.4,327
+45,Severe hidden,1.0,1.6,Estimated,0,0.4,0.45,257
+45,Severe hidden,1.0,1.6,Estimated,0,0.45,0.5,174
+45,Severe hidden,1.0,1.6,Estimated,0,0.5,0.55,88
+45,Severe hidden,1.0,1.6,Estimated,0,0.55,0.6000000000000001,47
+45,Severe hidden,1.0,1.6,Estimated,0,0.6000000000000001,0.65,20
+45,Severe hidden,1.0,1.6,Estimated,0,0.65,0.7000000000000001,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.7000000000000001,0.75,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.75,0.8,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.8,0.8500000000000001,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.8500000000000001,0.9,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.9,0.9500000000000001,0
+45,Severe hidden,1.0,1.6,Estimated,0,0.9500000000000001,1.0,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.0,0.05,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.05,0.1,1
+45,Severe hidden,1.0,1.6,Estimated,1,0.1,0.15000000000000002,15
+45,Severe hidden,1.0,1.6,Estimated,1,0.15000000000000002,0.2,40
+45,Severe hidden,1.0,1.6,Estimated,1,0.2,0.25,62
+45,Severe hidden,1.0,1.6,Estimated,1,0.25,0.30000000000000004,131
+45,Severe hidden,1.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,149
+45,Severe hidden,1.0,1.6,Estimated,1,0.35000000000000003,0.4,202
+45,Severe hidden,1.0,1.6,Estimated,1,0.4,0.45,212
+45,Severe hidden,1.0,1.6,Estimated,1,0.45,0.5,124
+45,Severe hidden,1.0,1.6,Estimated,1,0.5,0.55,90
+45,Severe hidden,1.0,1.6,Estimated,1,0.55,0.6000000000000001,59
+45,Severe hidden,1.0,1.6,Estimated,1,0.6000000000000001,0.65,17
+45,Severe hidden,1.0,1.6,Estimated,1,0.65,0.7000000000000001,4
+45,Severe hidden,1.0,1.6,Estimated,1,0.7000000000000001,0.75,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.75,0.8,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.8,0.8500000000000001,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.8500000000000001,0.9,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.9,0.9500000000000001,0
+45,Severe hidden,1.0,1.6,Estimated,1,0.9500000000000001,1.0,0
+45,Combined severe,5.0,1.6,True marginal,0,0.0,0.05,604
+45,Combined severe,5.0,1.6,True marginal,0,0.05,0.1,239
+45,Combined severe,5.0,1.6,True marginal,0,0.1,0.15000000000000002,146
+45,Combined severe,5.0,1.6,True marginal,0,0.15000000000000002,0.2,128
+45,Combined severe,5.0,1.6,True marginal,0,0.2,0.25,104
+45,Combined severe,5.0,1.6,True marginal,0,0.25,0.30000000000000004,83
+45,Combined severe,5.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,84
+45,Combined severe,5.0,1.6,True marginal,0,0.35000000000000003,0.4,69
+45,Combined severe,5.0,1.6,True marginal,0,0.4,0.45,57
+45,Combined severe,5.0,1.6,True marginal,0,0.45,0.5,68
+45,Combined severe,5.0,1.6,True marginal,0,0.5,0.55,41
+45,Combined severe,5.0,1.6,True marginal,0,0.55,0.6000000000000001,42
+45,Combined severe,5.0,1.6,True marginal,0,0.6000000000000001,0.65,33
+45,Combined severe,5.0,1.6,True marginal,0,0.65,0.7000000000000001,24
+45,Combined severe,5.0,1.6,True marginal,0,0.7000000000000001,0.75,19
+45,Combined severe,5.0,1.6,True marginal,0,0.75,0.8,15
+45,Combined severe,5.0,1.6,True marginal,0,0.8,0.8500000000000001,9
+45,Combined severe,5.0,1.6,True marginal,0,0.8500000000000001,0.9,9
+45,Combined severe,5.0,1.6,True marginal,0,0.9,0.9500000000000001,5
+45,Combined severe,5.0,1.6,True marginal,0,0.9500000000000001,1.0,3
+45,Combined severe,5.0,1.6,True marginal,1,0.0,0.05,9
+45,Combined severe,5.0,1.6,True marginal,1,0.05,0.1,15
+45,Combined severe,5.0,1.6,True marginal,1,0.1,0.15000000000000002,25
+45,Combined severe,5.0,1.6,True marginal,1,0.15000000000000002,0.2,23
+45,Combined severe,5.0,1.6,True marginal,1,0.2,0.25,23
+45,Combined severe,5.0,1.6,True marginal,1,0.25,0.30000000000000004,38
+45,Combined severe,5.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,39
+45,Combined severe,5.0,1.6,True marginal,1,0.35000000000000003,0.4,51
+45,Combined severe,5.0,1.6,True marginal,1,0.4,0.45,46
+45,Combined severe,5.0,1.6,True marginal,1,0.45,0.5,61
+45,Combined severe,5.0,1.6,True marginal,1,0.5,0.55,55
+45,Combined severe,5.0,1.6,True marginal,1,0.55,0.6000000000000001,45
+45,Combined severe,5.0,1.6,True marginal,1,0.6000000000000001,0.65,63
+45,Combined severe,5.0,1.6,True marginal,1,0.65,0.7000000000000001,63
+45,Combined severe,5.0,1.6,True marginal,1,0.7000000000000001,0.75,64
+45,Combined severe,5.0,1.6,True marginal,1,0.75,0.8,67
+45,Combined severe,5.0,1.6,True marginal,1,0.8,0.8500000000000001,66
+45,Combined severe,5.0,1.6,True marginal,1,0.8500000000000001,0.9,79
+45,Combined severe,5.0,1.6,True marginal,1,0.9,0.9500000000000001,108
+45,Combined severe,5.0,1.6,True marginal,1,0.9500000000000001,1.0,278
+45,Combined severe,5.0,1.6,Estimated,0,0.0,0.05,535
+45,Combined severe,5.0,1.6,Estimated,0,0.05,0.1,224
+45,Combined severe,5.0,1.6,Estimated,0,0.1,0.15000000000000002,167
+45,Combined severe,5.0,1.6,Estimated,0,0.15000000000000002,0.2,138
+45,Combined severe,5.0,1.6,Estimated,0,0.2,0.25,123
+45,Combined severe,5.0,1.6,Estimated,0,0.25,0.30000000000000004,87
+45,Combined severe,5.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,85
+45,Combined severe,5.0,1.6,Estimated,0,0.35000000000000003,0.4,77
+45,Combined severe,5.0,1.6,Estimated,0,0.4,0.45,65
+45,Combined severe,5.0,1.6,Estimated,0,0.45,0.5,61
+45,Combined severe,5.0,1.6,Estimated,0,0.5,0.55,48
+45,Combined severe,5.0,1.6,Estimated,0,0.55,0.6000000000000001,31
+45,Combined severe,5.0,1.6,Estimated,0,0.6000000000000001,0.65,32
+45,Combined severe,5.0,1.6,Estimated,0,0.65,0.7000000000000001,30
+45,Combined severe,5.0,1.6,Estimated,0,0.7000000000000001,0.75,31
+45,Combined severe,5.0,1.6,Estimated,0,0.75,0.8,22
+45,Combined severe,5.0,1.6,Estimated,0,0.8,0.8500000000000001,15
+45,Combined severe,5.0,1.6,Estimated,0,0.8500000000000001,0.9,6
+45,Combined severe,5.0,1.6,Estimated,0,0.9,0.9500000000000001,4
+45,Combined severe,5.0,1.6,Estimated,0,0.9500000000000001,1.0,1
+45,Combined severe,5.0,1.6,Estimated,1,0.0,0.05,7
+45,Combined severe,5.0,1.6,Estimated,1,0.05,0.1,21
+45,Combined severe,5.0,1.6,Estimated,1,0.1,0.15000000000000002,17
+45,Combined severe,5.0,1.6,Estimated,1,0.15000000000000002,0.2,23
+45,Combined severe,5.0,1.6,Estimated,1,0.2,0.25,26
+45,Combined severe,5.0,1.6,Estimated,1,0.25,0.30000000000000004,33
+45,Combined severe,5.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,37
+45,Combined severe,5.0,1.6,Estimated,1,0.35000000000000003,0.4,47
+45,Combined severe,5.0,1.6,Estimated,1,0.4,0.45,58
+45,Combined severe,5.0,1.6,Estimated,1,0.45,0.5,59
+45,Combined severe,5.0,1.6,Estimated,1,0.5,0.55,53
+45,Combined severe,5.0,1.6,Estimated,1,0.55,0.6000000000000001,50
+45,Combined severe,5.0,1.6,Estimated,1,0.6000000000000001,0.65,59
+45,Combined severe,5.0,1.6,Estimated,1,0.65,0.7000000000000001,64
+45,Combined severe,5.0,1.6,Estimated,1,0.7000000000000001,0.75,93
+45,Combined severe,5.0,1.6,Estimated,1,0.75,0.8,90
+45,Combined severe,5.0,1.6,Estimated,1,0.8,0.8500000000000001,90
+45,Combined severe,5.0,1.6,Estimated,1,0.8500000000000001,0.9,111
+45,Combined severe,5.0,1.6,Estimated,1,0.9,0.9500000000000001,126
+45,Combined severe,5.0,1.6,Estimated,1,0.9500000000000001,1.0,154
+46,Baseline,1.0,0.0,True marginal,0,0.0,0.05,0
+46,Baseline,1.0,0.0,True marginal,0,0.05,0.1,87
+46,Baseline,1.0,0.0,True marginal,0,0.1,0.15000000000000002,259
+46,Baseline,1.0,0.0,True marginal,0,0.15000000000000002,0.2,336
+46,Baseline,1.0,0.0,True marginal,0,0.2,0.25,402
+46,Baseline,1.0,0.0,True marginal,0,0.25,0.30000000000000004,321
+46,Baseline,1.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,217
+46,Baseline,1.0,0.0,True marginal,0,0.35000000000000003,0.4,165
+46,Baseline,1.0,0.0,True marginal,0,0.4,0.45,111
+46,Baseline,1.0,0.0,True marginal,0,0.45,0.5,82
+46,Baseline,1.0,0.0,True marginal,0,0.5,0.55,52
+46,Baseline,1.0,0.0,True marginal,0,0.55,0.6000000000000001,31
+46,Baseline,1.0,0.0,True marginal,0,0.6000000000000001,0.65,15
+46,Baseline,1.0,0.0,True marginal,0,0.65,0.7000000000000001,10
+46,Baseline,1.0,0.0,True marginal,0,0.7000000000000001,0.75,5
+46,Baseline,1.0,0.0,True marginal,0,0.75,0.8,3
+46,Baseline,1.0,0.0,True marginal,0,0.8,0.8500000000000001,1
+46,Baseline,1.0,0.0,True marginal,0,0.8500000000000001,0.9,0
+46,Baseline,1.0,0.0,True marginal,0,0.9,0.9500000000000001,0
+46,Baseline,1.0,0.0,True marginal,0,0.9500000000000001,1.0,0
+46,Baseline,1.0,0.0,True marginal,1,0.0,0.05,0
+46,Baseline,1.0,0.0,True marginal,1,0.05,0.1,10
+46,Baseline,1.0,0.0,True marginal,1,0.1,0.15000000000000002,40
+46,Baseline,1.0,0.0,True marginal,1,0.15000000000000002,0.2,91
+46,Baseline,1.0,0.0,True marginal,1,0.2,0.25,105
+46,Baseline,1.0,0.0,True marginal,1,0.25,0.30000000000000004,101
+46,Baseline,1.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,108
+46,Baseline,1.0,0.0,True marginal,1,0.35000000000000003,0.4,92
+46,Baseline,1.0,0.0,True marginal,1,0.4,0.45,91
+46,Baseline,1.0,0.0,True marginal,1,0.45,0.5,76
+46,Baseline,1.0,0.0,True marginal,1,0.5,0.55,53
+46,Baseline,1.0,0.0,True marginal,1,0.55,0.6000000000000001,55
+46,Baseline,1.0,0.0,True marginal,1,0.6000000000000001,0.65,34
+46,Baseline,1.0,0.0,True marginal,1,0.65,0.7000000000000001,18
+46,Baseline,1.0,0.0,True marginal,1,0.7000000000000001,0.75,17
+46,Baseline,1.0,0.0,True marginal,1,0.75,0.8,9
+46,Baseline,1.0,0.0,True marginal,1,0.8,0.8500000000000001,3
+46,Baseline,1.0,0.0,True marginal,1,0.8500000000000001,0.9,0
+46,Baseline,1.0,0.0,True marginal,1,0.9,0.9500000000000001,0
+46,Baseline,1.0,0.0,True marginal,1,0.9500000000000001,1.0,0
+46,Baseline,1.0,0.0,Estimated,0,0.0,0.05,2
+46,Baseline,1.0,0.0,Estimated,0,0.05,0.1,104
+46,Baseline,1.0,0.0,Estimated,0,0.1,0.15000000000000002,251
+46,Baseline,1.0,0.0,Estimated,0,0.15000000000000002,0.2,334
+46,Baseline,1.0,0.0,Estimated,0,0.2,0.25,369
+46,Baseline,1.0,0.0,Estimated,0,0.25,0.30000000000000004,269
+46,Baseline,1.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,237
+46,Baseline,1.0,0.0,Estimated,0,0.35000000000000003,0.4,173
+46,Baseline,1.0,0.0,Estimated,0,0.4,0.45,137
+46,Baseline,1.0,0.0,Estimated,0,0.45,0.5,89
+46,Baseline,1.0,0.0,Estimated,0,0.5,0.55,63
+46,Baseline,1.0,0.0,Estimated,0,0.55,0.6000000000000001,34
+46,Baseline,1.0,0.0,Estimated,0,0.6000000000000001,0.65,16
+46,Baseline,1.0,0.0,Estimated,0,0.65,0.7000000000000001,14
+46,Baseline,1.0,0.0,Estimated,0,0.7000000000000001,0.75,5
+46,Baseline,1.0,0.0,Estimated,0,0.75,0.8,0
+46,Baseline,1.0,0.0,Estimated,0,0.8,0.8500000000000001,0
+46,Baseline,1.0,0.0,Estimated,0,0.8500000000000001,0.9,0
+46,Baseline,1.0,0.0,Estimated,0,0.9,0.9500000000000001,0
+46,Baseline,1.0,0.0,Estimated,0,0.9500000000000001,1.0,0
+46,Baseline,1.0,0.0,Estimated,1,0.0,0.05,0
+46,Baseline,1.0,0.0,Estimated,1,0.05,0.1,18
+46,Baseline,1.0,0.0,Estimated,1,0.1,0.15000000000000002,51
+46,Baseline,1.0,0.0,Estimated,1,0.15000000000000002,0.2,63
+46,Baseline,1.0,0.0,Estimated,1,0.2,0.25,94
+46,Baseline,1.0,0.0,Estimated,1,0.25,0.30000000000000004,108
+46,Baseline,1.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,114
+46,Baseline,1.0,0.0,Estimated,1,0.35000000000000003,0.4,96
+46,Baseline,1.0,0.0,Estimated,1,0.4,0.45,82
+46,Baseline,1.0,0.0,Estimated,1,0.45,0.5,86
+46,Baseline,1.0,0.0,Estimated,1,0.5,0.55,70
+46,Baseline,1.0,0.0,Estimated,1,0.55,0.6000000000000001,54
+46,Baseline,1.0,0.0,Estimated,1,0.6000000000000001,0.65,35
+46,Baseline,1.0,0.0,Estimated,1,0.65,0.7000000000000001,22
+46,Baseline,1.0,0.0,Estimated,1,0.7000000000000001,0.75,7
+46,Baseline,1.0,0.0,Estimated,1,0.75,0.8,3
+46,Baseline,1.0,0.0,Estimated,1,0.8,0.8500000000000001,0
+46,Baseline,1.0,0.0,Estimated,1,0.8500000000000001,0.9,0
+46,Baseline,1.0,0.0,Estimated,1,0.9,0.9500000000000001,0
+46,Baseline,1.0,0.0,Estimated,1,0.9500000000000001,1.0,0
+46,Moderate overlap,2.5,0.0,True marginal,0,0.0,0.05,370
+46,Moderate overlap,2.5,0.0,True marginal,0,0.05,0.1,318
+46,Moderate overlap,2.5,0.0,True marginal,0,0.1,0.15000000000000002,267
+46,Moderate overlap,2.5,0.0,True marginal,0,0.15000000000000002,0.2,210
+46,Moderate overlap,2.5,0.0,True marginal,0,0.2,0.25,163
+46,Moderate overlap,2.5,0.0,True marginal,0,0.25,0.30000000000000004,128
+46,Moderate overlap,2.5,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,96
+46,Moderate overlap,2.5,0.0,True marginal,0,0.35000000000000003,0.4,92
+46,Moderate overlap,2.5,0.0,True marginal,0,0.4,0.45,47
+46,Moderate overlap,2.5,0.0,True marginal,0,0.45,0.5,59
+46,Moderate overlap,2.5,0.0,True marginal,0,0.5,0.55,50
+46,Moderate overlap,2.5,0.0,True marginal,0,0.55,0.6000000000000001,37
+46,Moderate overlap,2.5,0.0,True marginal,0,0.6000000000000001,0.65,26
+46,Moderate overlap,2.5,0.0,True marginal,0,0.65,0.7000000000000001,38
+46,Moderate overlap,2.5,0.0,True marginal,0,0.7000000000000001,0.75,16
+46,Moderate overlap,2.5,0.0,True marginal,0,0.75,0.8,24
+46,Moderate overlap,2.5,0.0,True marginal,0,0.8,0.8500000000000001,8
+46,Moderate overlap,2.5,0.0,True marginal,0,0.8500000000000001,0.9,10
+46,Moderate overlap,2.5,0.0,True marginal,0,0.9,0.9500000000000001,8
+46,Moderate overlap,2.5,0.0,True marginal,0,0.9500000000000001,1.0,2
+46,Moderate overlap,2.5,0.0,True marginal,1,0.0,0.05,13
+46,Moderate overlap,2.5,0.0,True marginal,1,0.05,0.1,38
+46,Moderate overlap,2.5,0.0,True marginal,1,0.1,0.15000000000000002,39
+46,Moderate overlap,2.5,0.0,True marginal,1,0.15000000000000002,0.2,38
+46,Moderate overlap,2.5,0.0,True marginal,1,0.2,0.25,36
+46,Moderate overlap,2.5,0.0,True marginal,1,0.25,0.30000000000000004,44
+46,Moderate overlap,2.5,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,48
+46,Moderate overlap,2.5,0.0,True marginal,1,0.35000000000000003,0.4,46
+46,Moderate overlap,2.5,0.0,True marginal,1,0.4,0.45,47
+46,Moderate overlap,2.5,0.0,True marginal,1,0.45,0.5,52
+46,Moderate overlap,2.5,0.0,True marginal,1,0.5,0.55,43
+46,Moderate overlap,2.5,0.0,True marginal,1,0.55,0.6000000000000001,51
+46,Moderate overlap,2.5,0.0,True marginal,1,0.6000000000000001,0.65,56
+46,Moderate overlap,2.5,0.0,True marginal,1,0.65,0.7000000000000001,58
+46,Moderate overlap,2.5,0.0,True marginal,1,0.7000000000000001,0.75,60
+46,Moderate overlap,2.5,0.0,True marginal,1,0.75,0.8,74
+46,Moderate overlap,2.5,0.0,True marginal,1,0.8,0.8500000000000001,72
+46,Moderate overlap,2.5,0.0,True marginal,1,0.8500000000000001,0.9,75
+46,Moderate overlap,2.5,0.0,True marginal,1,0.9,0.9500000000000001,76
+46,Moderate overlap,2.5,0.0,True marginal,1,0.9500000000000001,1.0,65
+46,Moderate overlap,2.5,0.0,Estimated,0,0.0,0.05,323
+46,Moderate overlap,2.5,0.0,Estimated,0,0.05,0.1,311
+46,Moderate overlap,2.5,0.0,Estimated,0,0.1,0.15000000000000002,272
+46,Moderate overlap,2.5,0.0,Estimated,0,0.15000000000000002,0.2,192
+46,Moderate overlap,2.5,0.0,Estimated,0,0.2,0.25,167
+46,Moderate overlap,2.5,0.0,Estimated,0,0.25,0.30000000000000004,122
+46,Moderate overlap,2.5,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,123
+46,Moderate overlap,2.5,0.0,Estimated,0,0.35000000000000003,0.4,96
+46,Moderate overlap,2.5,0.0,Estimated,0,0.4,0.45,74
+46,Moderate overlap,2.5,0.0,Estimated,0,0.45,0.5,63
+46,Moderate overlap,2.5,0.0,Estimated,0,0.5,0.55,46
+46,Moderate overlap,2.5,0.0,Estimated,0,0.55,0.6000000000000001,50
+46,Moderate overlap,2.5,0.0,Estimated,0,0.6000000000000001,0.65,30
+46,Moderate overlap,2.5,0.0,Estimated,0,0.65,0.7000000000000001,28
+46,Moderate overlap,2.5,0.0,Estimated,0,0.7000000000000001,0.75,26
+46,Moderate overlap,2.5,0.0,Estimated,0,0.75,0.8,16
+46,Moderate overlap,2.5,0.0,Estimated,0,0.8,0.8500000000000001,14
+46,Moderate overlap,2.5,0.0,Estimated,0,0.8500000000000001,0.9,13
+46,Moderate overlap,2.5,0.0,Estimated,0,0.9,0.9500000000000001,3
+46,Moderate overlap,2.5,0.0,Estimated,0,0.9500000000000001,1.0,0
+46,Moderate overlap,2.5,0.0,Estimated,1,0.0,0.05,15
+46,Moderate overlap,2.5,0.0,Estimated,1,0.05,0.1,31
+46,Moderate overlap,2.5,0.0,Estimated,1,0.1,0.15000000000000002,42
+46,Moderate overlap,2.5,0.0,Estimated,1,0.15000000000000002,0.2,28
+46,Moderate overlap,2.5,0.0,Estimated,1,0.2,0.25,36
+46,Moderate overlap,2.5,0.0,Estimated,1,0.25,0.30000000000000004,51
+46,Moderate overlap,2.5,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,39
+46,Moderate overlap,2.5,0.0,Estimated,1,0.35000000000000003,0.4,52
+46,Moderate overlap,2.5,0.0,Estimated,1,0.4,0.45,58
+46,Moderate overlap,2.5,0.0,Estimated,1,0.45,0.5,61
+46,Moderate overlap,2.5,0.0,Estimated,1,0.5,0.55,47
+46,Moderate overlap,2.5,0.0,Estimated,1,0.55,0.6000000000000001,78
+46,Moderate overlap,2.5,0.0,Estimated,1,0.6000000000000001,0.65,54
+46,Moderate overlap,2.5,0.0,Estimated,1,0.65,0.7000000000000001,68
+46,Moderate overlap,2.5,0.0,Estimated,1,0.7000000000000001,0.75,75
+46,Moderate overlap,2.5,0.0,Estimated,1,0.75,0.8,67
+46,Moderate overlap,2.5,0.0,Estimated,1,0.8,0.8500000000000001,80
+46,Moderate overlap,2.5,0.0,Estimated,1,0.8500000000000001,0.9,78
+46,Moderate overlap,2.5,0.0,Estimated,1,0.9,0.9500000000000001,62
+46,Moderate overlap,2.5,0.0,Estimated,1,0.9500000000000001,1.0,9
+46,Severe overlap,5.0,0.0,True marginal,0,0.0,0.05,882
+46,Severe overlap,5.0,0.0,True marginal,0,0.05,0.1,252
+46,Severe overlap,5.0,0.0,True marginal,0,0.1,0.15000000000000002,149
+46,Severe overlap,5.0,0.0,True marginal,0,0.15000000000000002,0.2,91
+46,Severe overlap,5.0,0.0,True marginal,0,0.2,0.25,79
+46,Severe overlap,5.0,0.0,True marginal,0,0.25,0.30000000000000004,70
+46,Severe overlap,5.0,0.0,True marginal,0,0.30000000000000004,0.35000000000000003,54
+46,Severe overlap,5.0,0.0,True marginal,0,0.35000000000000003,0.4,41
+46,Severe overlap,5.0,0.0,True marginal,0,0.4,0.45,50
+46,Severe overlap,5.0,0.0,True marginal,0,0.45,0.5,37
+46,Severe overlap,5.0,0.0,True marginal,0,0.5,0.55,28
+46,Severe overlap,5.0,0.0,True marginal,0,0.55,0.6000000000000001,15
+46,Severe overlap,5.0,0.0,True marginal,0,0.6000000000000001,0.65,17
+46,Severe overlap,5.0,0.0,True marginal,0,0.65,0.7000000000000001,18
+46,Severe overlap,5.0,0.0,True marginal,0,0.7000000000000001,0.75,17
+46,Severe overlap,5.0,0.0,True marginal,0,0.75,0.8,18
+46,Severe overlap,5.0,0.0,True marginal,0,0.8,0.8500000000000001,16
+46,Severe overlap,5.0,0.0,True marginal,0,0.8500000000000001,0.9,8
+46,Severe overlap,5.0,0.0,True marginal,0,0.9,0.9500000000000001,13
+46,Severe overlap,5.0,0.0,True marginal,0,0.9500000000000001,1.0,6
+46,Severe overlap,5.0,0.0,True marginal,1,0.0,0.05,12
+46,Severe overlap,5.0,0.0,True marginal,1,0.05,0.1,15
+46,Severe overlap,5.0,0.0,True marginal,1,0.1,0.15000000000000002,15
+46,Severe overlap,5.0,0.0,True marginal,1,0.15000000000000002,0.2,15
+46,Severe overlap,5.0,0.0,True marginal,1,0.2,0.25,23
+46,Severe overlap,5.0,0.0,True marginal,1,0.25,0.30000000000000004,22
+46,Severe overlap,5.0,0.0,True marginal,1,0.30000000000000004,0.35000000000000003,25
+46,Severe overlap,5.0,0.0,True marginal,1,0.35000000000000003,0.4,20
+46,Severe overlap,5.0,0.0,True marginal,1,0.4,0.45,26
+46,Severe overlap,5.0,0.0,True marginal,1,0.45,0.5,27
+46,Severe overlap,5.0,0.0,True marginal,1,0.5,0.55,37
+46,Severe overlap,5.0,0.0,True marginal,1,0.55,0.6000000000000001,26
+46,Severe overlap,5.0,0.0,True marginal,1,0.6000000000000001,0.65,27
+46,Severe overlap,5.0,0.0,True marginal,1,0.65,0.7000000000000001,56
+46,Severe overlap,5.0,0.0,True marginal,1,0.7000000000000001,0.75,36
+46,Severe overlap,5.0,0.0,True marginal,1,0.75,0.8,47
+46,Severe overlap,5.0,0.0,True marginal,1,0.8,0.8500000000000001,61
+46,Severe overlap,5.0,0.0,True marginal,1,0.8500000000000001,0.9,84
+46,Severe overlap,5.0,0.0,True marginal,1,0.9,0.9500000000000001,130
+46,Severe overlap,5.0,0.0,True marginal,1,0.9500000000000001,1.0,435
+46,Severe overlap,5.0,0.0,Estimated,0,0.0,0.05,775
+46,Severe overlap,5.0,0.0,Estimated,0,0.05,0.1,248
+46,Severe overlap,5.0,0.0,Estimated,0,0.1,0.15000000000000002,153
+46,Severe overlap,5.0,0.0,Estimated,0,0.15000000000000002,0.2,105
+46,Severe overlap,5.0,0.0,Estimated,0,0.2,0.25,91
+46,Severe overlap,5.0,0.0,Estimated,0,0.25,0.30000000000000004,66
+46,Severe overlap,5.0,0.0,Estimated,0,0.30000000000000004,0.35000000000000003,68
+46,Severe overlap,5.0,0.0,Estimated,0,0.35000000000000003,0.4,63
+46,Severe overlap,5.0,0.0,Estimated,0,0.4,0.45,65
+46,Severe overlap,5.0,0.0,Estimated,0,0.45,0.5,45
+46,Severe overlap,5.0,0.0,Estimated,0,0.5,0.55,24
+46,Severe overlap,5.0,0.0,Estimated,0,0.55,0.6000000000000001,32
+46,Severe overlap,5.0,0.0,Estimated,0,0.6000000000000001,0.65,30
+46,Severe overlap,5.0,0.0,Estimated,0,0.65,0.7000000000000001,15
+46,Severe overlap,5.0,0.0,Estimated,0,0.7000000000000001,0.75,20
+46,Severe overlap,5.0,0.0,Estimated,0,0.75,0.8,16
+46,Severe overlap,5.0,0.0,Estimated,0,0.8,0.8500000000000001,15
+46,Severe overlap,5.0,0.0,Estimated,0,0.8500000000000001,0.9,13
+46,Severe overlap,5.0,0.0,Estimated,0,0.9,0.9500000000000001,11
+46,Severe overlap,5.0,0.0,Estimated,0,0.9500000000000001,1.0,6
+46,Severe overlap,5.0,0.0,Estimated,1,0.0,0.05,8
+46,Severe overlap,5.0,0.0,Estimated,1,0.05,0.1,14
+46,Severe overlap,5.0,0.0,Estimated,1,0.1,0.15000000000000002,9
+46,Severe overlap,5.0,0.0,Estimated,1,0.15000000000000002,0.2,20
+46,Severe overlap,5.0,0.0,Estimated,1,0.2,0.25,17
+46,Severe overlap,5.0,0.0,Estimated,1,0.25,0.30000000000000004,21
+46,Severe overlap,5.0,0.0,Estimated,1,0.30000000000000004,0.35000000000000003,22
+46,Severe overlap,5.0,0.0,Estimated,1,0.35000000000000003,0.4,22
+46,Severe overlap,5.0,0.0,Estimated,1,0.4,0.45,38
+46,Severe overlap,5.0,0.0,Estimated,1,0.45,0.5,43
+46,Severe overlap,5.0,0.0,Estimated,1,0.5,0.55,37
+46,Severe overlap,5.0,0.0,Estimated,1,0.55,0.6000000000000001,46
+46,Severe overlap,5.0,0.0,Estimated,1,0.6000000000000001,0.65,48
+46,Severe overlap,5.0,0.0,Estimated,1,0.65,0.7000000000000001,54
+46,Severe overlap,5.0,0.0,Estimated,1,0.7000000000000001,0.75,62
+46,Severe overlap,5.0,0.0,Estimated,1,0.75,0.8,55
+46,Severe overlap,5.0,0.0,Estimated,1,0.8,0.8500000000000001,62
+46,Severe overlap,5.0,0.0,Estimated,1,0.8500000000000001,0.9,101
+46,Severe overlap,5.0,0.0,Estimated,1,0.9,0.9500000000000001,160
+46,Severe overlap,5.0,0.0,Estimated,1,0.9500000000000001,1.0,300
+46,Moderate hidden,1.0,0.8,True marginal,0,0.0,0.05,0
+46,Moderate hidden,1.0,0.8,True marginal,0,0.05,0.1,27
+46,Moderate hidden,1.0,0.8,True marginal,0,0.1,0.15000000000000002,161
+46,Moderate hidden,1.0,0.8,True marginal,0,0.15000000000000002,0.2,292
+46,Moderate hidden,1.0,0.8,True marginal,0,0.2,0.25,355
+46,Moderate hidden,1.0,0.8,True marginal,0,0.25,0.30000000000000004,354
+46,Moderate hidden,1.0,0.8,True marginal,0,0.30000000000000004,0.35000000000000003,299
+46,Moderate hidden,1.0,0.8,True marginal,0,0.35000000000000003,0.4,177
+46,Moderate hidden,1.0,0.8,True marginal,0,0.4,0.45,146
+46,Moderate hidden,1.0,0.8,True marginal,0,0.45,0.5,95
+46,Moderate hidden,1.0,0.8,True marginal,0,0.5,0.55,54
+46,Moderate hidden,1.0,0.8,True marginal,0,0.55,0.6000000000000001,25
+46,Moderate hidden,1.0,0.8,True marginal,0,0.6000000000000001,0.65,19
+46,Moderate hidden,1.0,0.8,True marginal,0,0.65,0.7000000000000001,12
+46,Moderate hidden,1.0,0.8,True marginal,0,0.7000000000000001,0.75,4
+46,Moderate hidden,1.0,0.8,True marginal,0,0.75,0.8,1
+46,Moderate hidden,1.0,0.8,True marginal,0,0.8,0.8500000000000001,0
+46,Moderate hidden,1.0,0.8,True marginal,0,0.8500000000000001,0.9,0
+46,Moderate hidden,1.0,0.8,True marginal,0,0.9,0.9500000000000001,0
+46,Moderate hidden,1.0,0.8,True marginal,0,0.9500000000000001,1.0,0
+46,Moderate hidden,1.0,0.8,True marginal,1,0.0,0.05,0
+46,Moderate hidden,1.0,0.8,True marginal,1,0.05,0.1,3
+46,Moderate hidden,1.0,0.8,True marginal,1,0.1,0.15000000000000002,23
+46,Moderate hidden,1.0,0.8,True marginal,1,0.15000000000000002,0.2,61
+46,Moderate hidden,1.0,0.8,True marginal,1,0.2,0.25,126
+46,Moderate hidden,1.0,0.8,True marginal,1,0.25,0.30000000000000004,129
+46,Moderate hidden,1.0,0.8,True marginal,1,0.30000000000000004,0.35000000000000003,140
+46,Moderate hidden,1.0,0.8,True marginal,1,0.35000000000000003,0.4,113
+46,Moderate hidden,1.0,0.8,True marginal,1,0.4,0.45,97
+46,Moderate hidden,1.0,0.8,True marginal,1,0.45,0.5,96
+46,Moderate hidden,1.0,0.8,True marginal,1,0.5,0.55,73
+46,Moderate hidden,1.0,0.8,True marginal,1,0.55,0.6000000000000001,54
+46,Moderate hidden,1.0,0.8,True marginal,1,0.6000000000000001,0.65,32
+46,Moderate hidden,1.0,0.8,True marginal,1,0.65,0.7000000000000001,15
+46,Moderate hidden,1.0,0.8,True marginal,1,0.7000000000000001,0.75,11
+46,Moderate hidden,1.0,0.8,True marginal,1,0.75,0.8,6
+46,Moderate hidden,1.0,0.8,True marginal,1,0.8,0.8500000000000001,0
+46,Moderate hidden,1.0,0.8,True marginal,1,0.8500000000000001,0.9,0
+46,Moderate hidden,1.0,0.8,True marginal,1,0.9,0.9500000000000001,0
+46,Moderate hidden,1.0,0.8,True marginal,1,0.9500000000000001,1.0,0
+46,Moderate hidden,1.0,0.8,Estimated,0,0.0,0.05,0
+46,Moderate hidden,1.0,0.8,Estimated,0,0.05,0.1,20
+46,Moderate hidden,1.0,0.8,Estimated,0,0.1,0.15000000000000002,131
+46,Moderate hidden,1.0,0.8,Estimated,0,0.15000000000000002,0.2,237
+46,Moderate hidden,1.0,0.8,Estimated,0,0.2,0.25,383
+46,Moderate hidden,1.0,0.8,Estimated,0,0.25,0.30000000000000004,340
+46,Moderate hidden,1.0,0.8,Estimated,0,0.30000000000000004,0.35000000000000003,321
+46,Moderate hidden,1.0,0.8,Estimated,0,0.35000000000000003,0.4,223
+46,Moderate hidden,1.0,0.8,Estimated,0,0.4,0.45,143
+46,Moderate hidden,1.0,0.8,Estimated,0,0.45,0.5,100
+46,Moderate hidden,1.0,0.8,Estimated,0,0.5,0.55,51
+46,Moderate hidden,1.0,0.8,Estimated,0,0.55,0.6000000000000001,38
+46,Moderate hidden,1.0,0.8,Estimated,0,0.6000000000000001,0.65,23
+46,Moderate hidden,1.0,0.8,Estimated,0,0.65,0.7000000000000001,7
+46,Moderate hidden,1.0,0.8,Estimated,0,0.7000000000000001,0.75,4
+46,Moderate hidden,1.0,0.8,Estimated,0,0.75,0.8,0
+46,Moderate hidden,1.0,0.8,Estimated,0,0.8,0.8500000000000001,0
+46,Moderate hidden,1.0,0.8,Estimated,0,0.8500000000000001,0.9,0
+46,Moderate hidden,1.0,0.8,Estimated,0,0.9,0.9500000000000001,0
+46,Moderate hidden,1.0,0.8,Estimated,0,0.9500000000000001,1.0,0
+46,Moderate hidden,1.0,0.8,Estimated,1,0.0,0.05,0
+46,Moderate hidden,1.0,0.8,Estimated,1,0.05,0.1,4
+46,Moderate hidden,1.0,0.8,Estimated,1,0.1,0.15000000000000002,22
+46,Moderate hidden,1.0,0.8,Estimated,1,0.15000000000000002,0.2,56
+46,Moderate hidden,1.0,0.8,Estimated,1,0.2,0.25,105
+46,Moderate hidden,1.0,0.8,Estimated,1,0.25,0.30000000000000004,133
+46,Moderate hidden,1.0,0.8,Estimated,1,0.30000000000000004,0.35000000000000003,142
+46,Moderate hidden,1.0,0.8,Estimated,1,0.35000000000000003,0.4,142
+46,Moderate hidden,1.0,0.8,Estimated,1,0.4,0.45,97
+46,Moderate hidden,1.0,0.8,Estimated,1,0.45,0.5,93
+46,Moderate hidden,1.0,0.8,Estimated,1,0.5,0.55,70
+46,Moderate hidden,1.0,0.8,Estimated,1,0.55,0.6000000000000001,43
+46,Moderate hidden,1.0,0.8,Estimated,1,0.6000000000000001,0.65,40
+46,Moderate hidden,1.0,0.8,Estimated,1,0.65,0.7000000000000001,26
+46,Moderate hidden,1.0,0.8,Estimated,1,0.7000000000000001,0.75,5
+46,Moderate hidden,1.0,0.8,Estimated,1,0.75,0.8,1
+46,Moderate hidden,1.0,0.8,Estimated,1,0.8,0.8500000000000001,0
+46,Moderate hidden,1.0,0.8,Estimated,1,0.8500000000000001,0.9,0
+46,Moderate hidden,1.0,0.8,Estimated,1,0.9,0.9500000000000001,0
+46,Moderate hidden,1.0,0.8,Estimated,1,0.9500000000000001,1.0,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.0,0.05,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.05,0.1,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.1,0.15000000000000002,16
+46,Severe hidden,1.0,1.6,True marginal,0,0.15000000000000002,0.2,85
+46,Severe hidden,1.0,1.6,True marginal,0,0.2,0.25,205
+46,Severe hidden,1.0,1.6,True marginal,0,0.25,0.30000000000000004,297
+46,Severe hidden,1.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,409
+46,Severe hidden,1.0,1.6,True marginal,0,0.35000000000000003,0.4,348
+46,Severe hidden,1.0,1.6,True marginal,0,0.4,0.45,233
+46,Severe hidden,1.0,1.6,True marginal,0,0.45,0.5,175
+46,Severe hidden,1.0,1.6,True marginal,0,0.5,0.55,80
+46,Severe hidden,1.0,1.6,True marginal,0,0.55,0.6000000000000001,30
+46,Severe hidden,1.0,1.6,True marginal,0,0.6000000000000001,0.65,16
+46,Severe hidden,1.0,1.6,True marginal,0,0.65,0.7000000000000001,4
+46,Severe hidden,1.0,1.6,True marginal,0,0.7000000000000001,0.75,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.75,0.8,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.8,0.8500000000000001,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.8500000000000001,0.9,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.9,0.9500000000000001,0
+46,Severe hidden,1.0,1.6,True marginal,0,0.9500000000000001,1.0,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.0,0.05,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.05,0.1,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.1,0.15000000000000002,3
+46,Severe hidden,1.0,1.6,True marginal,1,0.15000000000000002,0.2,23
+46,Severe hidden,1.0,1.6,True marginal,1,0.2,0.25,60
+46,Severe hidden,1.0,1.6,True marginal,1,0.25,0.30000000000000004,124
+46,Severe hidden,1.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,190
+46,Severe hidden,1.0,1.6,True marginal,1,0.35000000000000003,0.4,221
+46,Severe hidden,1.0,1.6,True marginal,1,0.4,0.45,165
+46,Severe hidden,1.0,1.6,True marginal,1,0.45,0.5,140
+46,Severe hidden,1.0,1.6,True marginal,1,0.5,0.55,96
+46,Severe hidden,1.0,1.6,True marginal,1,0.55,0.6000000000000001,48
+46,Severe hidden,1.0,1.6,True marginal,1,0.6000000000000001,0.65,19
+46,Severe hidden,1.0,1.6,True marginal,1,0.65,0.7000000000000001,13
+46,Severe hidden,1.0,1.6,True marginal,1,0.7000000000000001,0.75,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.75,0.8,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.8,0.8500000000000001,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.8500000000000001,0.9,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.9,0.9500000000000001,0
+46,Severe hidden,1.0,1.6,True marginal,1,0.9500000000000001,1.0,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.0,0.05,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.05,0.1,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.1,0.15000000000000002,11
+46,Severe hidden,1.0,1.6,Estimated,0,0.15000000000000002,0.2,68
+46,Severe hidden,1.0,1.6,Estimated,0,0.2,0.25,173
+46,Severe hidden,1.0,1.6,Estimated,0,0.25,0.30000000000000004,348
+46,Severe hidden,1.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,377
+46,Severe hidden,1.0,1.6,Estimated,0,0.35000000000000003,0.4,327
+46,Severe hidden,1.0,1.6,Estimated,0,0.4,0.45,260
+46,Severe hidden,1.0,1.6,Estimated,0,0.45,0.5,173
+46,Severe hidden,1.0,1.6,Estimated,0,0.5,0.55,104
+46,Severe hidden,1.0,1.6,Estimated,0,0.55,0.6000000000000001,36
+46,Severe hidden,1.0,1.6,Estimated,0,0.6000000000000001,0.65,18
+46,Severe hidden,1.0,1.6,Estimated,0,0.65,0.7000000000000001,2
+46,Severe hidden,1.0,1.6,Estimated,0,0.7000000000000001,0.75,1
+46,Severe hidden,1.0,1.6,Estimated,0,0.75,0.8,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.8,0.8500000000000001,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.8500000000000001,0.9,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.9,0.9500000000000001,0
+46,Severe hidden,1.0,1.6,Estimated,0,0.9500000000000001,1.0,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.0,0.05,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.05,0.1,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.1,0.15000000000000002,3
+46,Severe hidden,1.0,1.6,Estimated,1,0.15000000000000002,0.2,22
+46,Severe hidden,1.0,1.6,Estimated,1,0.2,0.25,52
+46,Severe hidden,1.0,1.6,Estimated,1,0.25,0.30000000000000004,139
+46,Severe hidden,1.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,169
+46,Severe hidden,1.0,1.6,Estimated,1,0.35000000000000003,0.4,231
+46,Severe hidden,1.0,1.6,Estimated,1,0.4,0.45,183
+46,Severe hidden,1.0,1.6,Estimated,1,0.45,0.5,131
+46,Severe hidden,1.0,1.6,Estimated,1,0.5,0.55,82
+46,Severe hidden,1.0,1.6,Estimated,1,0.55,0.6000000000000001,61
+46,Severe hidden,1.0,1.6,Estimated,1,0.6000000000000001,0.65,26
+46,Severe hidden,1.0,1.6,Estimated,1,0.65,0.7000000000000001,3
+46,Severe hidden,1.0,1.6,Estimated,1,0.7000000000000001,0.75,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.75,0.8,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.8,0.8500000000000001,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.8500000000000001,0.9,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.9,0.9500000000000001,0
+46,Severe hidden,1.0,1.6,Estimated,1,0.9500000000000001,1.0,0
+46,Combined severe,5.0,1.6,True marginal,0,0.0,0.05,613
+46,Combined severe,5.0,1.6,True marginal,0,0.05,0.1,211
+46,Combined severe,5.0,1.6,True marginal,0,0.1,0.15000000000000002,167
+46,Combined severe,5.0,1.6,True marginal,0,0.15000000000000002,0.2,130
+46,Combined severe,5.0,1.6,True marginal,0,0.2,0.25,99
+46,Combined severe,5.0,1.6,True marginal,0,0.25,0.30000000000000004,77
+46,Combined severe,5.0,1.6,True marginal,0,0.30000000000000004,0.35000000000000003,80
+46,Combined severe,5.0,1.6,True marginal,0,0.35000000000000003,0.4,73
+46,Combined severe,5.0,1.6,True marginal,0,0.4,0.45,67
+46,Combined severe,5.0,1.6,True marginal,0,0.45,0.5,67
+46,Combined severe,5.0,1.6,True marginal,0,0.5,0.55,34
+46,Combined severe,5.0,1.6,True marginal,0,0.55,0.6000000000000001,32
+46,Combined severe,5.0,1.6,True marginal,0,0.6000000000000001,0.65,36
+46,Combined severe,5.0,1.6,True marginal,0,0.65,0.7000000000000001,29
+46,Combined severe,5.0,1.6,True marginal,0,0.7000000000000001,0.75,23
+46,Combined severe,5.0,1.6,True marginal,0,0.75,0.8,17
+46,Combined severe,5.0,1.6,True marginal,0,0.8,0.8500000000000001,17
+46,Combined severe,5.0,1.6,True marginal,0,0.8500000000000001,0.9,9
+46,Combined severe,5.0,1.6,True marginal,0,0.9,0.9500000000000001,13
+46,Combined severe,5.0,1.6,True marginal,0,0.9500000000000001,1.0,3
+46,Combined severe,5.0,1.6,True marginal,1,0.0,0.05,15
+46,Combined severe,5.0,1.6,True marginal,1,0.05,0.1,16
+46,Combined severe,5.0,1.6,True marginal,1,0.1,0.15000000000000002,23
+46,Combined severe,5.0,1.6,True marginal,1,0.15000000000000002,0.2,20
+46,Combined severe,5.0,1.6,True marginal,1,0.2,0.25,30
+46,Combined severe,5.0,1.6,True marginal,1,0.25,0.30000000000000004,27
+46,Combined severe,5.0,1.6,True marginal,1,0.30000000000000004,0.35000000000000003,41
+46,Combined severe,5.0,1.6,True marginal,1,0.35000000000000003,0.4,51
+46,Combined severe,5.0,1.6,True marginal,1,0.4,0.45,41
+46,Combined severe,5.0,1.6,True marginal,1,0.45,0.5,57
+46,Combined severe,5.0,1.6,True marginal,1,0.5,0.55,62
+46,Combined severe,5.0,1.6,True marginal,1,0.55,0.6000000000000001,47
+46,Combined severe,5.0,1.6,True marginal,1,0.6000000000000001,0.65,54
+46,Combined severe,5.0,1.6,True marginal,1,0.65,0.7000000000000001,50
+46,Combined severe,5.0,1.6,True marginal,1,0.7000000000000001,0.75,53
+46,Combined severe,5.0,1.6,True marginal,1,0.75,0.8,56
+46,Combined severe,5.0,1.6,True marginal,1,0.8,0.8500000000000001,73
+46,Combined severe,5.0,1.6,True marginal,1,0.8500000000000001,0.9,75
+46,Combined severe,5.0,1.6,True marginal,1,0.9,0.9500000000000001,114
+46,Combined severe,5.0,1.6,True marginal,1,0.9500000000000001,1.0,298
+46,Combined severe,5.0,1.6,Estimated,0,0.0,0.05,551
+46,Combined severe,5.0,1.6,Estimated,0,0.05,0.1,226
+46,Combined severe,5.0,1.6,Estimated,0,0.1,0.15000000000000002,149
+46,Combined severe,5.0,1.6,Estimated,0,0.15000000000000002,0.2,126
+46,Combined severe,5.0,1.6,Estimated,0,0.2,0.25,130
+46,Combined severe,5.0,1.6,Estimated,0,0.25,0.30000000000000004,99
+46,Combined severe,5.0,1.6,Estimated,0,0.30000000000000004,0.35000000000000003,71
+46,Combined severe,5.0,1.6,Estimated,0,0.35000000000000003,0.4,74
+46,Combined severe,5.0,1.6,Estimated,0,0.4,0.45,67
+46,Combined severe,5.0,1.6,Estimated,0,0.45,0.5,64
+46,Combined severe,5.0,1.6,Estimated,0,0.5,0.55,40
+46,Combined severe,5.0,1.6,Estimated,0,0.55,0.6000000000000001,38
+46,Combined severe,5.0,1.6,Estimated,0,0.6000000000000001,0.65,34
+46,Combined severe,5.0,1.6,Estimated,0,0.65,0.7000000000000001,34
+46,Combined severe,5.0,1.6,Estimated,0,0.7000000000000001,0.75,30
+46,Combined severe,5.0,1.6,Estimated,0,0.75,0.8,24
+46,Combined severe,5.0,1.6,Estimated,0,0.8,0.8500000000000001,16
+46,Combined severe,5.0,1.6,Estimated,0,0.8500000000000001,0.9,12
+46,Combined severe,5.0,1.6,Estimated,0,0.9,0.9500000000000001,7
+46,Combined severe,5.0,1.6,Estimated,0,0.9500000000000001,1.0,5
+46,Combined severe,5.0,1.6,Estimated,1,0.0,0.05,15
+46,Combined severe,5.0,1.6,Estimated,1,0.05,0.1,16
+46,Combined severe,5.0,1.6,Estimated,1,0.1,0.15000000000000002,16
+46,Combined severe,5.0,1.6,Estimated,1,0.15000000000000002,0.2,24
+46,Combined severe,5.0,1.6,Estimated,1,0.2,0.25,29
+46,Combined severe,5.0,1.6,Estimated,1,0.25,0.30000000000000004,30
+46,Combined severe,5.0,1.6,Estimated,1,0.30000000000000004,0.35000000000000003,43
+46,Combined severe,5.0,1.6,Estimated,1,0.35000000000000003,0.4,36
+46,Combined severe,5.0,1.6,Estimated,1,0.4,0.45,44
+46,Combined severe,5.0,1.6,Estimated,1,0.45,0.5,56
+46,Combined severe,5.0,1.6,Estimated,1,0.5,0.55,46
+46,Combined severe,5.0,1.6,Estimated,1,0.55,0.6000000000000001,64
+46,Combined severe,5.0,1.6,Estimated,1,0.6000000000000001,0.65,61
+46,Combined severe,5.0,1.6,Estimated,1,0.65,0.7000000000000001,63
+46,Combined severe,5.0,1.6,Estimated,1,0.7000000000000001,0.75,77
+46,Combined severe,5.0,1.6,Estimated,1,0.75,0.8,84
+46,Combined severe,5.0,1.6,Estimated,1,0.8,0.8500000000000001,76
+46,Combined severe,5.0,1.6,Estimated,1,0.8500000000000001,0.9,109
+46,Combined severe,5.0,1.6,Estimated,1,0.9,0.9500000000000001,124
+46,Combined severe,5.0,1.6,Estimated,1,0.9500000000000001,1.0,190
