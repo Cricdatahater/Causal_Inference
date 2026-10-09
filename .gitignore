@@ -8,3 +8,4 @@ data/*.csv
 
 # Reusable computation checkpoints; published Stage 7 tables are tracked.
 reports/stage7_cache/
+reports/stage8_cache/
